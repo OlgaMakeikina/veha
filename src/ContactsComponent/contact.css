@@ -1,0 +1,156 @@
+
+.emergency_phones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .phone_numbers {
+   display: flex;
+  }
+  
+  .phone_text {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .header_contact {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    font-size: 36px;
+    margin-left: 10%;
+  }
+  
+  .box_contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  
+  .box5 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .info_contacts {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    }
+  
+  .heading_contacts {
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    font-size: 18px;
+  }
+  
+  .text_contacts {
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    margin: 0;
+  }
+  
+  .phone_contacts {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    font-weight: bold;
+  }
+  
+  .cont_useful_phones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .useful_phones {
+    display: flex;
+    padding: 50px;
+  }
+  
+  .requisites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+  .requisites_text {
+    margin: 0;
+  }
+  
+  .cont_requisites {
+    margin-top: 50px;
+    padding: 70px;
+    background-color: #efe74a;
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%); /* Определение трапеции с помощью polygon */
+  }
+  
+  .requisites_btn {
+    background-color: #1a9e3b;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* contactForm */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+  }
+  .form_name {
+    display: flex;
+    align-items: center;
+  }
+  
+  #name, #email {
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif; 
+    width: 50%;
+    align-self: center;
+  }
+  
+  #message {
+    padding: 5px;
+    height: 100px; 
+    font-family: "Roboto", sans-serif; 
+    width: 50%;
+    align-self: center;
+  }
+  .contact_btn {
+    background-color: #1a9e3b;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    width: 150px;
+    align-self: center;
+    margin: 10px;
+  }
+  
+  .contact_btn:hover {
+    background-color: #0d7727;
+  }
+  
+  .after_sending {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif; 
+    color: #0d7727;
+    margin-top: 100px;
+    font-weight: bold;
+  }

@@ -1,17 +1,104 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./App.css";
+import App from "./App";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./routes/about";
+import People from "./routes/people";
+import Root from "./routes/root";
+import ErrorPage from "./error-page";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Services from "./routes/services";
+
+import WebDev from "./routes/web-dev";
+import Accounting from "./routes/accounting";
+import HomeInformation from "./routes/homeInformation";
+import Houses from "./routes/houses";
+import Contract from "./routes/contract";
+import Responsibility from "./routes/responsibility";
+import Contact from "./ContactsComponent/contact";
+import News from "./routes/news";
+import Tarifs from "./routes/tarifs";
+import AboutCompany from "./AboutComponent/aboutCompany";
+import Documents from "./routes/documents";
+
+const router = createBrowserRouter([
+  {
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <App />,
+      },
+
+      {
+        path: "services",
+        element: <Services />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "people",
+        element: <People />,
+      },
+      {
+        path: "web-dev",
+        element: <WebDev />,
+      },
+      {
+        path: "accounting",
+        element: <Accounting />,
+      },
+      
+      {
+        path: "homeInformation",
+        element: <HomeInformation />,
+      },
+      {
+        path: "houses",
+        element: <Houses />,
+      },
+      {
+        path: "contract",
+        element: <Contract />,
+      },
+      {
+        path: "responsibility",
+        element: <Responsibility />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path: "news",
+        element: <News />,
+      },
+      {
+        path: "tarifs",
+        element: <Tarifs />,
+      },
+      {
+              path: "aboutCompany",
+      element: <AboutCompany />,
+      },
+      {
+        path: "documents",
+element: <Documents />,
+},
+
+
+
+    ],
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

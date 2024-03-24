@@ -1,0 +1,60 @@
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Roboto", sans-serif;
+   align-items: center;
+  }
+  .logo {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .logo_name {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  }
+  .company_name {
+    color: #1a9e3b;
+    font-family: "Roboto", sans-serif; 
+    font-weight: bold;
+    margin: 0;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 14px;
+    
+  }
+  .phone {
+    font-weight: bolder;
+    cursor: pointer;
+    color: #666666;
+    text-decoration: none;
+  }
+  
+  .phone:hover {
+    text-decoration: underline;
+  }
+  
+  .text_header {
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .header_btn {
+    background-color: #1a9e3b;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+  }
+  
+  .header_btn:hover {
+    background-color: #0d7727;
+   
+  }
