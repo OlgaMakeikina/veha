@@ -1,11 +1,12 @@
 import React from "react";
-
+import Carousel from "./Carousel";
 
 const App = () => {
   return (
-<div>
- <h1>Главная</h1>
-      </div>
+    <div>
+    <Carousel />        
+<h2 className="header_contact">Последние новости</h2>
+</div>
    
 
   ) 

@@ -20,7 +20,7 @@ import Contact from "./ContactsComponent/contact";
 import News from "./routes/news";
 import Tarifs from "./routes/tarifs";
 import AboutCompany from "./AboutComponent/aboutCompany";
-import Documents from "./routes/documents";
+import Documents from "./DocumentsComponent/documents";
 
 const router = createBrowserRouter([
   {

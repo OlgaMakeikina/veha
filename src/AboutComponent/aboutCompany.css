@@ -36,6 +36,22 @@
     font-family: "Roboto", sans-serif;
     color: #666666;
   }
+
+  .text_about_0:hover {
+    background-color: rgb(134, 199, 241, 0.7);
+  }
+  
+  .text_about_1:hover {
+    background-color: rgb(239, 231, 74, 0.7);
+  }
+  
+  .text_about_2:hover {
+    background-color: rgb(26, 158, 59, 0.7);
+  }
+  
+  .description_about {
+   margin-top: 30px;
+  }
   
   .block_about {
     display: flex;

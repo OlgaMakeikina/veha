@@ -5,9 +5,9 @@ function Requisites() {
 return (
         <div className='requisites'>
           {data.map((item, index) => (
-            <div key={index}>
-              <p className='requisites_text'><strong>{item.requisite}</strong> {item.text}</p>
-            </div>
+            <ul key={index}>
+              <li className='requisites_text'><strong>{item.requisite}</strong> {item.text}</li>
+            </ul>
           ))}
            <button className='requisites_btn'>Скачать реквизиты в word</button>
         </div>

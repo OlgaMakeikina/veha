@@ -18,10 +18,10 @@ const AboutCompany = () => {
     {item.layout === 'left' && (
       <img className="img_about" src={item.picture} width="500px" alt={item.picture} />
     )}
-    <div className="text_about">
-      <h3>{item.slogan}</h3>
-      <p>{item.textAbout}</p>
-    </div>
+    <div className={`text_about text_about_${index}`} >
+              <h3>{item.slogan}</h3>
+              <p className="description_about">{item.textAbout}</p>
+            </div>
     {item.layout === 'right' && (
       <img className="img_about" src={item.picture} width="500px" alt={item.picture} />
     )}
