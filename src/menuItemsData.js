@@ -6,7 +6,6 @@ export const menuItemsData = [
 
   {
     title: "О компании",
-    url: "/about",
     submenu: [
       {
         title: "О компании",
@@ -22,7 +21,6 @@ export const menuItemsData = [
 
   {
     title: "Жителям",
-    url: "/services",
     submenu: [
       {
         title: "Для населения",

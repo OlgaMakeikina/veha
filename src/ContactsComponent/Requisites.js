@@ -9,7 +9,7 @@ return (
               <li className='requisites_text'><strong>{item.requisite}</strong> {item.text}</li>
             </ul>
           ))}
-           <button className='requisites_btn'>Скачать реквизиты в word</button>
+           <button className='requisites_btn'>Открыть в pdf</button>
         </div>
       );
     };

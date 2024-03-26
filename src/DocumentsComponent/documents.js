@@ -2,9 +2,6 @@ import React from "react";
 import { documentsData } from './documentsData';
 import { taxesData } from "./taxesData";
 import './documents.css'
-import ogrn from './ogrn.jpg';
-import ogryul from './ogryul.jpg';
-import uchyot from './uchyot.jpg';
 
 const Documents = () => {
 
@@ -22,7 +19,7 @@ const Documents = () => {
             <div className="box_documents">
               <img src={item.image} width="150px" alt={item.header} />
               <p className="text_documents">{item.description}</p>
-              <a className="documents_btn" href={process.env.PUBLIC_URL + '/' + item.file} target="_blank">Ознакомиться</a>
+              <a className="documents_btn" href={process.env.PUBLIC_URL + '/' + item.file} target="_blank" rel="noopener noreferrer">Ознакомиться</a>
             </div>
           </div>
         ))}
@@ -35,7 +32,7 @@ const Documents = () => {
   
               <img src={item.image} width="150px" alt={item.header} />
               <p className="text_documents">{item.description}</p>
-              <a className="documents_btn" href={process.env.PUBLIC_URL + '/' + item.file} target="_blank">Ознакомиться</a>
+              <a className="documents_btn" href={process.env.PUBLIC_URL + '/' + item.file} target="_blank" rel="noopener noreferrer">Ознакомиться</a>
             </div>
        
         ))}

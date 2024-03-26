@@ -1,0 +1,10 @@
+.cont_footer {
+    background-color: #4281ab;
+    background-image: url('../houses.png');
+    background-position: left;
+    background-size: 28%;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border: 1px solid #ffffff;
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%); 
+}

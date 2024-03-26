@@ -3,13 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./App.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./routes/about";
 import People from "./routes/people";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
-
-import Services from "./routes/services";
-
 import WebDev from "./routes/web-dev";
 import Accounting from "./routes/accounting";
 import HomeInformation from "./routes/homeInformation";
@@ -30,15 +26,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <App />,
-      },
-
-      {
-        path: "services",
-        element: <Services />,
-      },
-      {
-        path: "about",
-        element: <About />,
       },
       {
         path: "people",

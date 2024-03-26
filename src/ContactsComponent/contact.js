@@ -5,7 +5,6 @@ import phone from './phone.png';
 import address from './address.png';
 import hours from './hours.png';
 import mail from './mail.png';
-import Requisites from './Requisites';
 import './contact.css'
 import Map from './map';
 import UsefulPhones from './UsefulPhones';
@@ -26,7 +25,7 @@ function Contact() {
      
       </div>
   
-  <hr></hr>
+  <hr className='hr_contacts'></hr>
  
  <h2 className="header_contact">Контакты компании</h2>
 
@@ -43,8 +42,11 @@ function Contact() {
       <div className='info_contacts'>
            <img src={mail} width="75px" height="75px"  alt="email"/>
            <div>
-             <p className="text_contacts"><span><b>E-mail: </b></span>vexa2008@mail.ru</p> 
-           </div>
+  <p className="text_contacts">
+    <span><b>E-mail: </b></span>
+    <a className="email_link" href="mailto:vexa2008@mail.ru">vexa2008@mail.ru</a>
+  </p> 
+</div>
       </div>
 
       <div className='info_contacts'>
@@ -67,9 +69,13 @@ function Contact() {
     
    <div className='cont_requisites'>
  <h2 className="header_contact">Реквизиты компании</h2>
- <p>Актуальные реквизиты организации для выставления счетов </p>
- <Requisites />
+ <div className='cont_center_requisites'>
+   <p className='actual_requisites'>Актуальные реквизиты организации для выставления счетов </p>
+   <a href="requisites.pdf" target="_blank" rel="noopener noreferrer">
+  <button className='requisites_btn'>Открыть в PDF</button>
+</a>
 
+ </div>
    </div>
 
 <UsefulPhones />
