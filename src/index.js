@@ -7,7 +7,7 @@ import People from "./routes/people";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import WebDev from "./routes/web-dev";
-import Accounting from "./routes/accounting";
+import Accounting from "./FinanceComponent/accounting";
 import HomeInformation from "./routes/homeInformation";
 import Houses from "./routes/houses";
 import Contract from "./routes/contract";

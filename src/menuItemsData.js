@@ -16,6 +16,10 @@ export const menuItemsData = [
         title: "Учредительные документы и свидетельства",
         url: "documents",
       },
+      {
+        title: "Отчетность",
+        url: "accounting",
+      },
     ],
   },
 
@@ -39,10 +43,7 @@ export const menuItemsData = [
         title: "Раскрытие информации",
         url: "web-dev",
         submenu: [
-          {
-            title: "Отчетность",
-            url: "accounting",
-          },
+
           {
             title: "Привлечение к ответственности",
             url: "responsibility",

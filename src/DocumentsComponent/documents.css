@@ -67,6 +67,7 @@
 .documents_btn:hover {
     font-weight: bold;
     text-decoration: underline;
+    background-color: #0d7727;
 }
 
 .box_taxes {
