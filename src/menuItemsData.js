@@ -20,6 +20,10 @@ export const menuItemsData = [
         title: "Отчетность",
         url: "accounting",
       },
+      {
+        title: "Платежные реквизиты",
+        url: "documents",
+      },
     ],
   },
 

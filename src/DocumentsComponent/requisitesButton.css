@@ -1,0 +1,61 @@
+.cont_payment {
+    margin: 50px 10% 0 10%;
+    padding: 50px;
+    border: none;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cont_payment:hover {
+    border-left: 7px #efe74a solid;
+}
+
+.cont_payment_header {
+display: grid;
+grid-template-areas: 
+            "a a c"
+            "b b c";
+}
+
+.payment_header {
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    color: #1a9e3b;
+    margin-bottom: 10px;
+}
+
+.payment_btn {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: #1a9e3b;
+    border-radius: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 3px solid #1a9e3b;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 200px;
+
+}
+
+.payment_btn:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #0d7727;
+    color: #ffffff;
+}
+
+.requisites {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }

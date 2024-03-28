@@ -2,6 +2,7 @@ import React from "react";
 import { documentsData } from './documentsData';
 import { taxesData } from "./taxesData";
 import './documents.css'
+import RequisitesButton from "./requisitesButton";
 
 const Documents = () => {
 
@@ -11,6 +12,10 @@ const Documents = () => {
     <div className="cont_header_documents">
       <h2 className="main_header_documents"><span className="span_header">О компании/ </span>Учредительные документы, лицензии и свидетельства</h2>
     </div>
+
+<div>
+  <RequisitesButton />
+</div>
 
     <div className="cont_doocuments">  
         {documentsData.map((item, index) => (
