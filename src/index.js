@@ -14,7 +14,7 @@ import Contract from "./routes/contract";
 import Responsibility from "./routes/responsibility";
 import Contact from "./ContactsComponent/contact";
 import News from "./routes/news";
-import Tarifs from "./routes/tarifs";
+import Tarifs from "./PopulationComponent/tarifs";
 import AboutCompany from "./AboutComponent/aboutCompany";
 import Documents from "./DocumentsComponent/documents";
 
