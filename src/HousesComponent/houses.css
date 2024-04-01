@@ -1,0 +1,135 @@
+.cont_header_houses {
+    background-color: #4281ab;
+    background-image: url('../houses.png');
+    background-position: right;
+    background-size: 28%;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border: 1px solid #ffffff;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
+}
+
+.main_header_houses {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    margin-left: 10%;
+    font-size: 28px; 
+}
+
+.span_header_houses {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.street_houses {
+    font-family: "Russo One", sans-serif;
+    color: #1a9e3b;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.accordion-item {
+    border: 1px solid red;
+}
+.accordion-header_houses {
+    border: 1px solid blue;
+}
+
+/* tabs */
+
+
+.tabs {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+  }
+
+  .tabs_starter {
+   display: flex;
+   align-items: center;
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   color: #666666;
+   width: 10%;
+   margin-top: 20px;
+  }
+
+  
+  .tabs button {
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #666666;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+
+  .tabs button:hover {
+    background-color: #86c7f1;
+  }
+  
+  .tabs button.active {
+    background-color: #efe74a;
+  }
+  
+  .tab-content .tab-pane {
+    display: none;
+  }
+  
+  .tab-content .tab-pane.active {
+    display: block;
+    margin: 30px 10% 30px 10%;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #666666;
+  }
+
+  .tab-pane-table {
+   display: flex;
+   border-bottom: #0d7727 1px solid; 
+   padding: 3px;
+  }
+
+  .first_column {
+    width: 30%;
+    font-weight: bold;
+  }
+
+  .tabs_houses_btn {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: #1a9e3b;
+    border-radius: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 3px #1a9e3b solid;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+.tabs_houses_btn:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #0d7727;
+    color: #ffffff;
+}
+    
+  

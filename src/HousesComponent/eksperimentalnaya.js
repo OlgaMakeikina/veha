@@ -1,0 +1,67 @@
+export const EksperimantalnayaData = [
+
+    {
+        title: "дом №1",
+        year: '-',
+        floor: "-",
+        apartment: "-",
+        quantityLC: "-",
+        livingArea: "-",
+        notLivinigArea: "-",
+        commonProperty: "-",
+        type: "-",
+        level: "-",
+        technicalSupport: "-",
+        contractURL: 'eksperimentalnaya/sofrino_eksperimentalnaya_1_dogovor.pdf',
+        protocolURL: 'protocol_1_2018-08-12.pdf',
+    },
+
+    {
+        title: "дом №5",
+        year: '1967',
+        floor: "2",
+        apartment: "24",
+        quantityLC: "25",
+        livingArea: "1031,8",
+        notLivinigArea: "нет",
+        commonProperty: "74",
+        type: "многоэтажный жилой дом",
+        level: "ХВС, ГВС, отопление, канализация, газоснабжение, электроснабжение",
+        technicalSupport: "нет",
+        contractURL: 'eksperimentalnaya/sofrino_eksperimentalnaya_5_dogovor.pdf',
+        protocolURL: 'protocol_2E_2022-08-23.pdf',
+    },
+
+
+    {
+        title: "дом №7",
+        year: '-',
+        floor: "-",
+        apartment: "-",
+        quantityLC: "-",
+        livingArea: "-",
+        notLivinigArea: "-",
+        commonProperty: "-",
+        type: "-",
+        level: "-",
+        technicalSupport: "-",
+        contractURL: 'eksperimentalnaya/sofrino_eksperimentalnaya_7_dogovor.pdf',
+        protocolURL: 'protocol_4_2017-02-16.pdf',
+    },
+
+    {
+        title: "дом 13",
+        year: '-',
+        floor: "-",
+        apartment: "-",
+        quantityLC: "-",
+        livingArea: "-",
+        notLivinigArea: "-",
+        commonProperty: "-",
+        type: "-",
+        level: "-",
+        technicalSupport: "-",
+        contractURL: 'eksperimentalnaya/sofrino_eksperimentalnaya_13_dogovor.pdf',
+        protocolURL: 'protocol_4_2017-02-16.pdf',
+    }
+]
