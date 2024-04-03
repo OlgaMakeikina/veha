@@ -3,18 +3,16 @@ import ReactDOM from "react-dom/client";
 import "./App.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import People from "./routes/people";
+import People from "./PopulationComponent/people";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
-import WebDev from "./routes/web-dev";
 import Accounting from "./FinanceComponent/accounting";
 import HomeInformation from "./routes/homeInformation";
 import Houses from "./HousesComponent/houses";
-import Contract from "./routes/contract";
 import Responsibility from "./routes/responsibility";
 import Contact from "./ContactsComponent/contact";
 import News from "./routes/news";
-import Tarifs from "./PopulationComponent/tarifs";
+import Tarifs from "./PopulationComponent/people";
 import AboutCompany from "./AboutComponent/aboutCompany";
 import Documents from "./DocumentsComponent/documents";
 
@@ -32,10 +30,6 @@ const router = createBrowserRouter([
         element: <People />,
       },
       {
-        path: "web-dev",
-        element: <WebDev />,
-      },
-      {
         path: "accounting",
         element: <Accounting />,
       },
@@ -47,10 +41,6 @@ const router = createBrowserRouter([
       {
         path: "houses",
         element: <Houses />,
-      },
-      {
-        path: "contract",
-        element: <Contract />,
       },
       {
         path: "responsibility",
@@ -69,12 +59,12 @@ const router = createBrowserRouter([
         element: <Tarifs />,
       },
       {
-              path: "aboutCompany",
-      element: <AboutCompany />,
+        path: "aboutCompany",
+        element: <AboutCompany />,
       },
       {
         path: "documents",
-element: <Documents />,
+        element: <Documents />,
 },
 
 

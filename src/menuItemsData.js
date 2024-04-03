@@ -31,12 +31,31 @@ export const menuItemsData = [
     title: "Жителям",
     submenu: [
       {
-        title: "Для населения",
-        url: "people",
+        title: "Информация для населения",
         submenu: [
           {
-            title: "Тарифы",
-            url: "tarifs",
+            title: "График готовности к отопительному периоду",
+            url: "people",
+          },
+          {
+            title: "График ремонта и обслуживания котельных",
+            url: "people",
+          },
+          {
+            title: "План текущего ремонта",
+            url: "people",
+          },
+          {
+            title: "График технического обслуживания газового оборудования",
+            url: "people",
+          },
+          {
+            title: "График испытания систем отопления",
+            url: "people",
+          },
+          {
+            title: "Платные услуги",
+            url: "people",
           },
         ],
       },
@@ -45,26 +64,19 @@ export const menuItemsData = [
 
       {
         title: "Раскрытие информации",
-        url: "web-dev",
         submenu: [
-
           {
             title: "Привлечение к ответственности",
             url: "responsibility",
           },
-        ], // Закрытие submenu "Раскрытие информации"
+        ], 
       },
   {
     title: "Информация по объектам",
-    url: "homeInformation",
     submenu: [
       {
-        title: "Дома в управлении",
+        title: "Дома в управлении и договора",
         url: "houses",
-      },
-      {
-        title: "Договор управления",
-        url: "contract",
       },
     ],
   },

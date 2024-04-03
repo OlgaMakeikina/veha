@@ -5,15 +5,15 @@
     background-color: transparent;
     color: #1a9e3b;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
     text-transform: uppercase;
     border: 3px solid #1a9e3b;
     font-family: "Roboto", sans-serif; 
     cursor: pointer;
     text-decoration: none;
-    font-size: 14px; 
+    font-size: 16px; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
+    margin: 5px;
 }
 
 .accordion_btn:hover {
@@ -34,24 +34,36 @@
     margin-right: 10%;
 }
 
-.accordion_toggle {
+.accordion_title {
     padding: 20px;
     font-family: "Russo One", sans-serif;
     color: #666666;
     font-size: 24px;
     width: 100%;
+    text-align: left;
     border: none;
     background-color: rgb(244, 243, 247, 0.7);
-    text-align: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
-.accordion_toggle:hover {
+.accordion_title:hover {
     border-left: #efe74a 7px solid;
     color: #1a9e3b;
 }
 
-.content_accordion {
+.accordion_content {
 margin: 20px;
 }
+
+
+.accordion_content img {
+    width: 300px; /* начальный размер изображения */
+    transition: width 0.3s ease; /* анимация изменения размера */
+  }
+  
+  .accordion_content img.zoomed {
+    width: 100%; 
+  }
