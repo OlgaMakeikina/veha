@@ -1,37 +1,56 @@
 import React, { useState, useEffect } from 'react';
-import image1 from './1.jpg';
-import image2 from './2.jpg';
-import image3 from './3.jpg';
+import './carousel.css';
 
-const Carousel = () => {
-    const [images, setImages] = useState([image1, image2, image3]);
-    const [currentIndex, setCurrentIndex] = useState(0);
-  
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentIndex((prevIndex) =>
-          prevIndex === images.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 5000); // Интервал смены изображений (в миллисекундах)
-  
-      return () => clearInterval(interval);
-    }, [images.length]);
-  
-    return (
-      <div className="carousel">
+const Carousel = ({ images }) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const intervalTime = 5000;
+
+  const prevSlide = () => {
+    setCurrentSlide(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
+  };
+
+  const nextSlide = () => {
+    setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
+  };
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  // Добавляем функцию для переключения слайдов автоматически
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
+    }, intervalTime);
+
+    return () => clearInterval(interval);
+  }, [images.length, intervalTime]);
+
+  return (
+    <div className="carousel-container">
+      <div className="carousel-slide" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         {images.map((image, index) => (
           <img
             key={index}
             src={image}
-            alt={`Image ${index + 1}`}
-            style={{
-              display: index === currentIndex ? 'block' : 'none',
-              width: '100%' // Измените это значение на желаемую ширину, например, '50%' или '200px'
-            }}
+            alt={`Slide ${index}`}
+            className="carousel-image"
           />
         ))}
       </div>
-    );
-  };
-  
-  export default Carousel;
+      <button className="carousel-btn prev" onClick={prevSlide}>&#10094;</button>
+      <button className="carousel-btn next" onClick={nextSlide}>&#10095;</button>
+      <div className="carousel-indicators">
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`indicator ${index === currentSlide ? 'active' : ''}`}
+            onClick={() => goToSlide(index)}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Carousel;
