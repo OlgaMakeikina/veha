@@ -71,6 +71,7 @@ export const menuItemsData = [
           },
         ], 
       },
+
   {
     title: "Информация по объектам",
     submenu: [
@@ -81,7 +82,15 @@ export const menuItemsData = [
     ],
   },
 
+  {
+    title: "Тарифы на ЖКХ",
+    url: "tarifs",
+  },
 
+  {
+    title: "Ресурсоснабжающие органихации",
+    url: "organisations",
+  },
 
     ], // Закрытие submenu "Жителям"
   },

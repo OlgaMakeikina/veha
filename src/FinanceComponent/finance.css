@@ -77,19 +77,6 @@
     margin: 0 auto;
 }
 
-.content_finance_0:hover {
-    background-color: rgb(134, 199, 241, 0.7);
-  }
-  
-  .content_finance_1:hover,
-  .content_finance_3:hover {
-    background-color: rgb(239, 231, 74, 0.7);
-  }
-  
-  .content_finance_2:hover {
-    background-color: rgb(26, 158, 59, 0.7);
-  }
-
   .content_finance:nth-child(3n+1):hover {
     background-color: rgb(134, 199, 241, 0.7);
   }
@@ -99,5 +86,5 @@
   }
   
   .content_finance:nth-child(3n):hover {
-    background-color: rgb(26, 158, 59, 0.7);
+    background-color: rgb(26, 158, 59, 0.5);
   }

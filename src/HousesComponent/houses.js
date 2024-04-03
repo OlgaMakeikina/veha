@@ -24,7 +24,7 @@ const Houses = () => {
   return (
   <div>
  <div className="cont_header_houses">
-       <h2 className="main_header_houses"><span className="span_header_houses">О компании/ </span>МКД и договора управления</h2>
+       <h2 className="main_header_houses"><span className="span_header_houses">Жителям/ </span>МКД и договора управления</h2>
     </div>
 <h3 className="street_houses">Софрино, ул. Дальняя</h3>
 <HousesDataTabs data={DalnyayaData} />

@@ -9,7 +9,7 @@ const People = () => {
   return (
   <div> 
     <div className="cont_header_services">
-       <h2 className="main_header_services"><span className="span_header_services">О компании/ </span>Информация для населения</h2>
+       <h2 className="main_header_services"><span className="span_header_services">Жителям/ </span>Информация для населения</h2>
     </div>
     <Accordion panels={AccordionDataButtons} />
     <AccordionImages images={AccordionDataImage} />

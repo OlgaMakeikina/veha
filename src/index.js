@@ -12,9 +12,10 @@ import Houses from "./HousesComponent/houses";
 import Responsibility from "./routes/responsibility";
 import Contact from "./ContactsComponent/contact";
 import News from "./routes/news";
-import Tarifs from "./PopulationComponent/people";
+import Tarifs from "./TarifsComponent/tarifs";
 import AboutCompany from "./AboutComponent/aboutCompany";
 import Documents from "./DocumentsComponent/documents";
+import Organisations from "./OrganisationComponent/organisations";
 
 const router = createBrowserRouter([
   {
@@ -66,7 +67,10 @@ const router = createBrowserRouter([
         path: "documents",
         element: <Documents />,
 },
-
+{
+  path: "organisations",
+  element: <Organisations />,
+},
 
 
     ],
