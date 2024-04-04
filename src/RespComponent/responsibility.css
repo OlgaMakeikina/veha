@@ -1,0 +1,57 @@
+.cont_header_resp {
+    background-color: #4281ab;
+    background-image: url('../houses.png');
+    background-position: right;
+    background-size: 28%;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border: 1px solid #ffffff;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 70%);
+    margin-bottom: 50px;
+}
+
+.main_header_resp {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    margin-left: 10%;
+    font-size: 28px; 
+}
+
+.span_header_resp {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.resp_cont {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .resp_box {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 7fr 3fr 2fr 2fr 3fr;
+    width: 100%;
+    border-bottom: 1px solid #ccc; 
+    cursor: pointer;
+  }
+  
+  .resp_box p,
+  .resp_box h4 {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    font-size: 14px;
+  }
+
+  .resp_box:nth-child(3n+1):hover {
+    background-color: rgb(134, 199, 241, 0.7);
+  }
+  
+  .resp_box:nth-child(3n+2):hover {
+    background-color: rgb(239, 231, 74, 0.7);
+  }
+  
+  .resp_box:nth-child(3n):hover {
+    background-color: rgb(26, 158, 59, 0.5);
+  }
+

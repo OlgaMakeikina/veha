@@ -9,7 +9,7 @@ import ErrorPage from "./error-page";
 import Accounting from "./FinanceComponent/accounting";
 import HomeInformation from "./routes/homeInformation";
 import Houses from "./HousesComponent/houses";
-import Responsibility from "./routes/responsibility";
+import Responsibility from "./RespComponent/responsibility";
 import Contact from "./ContactsComponent/contact";
 import News from "./routes/news";
 import Tarifs from "./TarifsComponent/tarifs";
