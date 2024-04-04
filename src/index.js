@@ -16,6 +16,7 @@ import Tarifs from "./TarifsComponent/tarifs";
 import AboutCompany from "./AboutComponent/aboutCompany";
 import Documents from "./DocumentsComponent/documents";
 import Organisations from "./OrganisationComponent/organisations";
+import Meeting from "./MeetingComponent/meeting";
 
 const router = createBrowserRouter([
   {
@@ -71,7 +72,10 @@ const router = createBrowserRouter([
   path: "organisations",
   element: <Organisations />,
 },
-
+{
+  path: "meeting",
+  element: <Meeting />,
+},
 
     ],
   },

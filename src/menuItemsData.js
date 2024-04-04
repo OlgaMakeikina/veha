@@ -57,6 +57,10 @@ export const menuItemsData = [
             title: "Платные услуги",
             url: "people",
           },
+          {
+            title: "Собрания собственников",
+            url: "meeting",
+          },
         ],
       },
 

@@ -61,9 +61,11 @@ margin: 20px;
 
 .accordion_content img {
     width: 300px; /* начальный размер изображения */
-    transition: width 0.3s ease; /* анимация изменения размера */
+    transition: width 0.3s ease;
+    cursor: zoom-in;
   }
   
   .accordion_content img.zoomed {
     width: 100%; 
+    cursor: zoom-out;
   }
