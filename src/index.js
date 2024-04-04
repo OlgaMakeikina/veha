@@ -7,11 +7,10 @@ import People from "./PopulationComponent/people";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Accounting from "./FinanceComponent/accounting";
-import HomeInformation from "./routes/homeInformation";
 import Houses from "./HousesComponent/houses";
 import Responsibility from "./RespComponent/responsibility";
 import Contact from "./ContactsComponent/contact";
-import News from "./routes/news";
+import News from "./NewComponent/news";
 import Tarifs from "./TarifsComponent/tarifs";
 import AboutCompany from "./AboutComponent/aboutCompany";
 import Documents from "./DocumentsComponent/documents";
@@ -34,11 +33,6 @@ const router = createBrowserRouter([
       {
         path: "accounting",
         element: <Accounting />,
-      },
-      
-      {
-        path: "homeInformation",
-        element: <HomeInformation />,
       },
       {
         path: "houses",
