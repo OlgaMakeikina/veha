@@ -16,6 +16,7 @@ import AboutCompany from "./AboutComponent/aboutCompany";
 import Documents from "./DocumentsComponent/documents";
 import Organisations from "./OrganisationComponent/organisations";
 import Meeting from "./MeetingComponent/meeting";
+import Sanitar from "./SanitarComponent/sanitar";
 
 const router = createBrowserRouter([
   {
@@ -70,7 +71,10 @@ const router = createBrowserRouter([
   path: "meeting",
   element: <Meeting />,
 },
-
+{
+  path: "sanitar",
+  element: <Sanitar />,
+},
     ],
   },
 ]);

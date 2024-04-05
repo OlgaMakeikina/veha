@@ -17,10 +17,6 @@ export const menuItemsData = [
         url: "documents",
       },
       {
-        title: "Отчетность",
-        url: "accounting",
-      },
-      {
         title: "Платежные реквизиты",
         url: "documents",
       },
@@ -57,10 +53,7 @@ export const menuItemsData = [
             title: "Платные услуги",
             url: "people",
           },
-          {
-            title: "Собрания собственников",
-            url: "meeting",
-          },
+
         ],
       },
 
@@ -69,6 +62,10 @@ export const menuItemsData = [
       {
         title: "Раскрытие информации",
         submenu: [
+          {
+            title: "Финансовая отчетность",
+            url: "accounting",
+          },
           {
             title: "Привлечение к ответственности",
             url: "responsibility",
@@ -83,6 +80,10 @@ export const menuItemsData = [
         title: "Дома в управлении и договора",
         url: "houses",
       },
+      {
+        title: "Собрания собственников",
+        url: "meeting",
+      },
     ],
   },
 
@@ -92,10 +93,13 @@ export const menuItemsData = [
   },
 
   {
-    title: "Ресурсоснабжающие органихации",
+    title: "Ресурсоснабжающие организации",
     url: "organisations",
   },
-
+  {
+    title: "График санитарной уборки домов",
+    url: "sanitar",
+  },
     ], // Закрытие submenu "Жителям"
   },
 

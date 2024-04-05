@@ -9,8 +9,8 @@ const Responsibility = () => {
     </div>
     <div className="resp_cont">
       <div className="resp_box">
-        <h4 className="one">№ п/п</h4>
-        <h4 className="one">Дата проведения проверки</h4>
+        <h4>№ п/п</h4>
+        <h4>Дата проведения проверки</h4>
         <h4>Адрес</h4>
         <h4>Причина</h4>
         <h4>Принятые меры</h4>
