@@ -21,3 +21,172 @@
     font-weight: 100;
     font-size: 16px;
 }
+
+.tarif_information_header {
+   text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   color: #1a9e3b;
+   font-family: "Russo One", sans-serif;
+}
+
+.documents_tarifs_cont {
+    margin: 50px 10% 10px 10%;
+    padding: 50px;
+    border: none;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.documents_tarifs_cont:hover {
+    border-left: 7px #efe74a solid;
+}
+
+.documents_tarifs_cont h3 {
+    color: #1a9e3b;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+}
+
+.documents_tarifs_cont p {
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    margin-top: 10px;
+
+}
+
+.tarifs_btn {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: #1a9e3b;
+    border-radius: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 3px solid #1a9e3b;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin-left: 200px;
+}
+
+.documents_tarifs_list {
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif; 
+    margin-bottom: 50px;
+}
+
+.documents_tarifs_list p {
+    margin: 5px;
+}
+
+.documents_tarifs_list p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #86c7f1;
+}
+
+.header_table_tarifs {
+    color: #1a9e3b;
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.normativ {
+    font-family: "Roboto", sans-serif; 
+    color: #666666;
+}
+
+
+/* таблица 1 */
+
+.tarifs_data_cont {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.tarifs_data_box_headers {
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr 2fr; 
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+}
+.tarifs_data_box {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+}
+
+.service_tarifs {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    
+}
+
+.period_tarifs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* таблица 2 */
+
+
+
+/* таблица 3-4 */
+
+.tarifs_data_cont_energy {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.tarifs_data_box_energy_headers {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr 2fr;
+    padding: 10px;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;  
+}
+
+.tarifs_data_box_energy {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr 1fr 1fr;
+    padding: 10px;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+}
+
+
+/* таблица 5 */
+
+.tarifs_data_cont_gaz {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tarifs_data_box_gaz {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr 2fr;
+    padding: 10px;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+}
