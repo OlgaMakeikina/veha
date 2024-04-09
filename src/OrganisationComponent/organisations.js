@@ -2,6 +2,7 @@ import React from "react";
 import './organisations.css'
 import OrganisationsComponent from "./organisatioinsComponent";
 import { organisationsData } from "./organisationsData";
+import Footer from "../FooterComponent/footer";
 
 const Organisations = () => {
   return (
@@ -10,6 +11,7 @@ const Organisations = () => {
        <h2 className="main_header_organisations"><span className="span_header_organisations">Жителям/ </span>Ресурсоснабжающие и подрядные организации, подставщики услуг МКД</h2>
     </div>
 <OrganisationsComponent organisationsData={organisationsData}/>
+<Footer />
   </div>
     )
 };

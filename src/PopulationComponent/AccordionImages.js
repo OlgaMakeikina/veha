@@ -11,7 +11,7 @@ const AccordionImages = ({ images }) => {
   };
 
   const handleImageClick = (event) => {
-    event.target.classList.toggle('zoomed'); // добавляем или удаляем класс 'zoomed' при клике на изображение
+    event.target.classList.toggle('zoomed'); 
   };
 
   return (
@@ -31,7 +31,7 @@ const AccordionImages = ({ images }) => {
                   key={imageIndex} 
                   src={image.src} 
                   alt={image.alt} 
-                  onClick={handleImageClick} // добавляем обработчик события для увеличения изображения при клике
+                  onClick={handleImageClick} 
                 />
               ))}
             </div>

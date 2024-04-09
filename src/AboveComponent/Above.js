@@ -2,6 +2,7 @@ import logo from './logo.png';
 import './above.css';
 import { Link } from "react-router-dom";
 
+
 function sendEmail() {
     window.location.href = 'mailto:vexa2008@mail.ru?subject=Вопрос с сайта&body=Здравствуйте, я хотел(а) бы задать вам вопрос:';
 }

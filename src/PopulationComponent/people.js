@@ -4,6 +4,7 @@ import AccordionDataButtons from "./AccordionDataButtons";
 import AccordionDataImage from "./AccordionDataImage";
 import AccordionImages from "./AccordionImages";
 import './population.css';
+import Footer from "../FooterComponent/footer";
 
 const People = () => {
   return (
@@ -13,6 +14,8 @@ const People = () => {
     </div>
     <Accordion panels={AccordionDataButtons} />
     <AccordionImages images={AccordionDataImage} />
+    <br/><br/>
+    <Footer />
   </div>
 
   )

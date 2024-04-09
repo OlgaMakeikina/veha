@@ -8,6 +8,7 @@ import mail from './mail.png';
 import './contact.css'
 import Map from './map';
 import UsefulPhones from './UsefulPhones';
+import Footer from '../FooterComponent/footer';
 function Contact() {
 
   return (
@@ -79,6 +80,7 @@ function Contact() {
    </div>
 
 <UsefulPhones />
+<Footer />
 
 </div>
 

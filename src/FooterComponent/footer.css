@@ -1,15 +1,67 @@
 .cont_footer {
     background-color: #4281ab;
     background-image: url('../houses.png');
-    background-position: left;
-    background-size: 28%;
+    background-size: 25%;
+    background-position: 10% 10%;
     background-repeat: no-repeat;
-    padding: 100px;
+    padding-top: 100px;
     border: 1px solid #ffffff;
     clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%); 
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 100px 10% 30px 10%;
+}
+.contact_footer {
+    display: flex;
 }
 
 .span_footer {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
 }
+
+.last_string {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    margin-left: 10%;
+}
+
+.footer_map {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_map h3 {
+    color: #efe74a;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer_map li a {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.footer_map ul {
+    list-style: none; 
+  }
+  
+  .footer_map ul li {
+    position: relative; 
+    padding-left: 20px; 
+  }
+  
+  .footer_map ul li::before {
+    content: "•"; 
+    position: absolute; 
+    left: 0;
+    color: #efe74a; 
+  }
+
+  .footer_map ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+  }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './meeting.css';
 import { meetingData } from "./meetingData";
+import Footer from "../FooterComponent/footer";
 
 const Meeting = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -42,6 +43,7 @@ const Meeting = () => {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   )
 };

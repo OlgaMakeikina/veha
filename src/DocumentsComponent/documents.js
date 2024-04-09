@@ -3,6 +3,7 @@ import { documentsData } from './documentsData';
 import { taxesData } from "./taxesData";
 import './documents.css'
 import RequisitesButton from "./requisitesButton";
+import Footer from "../FooterComponent/footer";
 
 const Documents = () => {
 
@@ -43,6 +44,7 @@ const Documents = () => {
         ))}
     
       </div>
+    <Footer />
     </div>
   ) 
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import './responsibility.css'
 import {RespData} from './respData';
+import Footer from "../FooterComponent/footer";
 const Responsibility = () => {
   return (
     <div>
@@ -31,6 +32,7 @@ const Responsibility = () => {
         </div>
       ))}
     </div>
+    <Footer />
     </div>
   )
   

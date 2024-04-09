@@ -114,6 +114,7 @@
 .tarifs_data_cont {
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 .tarifs_data_box_headers {
     display: grid;
@@ -179,6 +180,7 @@
 .tarifs_data_cont_gaz {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
 }
 
 .tarifs_data_box_gaz {

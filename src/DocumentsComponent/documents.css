@@ -73,6 +73,7 @@
 .box_taxes {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .box_content {

@@ -2,6 +2,7 @@ import React from "react";
 import { financeData } from './financeData';
 import './finance.css';
 import invoice from './invoice.png';
+import Footer from "../FooterComponent/footer";
 
 const Accounting = () => {
   return (
@@ -20,6 +21,7 @@ const Accounting = () => {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   )
 };

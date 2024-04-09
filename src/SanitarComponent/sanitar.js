@@ -1,6 +1,7 @@
 import React from "react";
 import { sanitarData } from "./sanitarData";
 import './sanitar.css'
+import Footer from "../FooterComponent/footer";
 const Sanitar = () => {
   return (
   <div>
@@ -38,6 +39,7 @@ const Sanitar = () => {
             </div>
     ))}
 </div>
+<Footer />
   </div>
     )
 };

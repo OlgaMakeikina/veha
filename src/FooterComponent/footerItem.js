@@ -1,9 +1,9 @@
 
 const FooterItem = ({ picture, text }) => {
     return (
-        <div>
-            <img src={picture} width="25px" alt="Home" />
-            <span className="span_footer">{text}</span>
+        <div className="contact_footer">
+            <img src={picture} width="25px" height="25px" alt="Home" />
+            <p className="span_footer">{text}</p>
         </div>
     );
 };

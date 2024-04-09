@@ -23,8 +23,7 @@
 }
 
 .resp_cont {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 50px 10% 100px 10%;
   }
   
   .resp_box {
@@ -55,3 +54,6 @@
     background-color: rgb(26, 158, 59, 0.5);
   }
 
+  .meeting_cont {
+    margin-bottom: 100px;
+  }

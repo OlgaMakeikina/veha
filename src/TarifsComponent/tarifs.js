@@ -11,6 +11,7 @@ import GazDataComponent from "./gazDataComponent";
 import EnergyDataComponent from "./energyDataComponent";
 import TboDataComponent from "./tboDataComponent";
 import WarmDataComponent from "./warmDataComponent";
+import Footer from "../FooterComponent/footer";
 
 const Tarifs = () => {
   const [showDocs, setShowDocs] = useState(false);
@@ -57,6 +58,7 @@ const Tarifs = () => {
       <EnergyDataComponent energyData={energyData} />
       <h3 className="header_table_tarifs">5. РАЗМЕР ПЛАТЫ ЗА ГАЗ ДЛЯ НАСЕЛЕНИЯ МОСКОВСКОЙ ОБЛАСТИ НА 2021-2022ГГ.</h3>
       <GazDataComponent gazData={gazData} />
+      <Footer />
     </div>
   );
 };

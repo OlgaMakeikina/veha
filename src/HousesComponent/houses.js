@@ -44,7 +44,6 @@ const Houses = () => {
 <HousesDataTabs data={MendeleevaData} />
 <h3 className="street_houses">Софрино, ул. Орджоникидзе</h3>
 <HousesDataTabs data={OrdzhonikidzeData} />
-
 <h3 className="street_houses">Софрино, ул. Сетевая</h3>
 <HousesDataTabs data={SetevayaData} />
 <h3 className="street_houses">Софрино, ул. Средняя</h3>
