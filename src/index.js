@@ -17,7 +17,9 @@ import Documents from "./DocumentsComponent/documents";
 import Organisations from "./OrganisationComponent/organisations";
 import Meeting from "./MeetingComponent/meeting";
 import Sanitar from "./SanitarComponent/sanitar";
-
+import Ozhkh from "./NewComponent/20231005/prosto-o-zhkkh";
+import OtopitelnyyPeriod from "./NewComponent/20230426/ob-okonchanii-otopitelnogo-perioda-2022-2023-gg.";
+import Nachisleniya from "./NewComponent/20220923/voprosy-o-nachileniyakh-za-zhku";
 const router = createBrowserRouter([
   {
     element: <Root />,
@@ -74,6 +76,21 @@ const router = createBrowserRouter([
 {
   path: "sanitar",
   element: <Sanitar />,
+},
+
+/* НОВОСТИ */
+{
+  path: "prosto-o-zhkh",
+  element: <Ozhkh />,
+},
+{
+  path: "ob-okonchanii-otopitelnogo-perioda-2022-2023-gg",
+  element: <OtopitelnyyPeriod />,
+},
+
+{
+  path: "voprosy-o-nachileniyakh-za-zhku",
+  element: <Nachisleniya />,
 },
     ],
   },

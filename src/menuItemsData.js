@@ -100,7 +100,7 @@ export const menuItemsData = [
     title: "График санитарной уборки домов",
     url: "sanitar",
   },
-    ], // Закрытие submenu "Жителям"
+    ], 
   },
 
 

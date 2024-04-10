@@ -1,16 +1,20 @@
 export const newsData = [
     {
-      id: 1,
-      title: 'Заголовок новости 1',
-      content: 'Содержание новости 1...',
-      image: 'url_изображения_1',
-      video: 'url_видео_1'
+      date: "05.10.2023",
+      title: 'ПРОСТО О ЖКХ',
+      url: '/prosto-o-zhkh'
     },
+
     {
-      id: 2,
-      title: 'Заголовок новости 2',
-      content: 'Содержание новости 2...',
-      image: 'url_изображения_2'
+      date: "26.04.2023",
+      title: 'ОБ ОКОНЧАНИИ ОТОПИТЕЛЬНОГО ПЕРИОДА 2022-2023 ГГ.',
+      url: '/ob-okonchanii-otopitelnogo-perioda-2022-2023-gg'
     },
-    // Другие новости...
+
+    {
+      date: "23.09.2022",
+      title: 'ВОПРОСЫ О НАЧИЛЕНИЯХ ЗА ЖКУ?',
+      url: '/voprosy-o-nachileniyakh-za-zhku'
+    }
+
   ];
