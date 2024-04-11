@@ -78,3 +78,34 @@ margin-left: 10%;
 .news_content p {
     padding: 20px;
 }
+
+
+/* кнопки навигации по новостям */
+.navigation_news {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navigation_news_btn {
+    background-color: transparent;
+    color: #1a9e3b;
+    border-radius: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 3px solid #1a9e3b;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navigation_news_btn:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #0d7727;
+}
