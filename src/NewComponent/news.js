@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './news.css';
 import { newsData } from './newsData';
+import Footer from '../FooterComponent/footer';
 
 const News = () => {
   return (
@@ -14,7 +15,7 @@ const News = () => {
           <div className='news_box' key={newsItem.id}>
             <p>{newsItem.date}</p>
             <h3>{newsItem.title}</h3>
-            <button className='news_btn' onClick={() => navigateToNews(newsItem.url)}>Подробнее</button>
+            <button className='news_btn' onClick={() => navigateToNews(newsItem.url)}>Подробнее &gt;&gt;</button>
           </div>
         ))}
       </div>
@@ -23,6 +24,7 @@ const News = () => {
           <Route key={newsItem.id} path={newsItem.url} element={<NewsItemContent title={newsItem.title} />} />
         ))}
       </Routes>
+      <Footer />
     </div>
   );
 };

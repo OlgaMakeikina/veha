@@ -20,6 +20,10 @@ import Sanitar from "./SanitarComponent/sanitar";
 import Ozhkh from "./NewComponent/20231005/prosto-o-zhkkh";
 import OtopitelnyyPeriod from "./NewComponent/20230426/ob-okonchanii-otopitelnogo-perioda-2022-2023-gg.";
 import Nachisleniya from "./NewComponent/20220923/voprosy-o-nachileniyakh-za-zhku";
+import IzmeneniyaTarifov from "./NewComponent/20220701/izmenenie-tarifov-zhks-s-01.07.2022-g.";
+import PuteshestviyeVDetstvo from "./NewComponent/20220531/zhitelej-okruga-pushkinskij-ozhidaet-uvlekatelnoe-puteshestvie-v-detstvo";
+import Listovka from "./NewComponent/20220408/listovka-dlya-stenda-s-qr-kodom";
+
 const router = createBrowserRouter([
   {
     element: <Root />,
@@ -92,6 +96,22 @@ const router = createBrowserRouter([
   path: "voprosy-o-nachileniyakh-za-zhku",
   element: <Nachisleniya />,
 },
+
+{
+  path: "izmenenie-tarifov-zhks-s-01.07.2022-g",
+  element: <IzmeneniyaTarifov />,
+},
+
+{
+  path: "zhitelej-okruga-pushkinskij-ozhidaet-uvlekatelnoe-puteshestvie-v-detstvo",
+  element: <PuteshestviyeVDetstvo />,
+},
+
+{
+  path: "listovka-dlya-stenda-s-qr-kodom",
+  element: <Listovka />,
+},
+
     ],
   },
 ]);

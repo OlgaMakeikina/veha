@@ -15,6 +15,29 @@ export const newsData = [
       date: "23.09.2022",
       title: 'ВОПРОСЫ О НАЧИЛЕНИЯХ ЗА ЖКУ?',
       url: '/voprosy-o-nachileniyakh-za-zhku'
-    }
+    },
+
+    {
+      date: "01.07.2022",
+      title: 'ИЗМЕНЕНИЕ ТАРИФОВ ЖКС С 01.07.2022 Г.',
+      url: '/izmenenie-tarifov-zhks-s-01.07.2022-g'
+    },
+
+    {
+      date: "31.05.2022",
+      title: 'ЖИТЕЛЕЙ ОКРУГА ПУШКИНСКИЙ ОЖИДАЕТ УВЛЕКАТЕЛЬНОЕ ПУТЕШЕСТВИЕ В ДЕТСТВО',
+      url: '/zhitelej-okruga-pushkinskij-ozhidaet-uvlekatelnoe-puteshestvie-v-detstvo'
+    },
+
+    {
+      date: "08.04.2022",
+      title: 'ЛИСТОВКА ДЛЯ СТЕНДА С QR-КОДОМ',
+      url: '/listovka-dlya-stenda-s-qr-kodom'
+    },
+
+
+
+
+
 
   ];
