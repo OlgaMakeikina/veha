@@ -11,8 +11,9 @@ const Accordion = ({ panels }) => {
   };
 
   const handleButtonClick = (documentName) => {
-    window.open(process.env.PUBLIC_URL + '/' + documentName, '_blank');
+    window.open(process.env.PUBLIC_URL + '/' + documentName, '_blank', 'noopener noreferrer');
   };
+  
 
   return (
     <div className='accordion_panel'>

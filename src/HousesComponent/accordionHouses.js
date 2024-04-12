@@ -26,8 +26,8 @@ const AccordionHouses = ({ data }) => {
                             <p>Серия, тип постройки: {item.type}</p>
                             <p>Уровень благоустройства: {item.level}</p>
                             <p>Инженерно-техническое обеспечение, входящие в состав общего имущества МКД: {item.technicalSupport}</p>
-                            <button className="accordion_houses_btn" onClick={() => window.open(item.contractURL)}>Договор управления</button>
-                            <button className="accordion_houses_btn" onClick={() => window.open(item.protocolURL)}>Протокол</button>
+                            <button className="accordion_houses_btn" onClick={() => window.open(item.contractURL, '_blank', 'noopener noreferrer')}>Договор управления</button>
+                            <button className="accordion_houses_btn" onClick={() => window.open(item.protocolURL, '_blank', 'noopener noreferrer')}>Протокол</button>
                         </div>
                     )}
                 </div>

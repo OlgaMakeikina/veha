@@ -20,6 +20,7 @@ const Meeting = () => {
         <h2 className="main_header_meeting"><span className="span_header_meeting">Жителям/ </span>Собрания собственников</h2>
       </div>
       <input
+        className="input_meeting"
         type="text"
         placeholder="Введите название улицы"
         value={searchQuery}

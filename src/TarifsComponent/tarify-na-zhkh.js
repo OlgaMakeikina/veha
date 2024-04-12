@@ -42,8 +42,8 @@ const Tarifs = () => {
       {showDocs && (
         <div className="documents_tarifs_list">
           {tarifDocData.map(item => (
-            <div key={item.id} onClick={() => openDocument(item.url)}>
-              <p>{item.docName}</p>
+            <div key={item.id} onClick={() => openDocument(item.url)} target="_blank" rel="noopener noreferrer">
+            <p>{item.docName}</p>
             </div>
           ))}
         </div>
