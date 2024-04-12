@@ -9,16 +9,16 @@ export const menuItemsData = [
     submenu: [
       {
         title: "О компании",
-        url: "aboutCompany",
+        url: "o-kompanii",
       },
 
       {
         title: "Учредительные документы и свидетельства",
-        url: "documents",
+        url: "dokumenty",
       },
       {
         title: "Платежные реквизиты",
-        url: "documents",
+        url: "dokumenty",
       },
     ],
   },
@@ -31,27 +31,27 @@ export const menuItemsData = [
         submenu: [
           {
             title: "График готовности к отопительному периоду",
-            url: "people",
+            url: "informatsiya-dlya-naseleniya",
           },
           {
             title: "График ремонта и обслуживания котельных",
-            url: "people",
+            url: "informatsiya-dlya-naseleniya",
           },
           {
             title: "План текущего ремонта",
-            url: "people",
+            url: "informatsiya-dlya-naseleniya",
           },
           {
             title: "График технического обслуживания газового оборудования",
-            url: "people",
+            url: "informatsiya-dlya-naseleniya",
           },
           {
             title: "График испытания систем отопления",
-            url: "people",
+            url: "informatsiya-dlya-naseleniya",
           },
           {
             title: "Платные услуги",
-            url: "people",
+            url: "informatsiya-dlya-naseleniya",
           },
 
         ],
@@ -64,11 +64,11 @@ export const menuItemsData = [
         submenu: [
           {
             title: "Финансовая отчетность",
-            url: "accounting",
+            url: "otchyotnost",
           },
           {
             title: "Привлечение к ответственности",
-            url: "responsibility",
+            url: "privlecheniye-k-otvetstvennosti",
           },
         ], 
       },
@@ -78,27 +78,27 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Дома в управлении и договора",
-        url: "houses",
+        url: "doma-v-upravlenii",
       },
       {
         title: "Собрания собственников",
-        url: "meeting",
+        url: "sobraniya-sobstvennikov",
       },
     ],
   },
 
   {
     title: "Тарифы на ЖКХ",
-    url: "tarifs",
+    url: "tarify-na-zhkh",
   },
 
   {
     title: "Ресурсоснабжающие организации",
-    url: "organisations",
+    url: "resursosnabzhaushchiye-organizacii",
   },
   {
     title: "График санитарной уборки домов",
-    url: "sanitar",
+    url: "grafik-sanitarnoy-uborki",
   },
     ], 
   },
@@ -108,11 +108,11 @@ export const menuItemsData = [
 
   {
     title: "Новости",
-    url: "/news",
+    url: "/novosti",
   },
 
   {
     title: "Контакты",
-    url: "/contact",
+    url: "/kontakty",
   },
 ];

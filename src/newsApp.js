@@ -9,13 +9,23 @@ import './App.css'
 
 const NewsApp = () => {
     const sliderRef = useRef();
-  
+    const PrevArrow = (props) => {
+      const { onClick } = props;
+      return <button onClick={onClick}>Previous</button>;
+    };
+    
+    const NextArrow = (props) => {
+      const { onClick } = props;
+      return <button onClick={onClick}>Next</button>;
+    };
     const settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
+      prevArrow: <PrevArrow />,
+      nextArrow: <NextArrow />,
       responsive: [
         {
           breakpoint: 1024,
@@ -41,7 +51,7 @@ const NewsApp = () => {
       <div className="slider-container">
         <Slider ref={sliderRef} {...settings}>
           {newsData.map(newsItem => (
-            <div className='' key={newsItem.id}>
+            <div key={newsItem.id}>
               <p>{newsItem.date}</p>
               <h3>{newsItem.title}</h3>
               <button className='news_btn' onClick={() => navigateToNews(newsItem.url)}>Подробнее &gt;&gt;</button>

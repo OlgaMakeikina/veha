@@ -3,20 +3,20 @@ import ReactDOM from "react-dom/client";
 import "./App.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import People from "./PopulationComponent/people";
+import People from "./PopulationComponent/informatsiya-dlya-naseleniya";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
-import Accounting from "./FinanceComponent/accounting";
-import Houses from "./HousesComponent/houses";
-import Responsibility from "./RespComponent/responsibility";
-import Contact from "./ContactsComponent/contact";
-import News from "./NewComponent/news";
-import Tarifs from "./TarifsComponent/tarifs";
-import AboutCompany from "./AboutComponent/aboutCompany";
-import Documents from "./DocumentsComponent/documents";
-import Organisations from "./OrganisationComponent/organisations";
-import Meeting from "./MeetingComponent/meeting";
-import Sanitar from "./SanitarComponent/sanitar";
+import Accounting from "./FinanceComponent/otchyotnost";
+import Houses from "./HousesComponent/doma-v-upravlenii";
+import Responsibility from "./RespComponent/privlecheniye-k-otvetstvennosti";
+import Contact from "./ContactsComponent/kontakty";
+import News from "./NewComponent/novosti";
+import Tarifs from "./TarifsComponent/tarify-na-zhkh";
+import AboutCompany from "./AboutComponent/o-kompanii";
+import Documents from "./DocumentsComponent/dokumenty";
+import Organisations from "./OrganisationComponent/resursosnabzhaushchiye-organizacii";
+import Meeting from "./MeetingComponent/sobraniya-sobstvennikov";
+import Sanitar from "./SanitarComponent/grafik-sanitarnoy-uborki";
 import Ozhkh from "./NewComponent/20231005/prosto-o-zhkkh";
 import OtopitelnyyPeriod from "./NewComponent/20230426/ob-okonchanii-otopitelnogo-perioda-2022-2023-gg.";
 import Nachisleniya from "./NewComponent/20220923/voprosy-o-nachileniyakh-za-zhku";
@@ -34,51 +34,51 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "people",
+        path: "informatsiya-dlya-naseleniya",
         element: <People />,
       },
       {
-        path: "accounting",
+        path: "otchyotnost",
         element: <Accounting />,
       },
       {
-        path: "houses",
+        path: "doma-v-upravlenii",
         element: <Houses />,
       },
       {
-        path: "responsibility",
+        path: "privlecheniye-k-otvetstvennosti",
         element: <Responsibility />,
       },
       {
-        path: "contact",
+        path: "kontakty",
         element: <Contact />,
       },
       {
-        path: "news",
+        path: "novosti",
         element: <News />,
       },
       {
-        path: "tarifs",
+        path: "tarify-na-zhkh",
         element: <Tarifs />,
       },
       {
-        path: "aboutCompany",
+        path: "o-kompanii",
         element: <AboutCompany />,
       },
       {
-        path: "documents",
+        path: "dokumenty",
         element: <Documents />,
 },
 {
-  path: "organisations",
+  path: "resursosnabzhaushchiye-organizacii",
   element: <Organisations />,
 },
 {
-  path: "meeting",
+  path: "sobraniya-sobstvennikov",
   element: <Meeting />,
 },
 {
-  path: "sanitar",
+  path: "grafik-sanitarnoy-uborki",
   element: <Sanitar />,
 },
 

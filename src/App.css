@@ -5,10 +5,11 @@
     font-size: 32px;
 }
 
-.slider-container {
-    margin: 0 10% 50px 10%;
+.test {
+  border: 1px red solid;
+  height: 200px;
+  margin: 10px;
 }
-
 
 /* Общие стили для стрелок */
 .slick-prev,
