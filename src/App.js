@@ -5,6 +5,8 @@ import Two from './2.jpg';
 import Three from './3.jpg';
 import Footer from './FooterComponent/footer';
 import NewsApp from "./newsApp";
+import GosuslugiBanner from "./Uslugi";
+
 
 
 const App = () => {
