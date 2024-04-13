@@ -5,6 +5,7 @@ import Two from './2.jpg';
 import Three from './3.jpg';
 import Footer from './FooterComponent/footer';
 import MyCarousel from "./NewsCarouselComponent/newsCarousel";
+import PosBannerWidget from "./Uslugi";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
     <div>
       
 <Carousel images={images}/>  
+<PosBannerWidget />
 <h2 className="header_main_page">Последние новости</h2>  
 <MyCarousel
         swipeable={false}
