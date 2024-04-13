@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 
 const PosBannerWidget = () => {
+
+
   useEffect(() => {
     const ACTION_ID = 'js-show-iframe-wrapper';
     const BLOCK_ACTION_CLASS = 'pos-block-action';
@@ -120,8 +122,17 @@ const PosBannerWidget = () => {
   }, []);
 
   return (
+<div>
+<style>
+ 
+</style>
+
+
+
+
     <div id='js-show-iframe-wrapper'>
       <div className='pos-banner-fluid bf-39'>
+
         <div className='bf-39__decor'>
           <div className='bf-39__logo-wrap'>
             <img
@@ -129,6 +140,7 @@ const PosBannerWidget = () => {
               src='https://pos.gosuslugi.ru/bin/banner-fluid/gosuslugi-logo-blue.svg'
               alt='Госуслуги'
             />
+
             <div className='bf-39__slogan'>Решаем вместе</div >
           </div >
         </div >
@@ -153,6 +165,8 @@ const PosBannerWidget = () => {
         </div >
       </div >
     </div >
+   
+    </div>
   );
 };
 
