@@ -1,58 +1,57 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from "react";
+import Slider from "react-slick";
 import './carousel.css';
+import One from './1.jpg';
+import Two from './2.jpg';
+import Three from './3.jpg';
 
-const Carousel = ({ images }) => {
+function Fade() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const intervalTime = 5000;
 
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
+
+  const settings = {
+    dots: true,
+    fade: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false,
+    lazyLoad: true,
+    centerMode: true,
+    centerPadding: 0,
+    arrows: true, 
+    beforeChange: (current, next) => setCurrentSlide(next),
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
-  
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
-  };
 
-  const goToSlide = (index) => {
-    setCurrentSlide(index);
-  };
-
-  // Добавляем функцию для переключения слайдов автоматически
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
-    }, intervalTime);
-
-    return () => clearInterval(interval);
-  }, [images.length, intervalTime]);
+ 
 
   return (
-    <div className="carousel-container">
-           <div className="carousel-slide">
-  {images.map((image, index) => (
-    <img
-      key={index}
-      src={image}
-      alt={`Slide ${index}`}
-      className="carousel-image"
-    />
-  ))}
-</div>
-      <button className="carousel-btn prev" onClick={prevSlide}>&#10094;</button>
-      <button className="carousel-btn next" onClick={nextSlide}>&#10095;</button>
-      <div className="carousel-indicators">
-        {images.map((_, index) => (
-          <span
-            key={index}
-            className={`indicator ${index === currentSlide ? 'active' : ''}`}
-            onClick={() => goToSlide(index)}
-          />
-        ))}
-      </div>
-
+    <div className="slider-container">
+      <Slider {...settings}>
+        <div>
+          <img src={One} alt="Slide 1" />
+        </div>
+        <div>
+          <img src={Two} alt="Slide 2" />
+        </div>
+        <div>
+          <img src={Three} alt="Slide 3" />
+        </div>
+      </Slider>
 
     </div>
   );
-};
+}
 
-export default Carousel;
+export default Fade;
