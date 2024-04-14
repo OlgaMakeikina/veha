@@ -6,6 +6,7 @@ import Three from './3.jpg';
 import Footer from './FooterComponent/footer';
 import MyCarousel from "./NewsCarouselComponent/newsCarousel";
 import PosBannerWidget from "./Uslugi";
+import Fade from "./Fade";
 
 const App = () => {
 
@@ -14,8 +15,8 @@ const App = () => {
 
   return (
     <div>
-      
-<Carousel images={images}/>  
+<Fade />
+
 <PosBannerWidget />
 <h2 className="header_main_page">Последние новости</h2>  
 <MyCarousel

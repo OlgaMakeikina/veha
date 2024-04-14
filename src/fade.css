@@ -1,0 +1,45 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slider-container {
+    width: 100%;
+    margin-bottom: 50px;
+
+
+  }
+
+  .slider-container .slick-slide img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+.slick-dots li button:before
+{
+
+    font-size: 10px;
+}
+
+  .slick-dots li.slick-active button:before
+{
+    color: #efe74a;
+}
+
+.slick-prev,
+.slick-next {
+  /* Оставляем font-size и line-height равными 0, чтобы исключить отображение текста */
+  font-size: 0;
+  line-height: 0;
+background-color: red !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Обеспечиваем, чтобы стрелки находились поверх слайдов */
+}
+
+.slick-prev {
+  left: 10px; /* Располагаем стрелку "назад" слева */
+}
+
+.slick-next {
+  right: 10px; /* Располагаем стрелку "вперед" справа */
+}

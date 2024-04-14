@@ -8,7 +8,7 @@ const Carousel = ({ images }) => {
   const prevSlide = () => {
     setCurrentSlide(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
   };
-
+  
   const nextSlide = () => {
     setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
   };
@@ -28,16 +28,16 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="carousel-container">
-      <div className="carousel-slide" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-        {images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`Slide ${index}`}
-            className="carousel-image"
-          />
-        ))}
-      </div>
+           <div className="carousel-slide">
+  {images.map((image, index) => (
+    <img
+      key={index}
+      src={image}
+      alt={`Slide ${index}`}
+      className="carousel-image"
+    />
+  ))}
+</div>
       <button className="carousel-btn prev" onClick={prevSlide}>&#10094;</button>
       <button className="carousel-btn next" onClick={nextSlide}>&#10095;</button>
       <div className="carousel-indicators">
@@ -49,6 +49,8 @@ const Carousel = ({ images }) => {
           />
         ))}
       </div>
+
+
     </div>
   );
 };

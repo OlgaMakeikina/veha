@@ -4,17 +4,18 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 50px;
+
   }
-  
-  .carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
   .carousel-image {
     width: 100%;
-   
   }
+
+  .carousel-slide {
+    display: flex;
+    width: calc(100% * 3); /* Ширина контейнера равна сумме ширин всех слайдов */
+    transition: transform 0.5s ease;
+  }
+
   
   .carousel-slide.active {
     transform: translateX(-100%);
