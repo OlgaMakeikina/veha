@@ -28,7 +28,7 @@ const MobileNav = () => {
         className="mobile-nav__menu-button"
         type="button"
         onClick={() => setShowMenu((prev) => !prev)}>
-        Menu
+         &#8801; Меню
       </button>
 
       {showMenu && (

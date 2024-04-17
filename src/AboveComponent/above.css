@@ -58,3 +58,89 @@
     background-color: #0d7727;
    
   }
+
+
+  @media screen and (width: 1024px) and (max-height: 600px) {
+    .logo img {
+      width: 100px;
+    }
+    
+    .header_btn {
+      padding: 10px;
+      font-size: 12px;
+    }
+    .text_header {
+      font-size: 12px;
+    }
+    .header {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo img {
+  width: 100px;
+}
+}
+
+@media screen and (max-width: 930px)
+{
+  .logo img {
+    width: 100px;
+  }
+  .header_btn {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .header {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+
+@media screen and (max-width: 913px) {
+  .text_header {
+    font-size: 12px;
+  }
+  .emergency_contacts_main {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .emergency_contacts_main,
+  .emergency_contacts_main_btn {
+    display: none;
+  }
+  .text_header {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .phone {
+    align-self: center;
+  }
+  .mobile_emergency {
+    background-color: #efe74a;
+    width: 100%;
+  }
+  .mobile_emergency p {
+   text-align: center;
+  }
+  .header {
+    margin: 0;
+}
+.logo {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.company_name {
+  font-size: 12px;
+}
+}

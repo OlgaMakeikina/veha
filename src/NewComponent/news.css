@@ -140,9 +140,30 @@ font-family: "Roboto", sans-serif;
     background-color: #0d7727;
 }
 
+@media screen and (max-width: 1280px) {
+    .news_box {
+        padding: 10px;
+        width: 80%;
+        height: 200px;
+    }
+}
 
+@media screen and (max-width: 855px) {
+    .news_container {
+        grid-template-columns: 1fr 1fr;
+        }
+    .news_box {
+        padding: 10px;
+        width: 80%;
+        height: 200px;
+    }
+}
 
-
+@media screen and (max-width: 766px) {
+    .news_container {
+        grid-template-columns: 1fr;
+        }
+    }
 
 
 

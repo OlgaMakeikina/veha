@@ -11,7 +11,7 @@ const Footer = () => {
 <div className='cont_footer'>
            
     <div className='footer_content'>      
-        <div>
+        <div className='mobile_footer_item'>
             {FooterData.map((item, index) => (
             <FooterItem key={index} picture={item.picture} text={item.text} />
             ))}    
