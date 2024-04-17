@@ -52,7 +52,7 @@ const MyCarousel = (props) => {
        
       >
         {newsData.map((item, index) => (
-          <div className="main_news_box " key={index}>
+          <div className="main_news_box" key={index}>
             <p>{item.date}</p>
             <h3>{item.title}</h3>
             <a href={item.url}>Читать подробнее &raquo;&raquo;</a>
@@ -66,8 +66,8 @@ const MyCarousel = (props) => {
 const CustomButtonGroup = ({ next, previous, ...rest }) => {
   const { carouselState: { currentSlide } } = rest;
   return (
-    <div className="custom-button-group">
-      <button onClick={() => previous()}>{'<'}</button>
+    <div className="carousel-button-group">
+      <button className="react-multi-carousel-arrow-left" onClick={() => previous()}>{'<'}</button>
       <button onClick={() => next()}>{'>'}</button>
     </div>
   );
