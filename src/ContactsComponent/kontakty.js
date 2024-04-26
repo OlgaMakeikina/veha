@@ -1,10 +1,11 @@
 import React from 'react';
-import ContactForm from './ContactForm';
 import call from './24.png';
 import phone from './phone.png';
 import address from './address.png';
 import hours from './hours.png';
 import mail from './mail.png';
+import telegram from './telegram.png';
+import vk from './vk.png';
 import './contact.css'
 import Map from './map';
 import UsefulPhones from './UsefulPhones';
@@ -41,16 +42,6 @@ function Contact() {
       </div>
 
       <div className='info_contacts'>
-           <img src={mail} width="75px" height="75px"  alt="email"/>
-           <div>
-  <p className="text_contacts">
-    <span><b>E-mail: </b></span>
-    <a className="email_link" href="mailto:vexa2008@mail.ru">vexa2008@mail.ru</a>
-  </p> 
-</div>
-      </div>
-
-      <div className='info_contacts'>
        <img src={hours} width="75px" height="75px"  alt="calendar"/>
         <div>
         <p className="text_contacts"><span><b>ПН-ЧТ: </b></span>08.00 - 17.00</p>
@@ -62,10 +53,39 @@ function Contact() {
       <div className='info_contacts'>
         <img src={address} width="75px" height="75px"  alt="phone number"/>
         <p className="text_contacts"><span><b>Адрес: </b></span>ул. Ленина, д. 4, п. Софрино, Пушкинский р-он., Московская обл., 141270</p>
-      </div> 
-    <div className='box5'>
-       <ContactForm />
+      </div>  
+      <div className='info_contacts'>
+           <img src={mail} width="75px" height="75px"  alt="email"/>
+           <div>
+  <p className="text_contacts">
+    <span><b>E-mail: </b></span>
+    <a className="email_link" href="mailto:vexa2008@mail.ru">vexa2008@mail.ru</a>
+  </p> 
 </div>
+      </div>
+
+
+
+      <div className='info_contacts'>
+           <img src={telegram} width="75px" height="75px"  alt="email"/>
+        <div>
+            <p className="text_contacts">
+            <span><b>Telegram: </b></span>
+            <a className="email_link" href="https://t.me/vehajkh">Наш телеграм</a>
+            </p> 
+        </div>
+      </div>
+
+      <div className='info_contacts'>
+           <img src={vk} width="75px" height="75px"  alt="email"/>
+        <div>
+            <p className="text_contacts">
+            <span><b>VK: </b></span>
+            <a className="email_link" href="https://vk.com">Мы ВКонтакте</a>
+            </p> 
+        </div>
+      </div>
+
 </div>
     
    <div className='cont_requisites'>

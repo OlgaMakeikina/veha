@@ -12,9 +12,9 @@ const Footer = () => {
            
     <div className='footer_content'>      
         <div className='mobile_footer_item'>
-            {FooterData.map((item, index) => (
-            <FooterItem key={index} picture={item.picture} text={item.text} />
-            ))}    
+        {FooterData.map((item, index) => (
+        <FooterItem key={index} item={item} />
+      ))}
         </div>
             <FooterMap />
     </div>

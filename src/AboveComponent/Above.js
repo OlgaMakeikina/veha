@@ -1,6 +1,9 @@
 import logo from './logo.png';
 import './above.css';
 import { Link } from "react-router-dom";
+import mail from './icons8-mail-96.png';
+import vk from './icons8-vk-96.png';
+import telegram from './icons8-telegram-96.png';
 
 
 function sendEmail() {
@@ -29,8 +32,25 @@ function Above() {
       <p> <a href="tel:+7-915-068-15-45" className="phone">+7-915-068-15-45</a></p>
       <p className='text_header'>Аварийная диспетчерская служба </p>
       </div>    
+      <div className='buttons_above'>
       <div className='emergency_contacts_main_btn'>
-      <button className='header_btn' onClick={sendEmail}>Напишите нам</button>
+      <a href="https://t.me/vehajkh" target="_blank" title="Написать в Telegram">
+         <button className='header_btn'>
+            <img src={telegram} width="40px" alt="Telegram"/>
+         </button>
+      </a>
+      </div>  
+      <div className='emergency_contacts_main_btn'>
+      <button className='header_btn' onClick={sendEmail} title="Отправить e-mail"><img src={mail} width="40px"/></button>
+      </div>
+      <div className='emergency_contacts_main_btn'>
+      <a href="https://vk.com" target="_blank" title="Открыть ВКонтакте">
+      <button className='header_btn'>
+         <img src={vk} width="40px" alt="VK"/>
+      </button>
+      </a>
+      </div>
+
       </div>
       </div>
   );

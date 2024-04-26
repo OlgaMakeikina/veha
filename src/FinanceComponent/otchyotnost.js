@@ -16,8 +16,10 @@ const Accounting = () => {
            <div className="content_finance" key={index}>  
             <h3 className="finance_year">{item.year}</h3>
             <img src={invoice}  alt="invoice" />
-            <p className="">{item.description}</p>
-            <a className="finance_btn" href={process.env.PUBLIC_URL + '/' + item.file} target="_blank" rel="noopener noreferrer">Ознакомиться</a>
+            <div className="finance_buttons">
+            <a className="finance_btn" href={process.env.PUBLIC_URL + '/' + item.file1} target="_blank" rel="noopener noreferrer">{item.description1}</a>
+            <a className="finance_btn" href={process.env.PUBLIC_URL + '/' + item.file2} target="_blank" rel="noopener noreferrer">{item.description2}</a>
+          </div>
           </div>
         ))}
       </div>

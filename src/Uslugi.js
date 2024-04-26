@@ -121,14 +121,13 @@ const PosBannerWidget = () => {
     Widget("https://pos.gosuslugi.ru/form", 360210);
   }, []);
 
+
+
+
+
+
   return (
 <div>
-<style>
- 
-</style>
-
-
-
 
     <div id='js-show-iframe-wrapper'>
       <div className='pos-banner-fluid bf-39'>
