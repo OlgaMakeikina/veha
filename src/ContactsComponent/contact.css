@@ -7,6 +7,7 @@
   }
   .phone_numbers {
    display: flex;
+   align-items: center;
   }
   
   .phone_text {
@@ -15,7 +16,7 @@
   }
 
   .hr_contacts {
-    margin: 50px 10% 100px 10%;
+    margin: 20px 10% 100px 10%;
     background-color: #1a9e3b;
     height: 2px;
   }
@@ -51,6 +52,7 @@
     font-family: "Roboto", sans-serif;
     color: #666666;
     font-size: 18px;
+    text-align: center;
   }
   
   .text_contacts {
@@ -177,4 +179,51 @@
     color: #0d7727;
     margin-top: 100px;
     font-weight: bold;
+  }
+
+
+  @media screen and (max-width: 854px) {
+    .cont_useful_phones {
+      grid-template-columns: 1fr 1fr;
+    }
+    .useful_phones {
+      padding: 20px;
+    }
+    .info_contacts {
+      margin: 5px;
+      }
+  }
+
+  @media screen and (max-width: 540px) {
+    .box_contacts {
+      grid-template-columns: 1fr;
+      }
+
+    .cont_useful_phones {
+      grid-template-columns: 1fr;
+    }
+
+    .phone_numbers {
+      flex-direction: column;
+      margin-top: 10px;
+     }
+
+     .phone_numbers img {
+      width: 50px;
+     }
+
+     .header_contact {
+      font-size: 28px;
+     }
+
+     .actual_requisites {
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+     }
+
+     .info_contacts img {
+      width: 50px;
+      height: 50px;
+     }
   }

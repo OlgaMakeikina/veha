@@ -18,11 +18,11 @@ function Contact() {
       <div className='emergency_phones'>
   
     <h3 className="heading_contacts">КРУГЛОСУТОЧНАЯ АВАРИЙНАЯ СЛУЖБА</h3>   
-    <img src={call} width="75px" alt="call"/>
+ 
     <div className='phone_numbers'>
-        <p className='phone_text'><a href="tel:8-800-550-14-12" className="phone_contacts">8-800-550-14-12 (бесплатно)</a> </p> 
-       <p>или</p>
-       <p className='phone_text'><a href="tel:+7-915-068-15-45" className="phone_contacts">+7-915-068-15-45</a></p> 
+    <p className='phone_text'><a href="tel:8-800-550-14-12" className="phone_contacts">8-800-550-14-12 (бесплатно)</a> </p> 
+      <img src={call} width="75px" alt="call"/>
+    <p className='phone_text'><a href="tel:+7-915-068-15-45" className="phone_contacts">+7-915-068-15-45</a></p> 
     </div>
      
       </div>
