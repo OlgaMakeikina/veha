@@ -17,8 +17,7 @@ const Documents = () => {
 <div>
   <RequisitesButton />
 </div>
-
-    <div className="cont_doocuments">  
+<div className="cont_doocuments">  
         {documentsData.map((item, index) => (
           <div key={index}>  
             <h3 className="heading_documents">{item.header}</h3>
@@ -44,6 +43,7 @@ const Documents = () => {
         ))}
     
       </div>
+
     <Footer />
     </div>
   ) 

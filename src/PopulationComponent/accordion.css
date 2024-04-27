@@ -59,7 +59,7 @@ margin: 20px;
 
 
 .accordion_content img {
-    width: 300px; /* начальный размер изображения */
+    width: 300px; 
     transition: width 0.3s ease;
     cursor: zoom-in;
   }
@@ -67,4 +67,11 @@ margin: 20px;
   .accordion_content img.zoomed {
     width: 100%; 
     cursor: zoom-out;
+  }
+
+  @media screen and (max-width: 420px) {
+    .accordion_title {
+        font-size: 16px;
+    }
+
   }

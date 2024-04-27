@@ -16,11 +16,11 @@
 }
 
 .cont_payment_header {
-display: grid;
-grid-template-areas: 
-            "a a c"
-            "b b c";
-}
+    display: grid;
+    grid-template-areas: 
+                "a a c"
+                "b b c";
+    }
 
 .payment_header {
     font-family: "Russo One", sans-serif;
@@ -60,3 +60,47 @@ grid-template-areas:
     flex-direction: column;
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 1025px) {
+    .payment_btn {
+        height: 80px;
+        margin-left: 100px;
+    }
+        
+  }
+
+  @media screen and (max-width: 820px) {
+    .payment_btn {
+        height: 50px;
+    }
+
+    .cont_payment_header {
+        display: block;
+        text-align: center;
+        }
+    .payment_btn {
+        margin-left: 0;
+        margin-top: 10px;
+        }
+        .cont_payment {
+        padding: 20px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+    .payment_btn {
+        width: 150px;
+    }
+
+    .cont_payment_header {
+        display: block;
+        text-align: center;
+        }
+    .payment_btn {
+        margin-left: 0;
+        margin-top: 10px;
+        }
+        .cont_payment {
+        padding: 20px;
+  }
+}

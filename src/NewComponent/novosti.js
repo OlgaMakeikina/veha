@@ -10,6 +10,7 @@ const News = () => {
       <div className="cont_header_news">
         <h2 className="main_header_news"><span className="span_header_news">Главная/ </span>Новости</h2>
       </div>
+      
       <div className='news_container'>
         {newsData.map(newsItem => (
           <div className='news_box' key={newsItem.id}>
