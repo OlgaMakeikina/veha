@@ -71,3 +71,21 @@ border: 5px solid #efe74a;
     background-color: rgb(26, 158, 59, 0.5);
   }
 
+
+  @media screen and (max-width: 540px) {
+  .meeting_cont {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.meeting_box {
+  grid-template-columns: 50px 150px 80px 150px 200px;
+  width: 630px;
+}
+
+.meeting_box p,
+.meeting_box h4 {
+  white-space: normal;
+}
+  }
+

@@ -71,7 +71,7 @@ function Contact() {
         <div>
             <p className="text_contacts">
             <span><b>Telegram: </b></span>
-            <a className="email_link" href="https://t.me/vehajkh">Наш телеграм</a>
+            <a className="email_link" href="https://t.me/vehajkh">Наш Telegram</a>
             </p> 
         </div>
       </div>

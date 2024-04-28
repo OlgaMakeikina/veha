@@ -1,3 +1,5 @@
+import './responsibility.css'
+
 export const RespData = [
 {
     id: 1,

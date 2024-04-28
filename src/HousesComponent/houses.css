@@ -30,14 +30,6 @@
     margin-bottom: 50px;
 }
 
-
-.accordion-item {
-    border: 1px solid red;
-}
-.accordion-header_houses {
-    border: 1px solid blue;
-}
-
 /* tabs */
 
 
@@ -46,6 +38,7 @@
     margin-left: 10%;
     margin-right: 10%;
     flex-wrap: wrap;
+    
   }
 
   .tabs_starter {
@@ -98,13 +91,13 @@
   }
 
   .tab-pane-table {
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
    border-bottom: #0d7727 1px solid; 
    padding: 3px;
   }
 
   .first_column {
-    width: 30%;
     font-weight: bold;
   }
 
@@ -132,4 +125,74 @@
     color: #ffffff;
 }
     
-  
+
+
+@media screen and (max-width: 1280px) {
+  .tabs_starter {
+    width: 20%;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+  .cont_header_houses {
+      background-size: 35%;
+      }
+}
+
+@media screen and (max-width: 855px) {
+  .cont_header_houses {
+      background-size: 40%;
+      }
+}
+
+@media screen and (max-width: 820px) {
+  .tabs_starter {
+    width: 40%;
+   }
+   .tab-pane-table {
+    grid-template-columns: 2fr 2fr;
+   }
+}
+
+@media screen and (max-width: 560px) {
+  .cont_header_houses {
+  background-size: 45%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+  padding: 60px;
+  }
+
+  .main_header_houses {
+      margin-left: 0;
+      font-size: 20px;
+  }
+
+  .span_header_houses {
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+   .street_houses {
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 280px) {
+   .cont_header_houses {
+      background-size: 55%;
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); 
+      padding: 40px;
+      } 
+    .tabs_starter {
+    width: 50%;
+   }
+   .tab-pane-table {
+    grid-template-columns: 3fr 2fr;
+    font-size: 12px;
+   }
+   .tab-content .tab-pane.active {
+    margin: 30px 0% 30px 0%;
+
+  }
+}
+

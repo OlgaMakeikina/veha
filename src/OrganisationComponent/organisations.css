@@ -68,3 +68,75 @@
     padding-bottom: 5px;
     color: #666666;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .cont_header_organisations {
+        background-size: 35%;
+        }
+  }
+
+@media screen and (max-width: 855px) {
+    .cont_header_organisations {
+        background-size: 40%;
+        }
+}
+
+@media screen and (max-width: 560px) {
+    .cont_header_organisations {
+    background-size: 45%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    padding: 60px;
+    }
+
+    .main_header_organisations {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .span_header_organisations {
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+.org_number {
+    font-size: 32px;
+    padding: 10px;
+}
+
+.organisation_box h3 {
+    font-size: 16px;
+}
+.organisation_box p {
+    font-size: 14px;
+}
+.organisation_container {
+    width: 320px;
+}
+  }
+
+  @media screen and (max-width: 390px) {
+    .organisation_container {
+        width: 300px;
+    }
+      }
+
+  @media screen and (max-width: 280px) {
+    .cont_header_organisations {
+        background-size: 55%;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); 
+        padding: 40px;
+        }
+        .org_number {
+            font-size: 24px;
+        }
+        .organisations {
+            margin: 50px 5% 50px 5%;
+        }
+        .organisation_container {
+            width: 240px;
+        }
+  }
+

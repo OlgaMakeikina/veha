@@ -57,3 +57,74 @@
   .meeting_cont {
     margin-bottom: 100px;
   }
+
+
+  @media screen and (max-width: 1280px) {
+    .resp_box {
+      grid-template-columns: 1fr 2fr 5fr 7fr 3fr 2fr 2fr 3fr;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cont_header_resp {
+        background-size: 35%;
+        }
+  }
+
+  @media screen and (max-width: 912px) {
+    .resp_cont {
+      margin: 50px 0% 100px 0%;
+    }
+  }
+
+  @media screen and (max-width: 855px) {
+    .cont_header_resp {
+        background-size: 40%;
+        }
+  }
+
+  @media screen and (max-width: 560px) {
+    .cont_header_resp {
+    background-size: 45%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    padding: 60px;
+    }
+
+    .main_header_resp {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .span_header_resp {
+        font-size: 14px;
+    }
+    .resp_cont {
+     width: 100%; 
+     overflow-x: auto; 
+     white-space: nowrap; 
+    }
+
+    .resp_box {
+      display: grid;
+      grid-template-columns: 60px 150px 200px 300px 100px 100px 100px 200px; /* Замените 100px на желаемую фиксированную ширину для каждого столбца */
+      
+  }
+    .resp_box p,
+    .resp_box h4 {
+    font-size: 12px;
+    white-space: normal;
+}
+  }
+
+
+  @media screen and (max-width: 280px) {
+    .cont_header_resp {
+        background-size: 55%;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); 
+        padding: 40px;
+        }
+  }
+
+
+
