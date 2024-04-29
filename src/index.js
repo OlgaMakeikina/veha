@@ -23,6 +23,7 @@ import Nachisleniya from "./NewComponent/20220923/voprosy-o-nachileniyakh-za-zhk
 import IzmeneniyaTarifov from "./NewComponent/20220701/izmenenie-tarifov-zhks-s-01.07.2022-g.";
 import PuteshestviyeVDetstvo from "./NewComponent/20220531/zhitelej-okruga-pushkinskij-ozhidaet-uvlekatelnoe-puteshestvie-v-detstvo";
 import Listovka from "./NewComponent/20220408/listovka-dlya-stenda-s-qr-kodom";
+import OtopitelnyyPeriodEnd from "./NewComponent/20240425/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg";
 
 const router = createBrowserRouter([
   {
@@ -111,7 +112,10 @@ const router = createBrowserRouter([
   path: "listovka-dlya-stenda-s-qr-kodom",
   element: <Listovka />,
 },
-
+{
+  path: "ob-okonchanii-otopitelnogo-perioda-2023-2024-gg",
+  element: <OtopitelnyyPeriodEnd />,
+}
     ],
   },
 ]);

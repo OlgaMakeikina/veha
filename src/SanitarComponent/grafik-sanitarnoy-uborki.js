@@ -8,23 +8,30 @@ const Sanitar = () => {
  <div className="cont_header_sanitar">
        <h2 className="main_header_sanitar"><span className="span_header_sanitar">Жителям/ </span>График санитарной уборки домов</h2>
     </div>
+
 <div className="sanitar">
-<div>
-        <h4>Наименование ОМСУ</h4>
-        <h4>Наименование УО</h4>
-        <h4>Ответственный</h4>
-        <h4>Телефон</h4>
-        <h4>Телефон</h4>
-      </div>
-      <div>
-    <p>Пушкинский городской округ Московскй области</p>
-    <p>ООО «Веха»</p>
-    <p>Лукоянова Т.Н.</p>
-    <p><a href="tel:8-496-531-31-00">8-496-531-31-00</a></p>
+  <div>
+     <h4>Наименование ОМСУ</h4> 
+     <p>Пушкинский городской округ Московскй области</p>
+  </div>
+  <div>
+     <h4>Наименование УО</h4> 
+     <p>ООО «Веха»</p>
+  </div>
+  <div>
+     <h4>Ответственный</h4>
+     <p>Лукоянова Т.Н.</p>
+  </div>
+  <div>
+  <h4>Телефон</h4>
+   <p><a href="tel:8-496-531-31-00">8-496-531-31-00</a></p>
+  </div>      
+  <div>
+     <h4>Телефон</h4>
       <p><a href="tel:8-929-555-43-66">8-929-555-43-66</a></p>
+  </div>      
       </div>
 
-</div>
 <div className="sanitar_cont">
 <div className="sanitar_box">
         <h4>№ п/п</h4>

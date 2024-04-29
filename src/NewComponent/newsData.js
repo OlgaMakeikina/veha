@@ -1,4 +1,10 @@
 export const newsData = [
+  {
+    date: "25.04.2024",
+    title: 'ОБ ОКОНЧАНИИ ОТОПИТЕЛЬНОГО ПЕРИОДА 2023-2024 ГГ.',
+    url: '/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg'
+  },
+
     {
       date: "05.10.2023",
       title: 'ПРОСТО О ЖКХ',

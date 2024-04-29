@@ -109,7 +109,7 @@
 }
 
 
-/* таблица 1 */
+/* таблица 1-2 */
 
 .tarifs_data_cont {
     margin-left: 10%;
@@ -144,9 +144,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-/* таблица 2 */
-
-
 
 /* таблица 3-4 */
 
@@ -192,3 +189,176 @@
     font-family: "Roboto", sans-serif; 
     cursor: pointer;
 }
+
+@media screen and (max-width: 1280px) {
+    .tarifs_data_box_headers {
+        grid-template-columns: 1fr 4fr 3fr 3fr; 
+
+    }
+    .tarifs_data_box {
+        grid-template-columns: 1fr 4fr 9fr;
+    }
+
+    .tarifs_data_box_energy_headers {
+        grid-template-columns: 1fr 5fr 2fr 3fr;
+    }
+    
+    .tarifs_data_box_energy {
+        grid-template-columns: 1fr 5fr 2fr 1.5fr 1.5fr;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cont_header_tarifs {
+        background-size: 35%;
+        }
+  }
+
+@media screen and (max-width: 912px) {
+    .documents_tarifs_cont {
+        padding: 10px;
+    }
+    .tarifs_btn {
+        padding: 10px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .cont_header_tarifs {
+        background-size: 40%;
+        }
+}
+
+@media screen and (max-width: 560px) {
+    .cont_header_tarifs {
+    background-size: 45%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    padding: 60px;
+    }
+
+    .main_header_tarifs {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .span_header_tarifs {
+        font-size: 14px;
+    }
+  }
+
+@media screen and (max-width: 540px) {
+    .documents_tarifs_cont {
+        flex-direction: column;
+    }
+
+    .tarifs_btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .tarifs_data_cont {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%; 
+        overflow-x: auto; 
+        white-space: nowrap;    
+    }
+
+    .tarifs_data_box_headers {
+        grid-template-columns: 60px 300px 200px 300px; 
+        width: 860px;
+    }
+
+    .tarifs_data_box_headers h3 {
+        white-space: normal;
+    }
+
+    .tarifs_data_box {
+        grid-template-columns: 60px 300px 500px; 
+        width: 860px;
+        padding: 0;
+    }
+    .tarifs_data_box p,
+    .period_tarifs p {
+        white-space: normal;
+    }
+
+    .period_tarifs {
+        grid-template-columns: 150px 150px;
+        width: 500px;
+    }
+
+    .service_tarifs {
+        grid-template-columns: 200px 150px 150px;  
+    }
+
+    /* таблица 3-4 */
+
+.tarifs_data_cont_energy {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%; 
+    overflow-x: auto; 
+    white-space: nowrap;   
+}
+.tarifs_data_box_energy_headers {
+    grid-template-columns: 60px 300px 200px 300px;
+    width: 860px;
+    padding: 0;
+}
+.tarifs_data_box_energy_headers h3{
+   white-space: normal;
+}
+.tarifs_data_box_energy {
+    grid-template-columns: 60px 300px 200px 150px 150px;
+    width: 860px;
+    padding: 0;
+}
+
+.tarifs_data_box_energy p {
+    white-space: normal;
+}
+
+
+/* таблица 5 */
+
+.tarifs_data_cont_gaz {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%; 
+    overflow-x: auto; 
+    white-space: nowrap;  
+}
+
+.tarifs_data_box_gaz {
+    grid-template-columns: 60px 300px 200px 300px;
+    width: 860px;
+    padding: 0;
+}
+.tarifs_data_box_gaz h3, 
+.tarifs_data_box_gaz p {
+    white-space: normal;
+}
+}
+
+
+@media screen and (max-width: 280px) {
+.tarif_information_header {
+    font-size: 18px;
+}
+.header_table_tarifs {
+    font-size: 14px;
+}       
+.cont_header_tarifs {
+     background-size: 55%;
+     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%); 
+     padding: 40px;
+    }
+    }
+
+    
+
+
+
+
+
