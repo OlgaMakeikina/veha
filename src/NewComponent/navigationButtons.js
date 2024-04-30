@@ -5,8 +5,8 @@ import './news.css';
 const NavigationButtons = ({ prevNewsIndex, nextNewsIndex }) => {
   return (
     <div className='navigation_news'>
-      {prevNewsIndex !== null && <Link to={newsData[prevNewsIndex].url}><button className='navigation_news_btn'>&lt;&lt; Следующая новость</button></Link>}
-      {nextNewsIndex !== null && <Link to={newsData[nextNewsIndex].url}><button className='navigation_news_btn'>Предыдущая новость &gt;&gt;</button></Link>}
+      {prevNewsIndex !== null && <Link to={newsData[prevNewsIndex].url}><button className='navigation_news_btn'>&lt;&lt; <span className='large_screen'>Следующая новость</span></button></Link>}
+      {nextNewsIndex !== null && <Link to={newsData[nextNewsIndex].url}><button className='navigation_news_btn'><span className='large_screen'>Предыдущая новость </span> &gt;&gt;</button></Link>}
     </div>
   );
 };

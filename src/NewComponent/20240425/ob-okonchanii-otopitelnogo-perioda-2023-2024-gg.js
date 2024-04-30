@@ -18,7 +18,7 @@ const OtopitelnyyPeriodEnd = () => {
       <div className='news_content'>
         <NavigationButtons prevNewsIndex={prevNewsIndex} nextNewsIndex={nextNewsIndex} />
        <p>Опубликовано {currentNews.date}</p>
-        <img src={Content} alt="Content" />
+        <img src={Content} width="60%" alt="Content" />
       </div>
     </div>
   );
