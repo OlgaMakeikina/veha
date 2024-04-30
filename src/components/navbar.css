@@ -104,18 +104,18 @@
   
   /* menu on mobile */
   @media screen and (max-width: 960px) {
-    .nav-area {
+  /*  .nav-area {
       justify-content: space-between;
     }
-  
+  */
     .desktop-nav {
       display: none;
-      text-align: right;
     }
   
     .mobile-nav {
       display: block;
-      padding: 10px
+      padding: 10px;
+      position: relative;
     }
     .mobile-nav .mobile-nav__menu-button {
       font-size: inherit;
@@ -127,8 +127,10 @@
       font-family: "Roboto", sans-serif;
       font-weight: bold;
       border: 1px solid red;
-      
+      width: 300px;
+      text-align: end;
     }
+
     .mobile-nav .menus {
       list-style: none;
       position: absolute;
@@ -160,6 +162,7 @@
       background-color: transparent;
       cursor: pointer;
       width: 100%;
+      border: 2px solid aquamarine;
     }
   
     .mobile-nav .menu-items > a,

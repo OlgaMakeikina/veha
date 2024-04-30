@@ -41,7 +41,9 @@
   }
 
 
-  @media screen and (max-width: 912px) {
-
+  @media screen and (max-width: 377px) {
+    .main_news_box h3 {
+      font-size: 14px;
+    }
 
   }

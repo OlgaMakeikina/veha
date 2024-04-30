@@ -9,6 +9,8 @@
     font-size: 32px;
 }
 
+
+
 /* гос услуги */
 
 #js-show-iframe-wrapper {
@@ -101,7 +103,11 @@
 
 
 
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 391px) {
+.header_main_page {
+font-size: 24px;
+margin: 50px 10% 20px 10%;
+}
 
 }
+

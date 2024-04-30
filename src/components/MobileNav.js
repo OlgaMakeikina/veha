@@ -13,11 +13,11 @@ const MobileNav = () => {
         setShowMenu(false);
       }
     };
-    document.addEventListener("mousedown", handler);
+    document.addEventListener("mouseover", handler);
     document.addEventListener("touchstart", handler);
     return () => {
       // Cleanup the event listener
-      document.removeEventListener("mousedown", handler);
+      document.removeEventListener("mouseover", handler);
       document.removeEventListener("touchstart", handler);
     };
   }, [showMenu]);
