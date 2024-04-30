@@ -19,12 +19,11 @@ function Above() {
      <p className='company_name'>УПРАВЛЯЮЩАЯ КОМПАНЯ</p>
      <p className='company_name'>ООО ВЕХА</p> 
       </div>
-        </Link>
-      
+      </Link>
       </div>
 
-      <div className='mobile_emergency'>
-      <p><a href="tel:8-800-550-14-12" className="phone">8-800-550-14-12 (бесплатно)</a></p>
+      <div className='emergency_contacts_main'>
+      <p><a href="tel:8-800-550-14-12" className="phone">8-800-550-14-12</a></p>
       <p className='text_header'>Аварийная диспетчерская служба </p> 
       </div>
 
@@ -32,6 +31,7 @@ function Above() {
       <p> <a href="tel:+7-915-068-15-45" className="phone">+7-915-068-15-45</a></p>
       <p className='text_header'>Аварийная диспетчерская служба </p>
       </div>    
+
       <div className='buttons_above'>
       <div className='emergency_contacts_main_btn'>
       <a href="https://t.me/vehajkh" target="_blank" title="Написать в Telegram">
