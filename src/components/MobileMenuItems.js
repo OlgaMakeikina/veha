@@ -6,7 +6,7 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
   const [dropdown, setDropdown] = useState(false);
 
   const closeDropdown = () => {
-    dropdown && setDropdown(false);
+    setDropdown(false);
     showMenu && setShowMenu(false);
   };
 
@@ -17,44 +17,28 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
 
   return (
     <li className="menu-items" onClick={closeDropdown}>
-      {items.url && items.submenu ? (
+      {items.submenu ? (
         <>
-          <button
+          <div
+            id="mobile_submenu_open_close"
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}>
-            <Link to={items.url} onClick={closeDropdown}>
-              {items.title}
-            </Link>
-            <div onClick={(e) => toggleDropdown(e)}>
+          <div id="list">
+                <span>{items.title}</span>
+          </div>
+       
+       <div>
+          <button id="arrow-button" onClick={toggleDropdown}>
               {dropdown ? (
                 <span className="arrow-close" />
               ) : (
                 <span className="arrow" />
               )}
-            </div>
-          </button>
-          <MobileDropdown
-            depthLevel={depthLevel}
-            submenus={items.submenu}
-            dropdown={dropdown}
-          />
-        </>
-      ) : !items.url && items.submenu ? (
-        <>
-          <button
-            type="button"
-            aria-haspopup="menu"
-            aria-expanded={dropdown ? "true" : "false"}>
-            {items.title}{" "}
-            <div onClick={(e) => toggleDropdown(e)}>
-              {dropdown ? (
-                <span className="arrow-close" />
-              ) : (
-                <span className="arrow" />
-              )}
-            </div>
-          </button>
+            </button>
+       </div>
+ 
+          </div>
           <MobileDropdown
             depthLevel={depthLevel}
             submenus={items.submenu}
@@ -62,7 +46,9 @@ const MobileMenuItems = ({ items, depthLevel, showMenu, setShowMenu }) => {
           />
         </>
       ) : (
-        <Link to={items.url}>{items.title}</Link>
+        <Link to={items.url} onClick={closeDropdown}>
+          {items.title}
+        </Link>
       )}
     </li>
   );

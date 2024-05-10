@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { menuItemsData } from "../menuItemsData";
 import MobileMenuItems from "./MobileMenuItems";
+import menu from './menu.png';
 
 const MobileNav = () => {
   const depthLevel = 0;
@@ -28,7 +29,7 @@ const MobileNav = () => {
         className="mobile-nav__menu-button"
         type="button"
         onClick={() => setShowMenu((prev) => !prev)}>
-         &#8801; Меню
+         <img src={menu} width="30px"/>
       </button>
 
       {showMenu && (
