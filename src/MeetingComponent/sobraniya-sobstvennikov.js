@@ -15,6 +15,7 @@ const Meeting = () => {
   );
 
   return (
+    <section>
     <div>
       <div className="cont_header_meeting">
         <h2 className="main_header_meeting"><span className="span_header_meeting">Жителям/ </span>Собрания собственников</h2>
@@ -46,6 +47,7 @@ const Meeting = () => {
       </div>
       <Footer />
     </div>
+    </section>
   )
 };
 

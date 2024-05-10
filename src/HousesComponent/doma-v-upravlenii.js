@@ -22,6 +22,7 @@ import Footer from "../FooterComponent/footer";
 
 const Houses = () => {
   return (
+    <section>
   <div>
  <div className="cont_header_houses">
        <h2 className="main_header_houses"><span className="span_header_houses">Жителям/ </span>МКД и договора управления</h2>
@@ -62,6 +63,7 @@ const Houses = () => {
 <HousesDataTabs data={TalitsiData} />
 <Footer />
   </div>
+ </section>
     )
 };
 

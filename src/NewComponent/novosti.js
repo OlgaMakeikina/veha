@@ -6,6 +6,7 @@ import Footer from '../FooterComponent/footer';
 
 const News = () => {
   return (
+    <section>
     <div>
       <div className="cont_header_news">
         <h2 className="main_header_news"><span className="span_header_news">Главная/ </span>Новости</h2>
@@ -26,7 +27,8 @@ const News = () => {
         ))}
       </Routes>
       <Footer />
-    </div>
+    </div> 
+    </section>
   );
 };
 
@@ -38,9 +40,9 @@ const NewsItemContent = ({ title }) => {
   );
 };
 
-// Функция для перехода на страницу новости
+
 const navigateToNews = (url) => {
-  window.location.href = url; // Перенаправляем на указанный URL
+  window.location.href = url; 
 };
 
 export default News;

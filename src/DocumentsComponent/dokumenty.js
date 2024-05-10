@@ -9,6 +9,7 @@ const Documents = () => {
 
 
   return (
+    <section>
     <div>
     <div className="cont_header_documents">
       <h2 className="main_header_documents"><span className="span_header">О компании/ </span>Учредительные документы, лицензии и свидетельства</h2>
@@ -46,6 +47,7 @@ const Documents = () => {
 
     <Footer />
     </div>
+    </section>
   ) 
 };
 

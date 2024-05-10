@@ -4,7 +4,8 @@ import './sanitar.css'
 import Footer from "../FooterComponent/footer";
 const Sanitar = () => {
   return (
-  <div>
+    <section>
+      <div>
  <div className="cont_header_sanitar">
        <h2 className="main_header_sanitar"><span className="span_header_sanitar">Жителям/ </span>График санитарной уборки домов</h2>
     </div>
@@ -47,7 +48,9 @@ const Sanitar = () => {
     ))}
 </div>
 <Footer />
-  </div>
+  </div> 
+    </section>
+ 
     )
 };
 

@@ -6,7 +6,7 @@ const Header = () => {
   return ( 
     <div>
          <Above /> 
-      <header>
+      <header className="header_nav">
       <div className="nav-area">
         {/* for large screens */}
         <Navbar />

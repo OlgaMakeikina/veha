@@ -6,6 +6,7 @@ import Footer from "../FooterComponent/footer";
 
 const Accounting = () => {
   return (
+    <section>
     <div>
       <div className="cont_header_finance">
         <h2 className="main_header_finance"><span className="span_header">О компании/ </span>Годовая финансовая отчетность</h2>
@@ -25,6 +26,7 @@ const Accounting = () => {
       </div>
       <Footer/>
     </div>
+    </section>
   )
 };
 

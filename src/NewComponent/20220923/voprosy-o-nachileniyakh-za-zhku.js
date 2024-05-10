@@ -14,6 +14,7 @@ const Nachisleniya = () => {
     const currentNews = newsData[currentNewsIndex];
 
   return (
+    <article>
     <div>
      <h2 className='news_header'>ВОПРОСЫ О НАЧИЛЕНИЯХ ЗА ЖКУ?</h2>
     <div className='news_content'>
@@ -22,6 +23,7 @@ const Nachisleniya = () => {
     <img src={Content} />
     </div>
 </div>
+</article>
   );
 };
 

@@ -5,6 +5,7 @@ import Footer from "../FooterComponent/footer";
 
 const AboutCompany = () => {
   return (
+    <section>
     <div>
 
         <div className='header_about'>
@@ -28,12 +29,12 @@ const AboutCompany = () => {
     )}
   </div>
 ))}
-    
+ 
 
     </div>
     <Footer />
     </div>
-
+   </section>
     );
   }
 

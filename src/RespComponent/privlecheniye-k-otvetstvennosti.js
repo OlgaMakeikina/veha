@@ -4,7 +4,8 @@ import {RespData} from './respData';
 import Footer from "../FooterComponent/footer";
 const Responsibility = () => {
   return (
-    <div>
+    <section>
+          <div>
           <div className="cont_header_resp">
        <h2 className="main_header_resp"><span className="span_header_resp">Жителям/ </span>Сведения о привлечении к ответственности</h2>
     </div>
@@ -34,6 +35,8 @@ const Responsibility = () => {
     </div>
     <Footer />
     </div>
+    </section>
+
   )
   
 

@@ -13,7 +13,8 @@ import Footer from '../FooterComponent/footer';
 function Contact() {
 
   return (
-    <div>
+    <section>
+     <div>
       <Map />  
       <div className='emergency_phones'>
   
@@ -102,7 +103,9 @@ function Contact() {
 <UsefulPhones />
 <Footer />
 
-</div>
+</div> 
+    </section>
+    
 
 
   );

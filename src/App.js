@@ -14,12 +14,19 @@ const App = () => {
 
   return (
     <div>
-<Carousel />
+          <section>
+     <Carousel />
 <PosBannerWidget />
 <h2 className="header_main_page">Последние новости</h2>  
-<MultipleItems />
-<Footer />
-</div>
+<MultipleItems /> 
+    </section>
+  
+<footer>
+  <Footer />
+</footer>
+    </div>
+
+
 
 
   ) 

@@ -127,8 +127,8 @@ const PosBannerWidget = () => {
 
 
   return (
-<div>
-
+<section>
+  
     <div id='js-show-iframe-wrapper'>
       <div className='pos-banner-fluid bf-39'>
 
@@ -164,8 +164,9 @@ const PosBannerWidget = () => {
         </div >
       </div >
     </div >
+</section>
+
    
-    </div>
   );
 };
 

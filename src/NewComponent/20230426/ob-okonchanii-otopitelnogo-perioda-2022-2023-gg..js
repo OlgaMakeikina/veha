@@ -13,14 +13,17 @@ const OtopitelnyyPeriod = () => {
   const currentNews = newsData[currentNewsIndex];
 
   return (
-    <div>
+    <article>
+         <div>
       <h2 className='news_header'>ОБ ОКОНЧАНИИ ОТОПИТЕЛЬНОГО ПЕРИОДА 2022-2023 ГГ.</h2>
       <div className='news_content'>
         <NavigationButtons prevNewsIndex={prevNewsIndex} nextNewsIndex={nextNewsIndex} />
        <p>Опубликовано {currentNews.date}</p>
         <img src={Content} alt="Content" />
       </div>
-    </div>
+    </div> 
+    </article>
+
   );
 };
 

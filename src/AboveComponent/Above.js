@@ -11,7 +11,8 @@ function sendEmail() {
 }
 function Above() {
   return (
-    <div className='header'>
+    <header>
+     <div className='header'>
       <div className='logo'>
       <Link to="/" className="logo">
       <img src={logo} width="150px" alt="Logo" />  
@@ -52,7 +53,9 @@ function Above() {
       </div>
 
       </div>
-      </div>
+      </div> 
+    </header>
+    
   );
 }
 

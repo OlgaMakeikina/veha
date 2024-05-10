@@ -28,6 +28,7 @@ function MultipleItems() {
     ]
   };
   return (
+    <section>
     <div className="slider-container">
       <Slider {...settings}>
       {newsData.map((item, index) => (
@@ -38,10 +39,12 @@ function MultipleItems() {
       <a href={item.url}>Читать подробнее &raquo;&raquo;</a>
     </div>
   </div>
+
 ))}
 
       </Slider>
-    </div>
+    </div>  
+    </section>
   );
 }
 

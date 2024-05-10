@@ -13,14 +13,17 @@ const Listovka = () => {
     const currentNews = newsData[currentNewsIndex];
 
   return (
-    <div>
+    <article>
+        <div>
      <h2 className='news_header'>{currentNews.title}</h2>
     <div className='news_content'>
     <NavigationButtons prevNewsIndex={prevNewsIndex} nextNewsIndex={nextNewsIndex} />
     <p>Опубликовано {currentNews.date}</p>
     <a href="/news/listovka_dlya_stenda.pdf" target="_blank" rel="noopener noreferrer">Листовка для стенда с QR-кодом (скачать)</a>
     </div>
-    </div>
+    </div>  
+    </article>
+
   );
 };
 

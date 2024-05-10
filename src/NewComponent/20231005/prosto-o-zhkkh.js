@@ -38,6 +38,7 @@ const opts = {
 };
 
   return (
+    <article>
     <div>
      <h2 className='news_header'>ПРОСТО О ЖКХ</h2>
     <div className='news_content'>
@@ -46,6 +47,7 @@ const opts = {
     <YouTube videoId="FjfmDNtKch8" opts={opts} />
     </div>
 </div>
+</article>
   );
 };
 

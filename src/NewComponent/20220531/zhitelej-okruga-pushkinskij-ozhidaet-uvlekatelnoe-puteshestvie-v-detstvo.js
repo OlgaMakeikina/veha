@@ -13,7 +13,8 @@ const PuteshestviyeVDetstvo = () => {
   const currentNews = newsData[currentNewsIndex];
 
   return (
-    <div>
+    <article>
+          <div>
       <h2 className='news_header'>ЖИТЕЛЕЙ ОКРУГА ПУШКИНСКИЙ ОЖИДАЕТ УВЛЕКАТЕЛЬНОЕ ПУТЕШЕСТВИЕ В ДЕТСТВО</h2>
       <div className='news_content'>
         <NavigationButtons prevNewsIndex={prevNewsIndex} nextNewsIndex={nextNewsIndex} />
@@ -23,6 +24,8 @@ const PuteshestviyeVDetstvo = () => {
         <img src={Content} alt="Content" />
       </div>
     </div>
+    </article>
+
   );
 };
 

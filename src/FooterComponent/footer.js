@@ -7,7 +7,7 @@ import FooterMap from './footerMap';
 
 const Footer = () => {
     return (
-
+<footer>
 <div className='cont_footer'>
            
     <div className='footer_content'>      
@@ -22,6 +22,7 @@ const Footer = () => {
     <hr></hr>
     <p className='last_string'>ООО "Веха" - официальный сайт управляющей компании</p>
     </div>
+    </footer>
 )
 };
 

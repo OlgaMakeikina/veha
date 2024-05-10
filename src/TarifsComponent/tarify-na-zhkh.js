@@ -25,7 +25,8 @@ const Tarifs = () => {
   };
 
   return (
-    <div>
+    <section>
+       <div>
       <div className="cont_header_tarifs">
         <h2 className="main_header_tarifs"><span className="span_header_tarifs">Жителям/ </span>Тарифы на ЖКХ</h2>
       </div>
@@ -60,6 +61,8 @@ const Tarifs = () => {
       <GazDataComponent gazData={gazData} />
       <Footer />
     </div>
+    </section>
+   
   );
 };
 
