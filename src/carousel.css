@@ -2,26 +2,21 @@
 @import "slick-carousel/slick/slick-theme.css";
 
 .slider-container {
-    width: 100%;
-    margin-bottom: 50px;
-
-
-  }
-
-  .slider-container .slick-slide img {
-    width: 100%;
-    max-width: 100%;
-  }
-
-.slick-dots li button:before
-{
-
-    font-size: 10px;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
-  .slick-dots li.slick-active button:before
-{
-    color: #efe74a;
+.slider-container .slick-slide img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #efe74a;
 }
 
 .slick-prev,
@@ -31,22 +26,34 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1; 
+  z-index: 1;
   color: #efe74a;
 }
 
 .slick-prev {
-  left: 10px; 
+  left: 10px;
 }
 
 .slick-next {
-  right: 10px; 
+  right: 10px;
 }
 
 .slick-prev:before,
-.slick-next:before
-{
-    opacity: 1;
-    color: #7b7b7c;
-    font-size: 30px;
+.slick-next:before {
+  opacity: 1;
+  color: #7b7b7c;
+  font-size: 30px;
+}
+
+/* Добавленные префиксы для кроссбраузерной совместимости */
+.slick-prev,
+.slick-next {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
