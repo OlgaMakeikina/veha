@@ -1,36 +1,36 @@
 export const waterData = [
     {
         id: 1,
-        organisationName: "МУП ЩМР «Межрайонный Щелковский Водоканал»",
+        organisationName: "МУП «Межрайонный Щелковский Водоканал»*",
         service: 
         [
             {
                 water: "питьевая вода",
-                prices22: "29,48",
-                prices23: "30,80",
+                prices22: "30,80",
+                prices23: "35,23",
             },
             {
-                water: "водоотведение (транспортировка и очистка)",
-                prices22: "38,15",
-                prices23: "42,84"
+                water: "водоотведение",
+                prices22: "42,84",
+                prices23: "46,09"
             },
         ]
     },
 
     {
         id: 2,
-        organisationName: "ООО «Софрино»",
+        organisationName: "ООО «Софрино»**",
         service: 
         [
             {
                 water: "питьевая вода",
-                prices22: "19,40",
-                prices23: "20,65",
+                prices22: "20,65",
+                prices23: "21,07",
             },
             {
                 water: "водоотведение",
-                prices22: "38,15",
-                prices23: "24,20"
+                prices22: "24,20",
+                prices23: "27,72"
             },
         ]
     }
