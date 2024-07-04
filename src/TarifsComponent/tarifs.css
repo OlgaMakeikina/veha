@@ -190,6 +190,18 @@
     cursor: pointer;
 }
 
+/* таблица 6 */
+.tarifs_data_box_houses_headers {
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+    padding: 10px;
+    background-color: rgb(244, 243, 247, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer;  
+}
+
+
 @media screen and (max-width: 1280px) {
     .tarifs_data_box_headers {
         grid-template-columns: 1fr 4fr 3fr 3fr; 

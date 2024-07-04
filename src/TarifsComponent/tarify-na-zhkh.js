@@ -5,6 +5,7 @@ import { warmData } from "./warmData";
 import { gazData } from "./gazData";
 import { energyData } from "./energyData";
 import { tboData } from "./tboData";
+import { housesData } from "./housesData";
 import WaterDataComponent from './waterDataComponent';
 import './tarifs.css';
 import GazDataComponent from "./gazDataComponent";
@@ -12,6 +13,7 @@ import EnergyDataComponent from "./energyDataComponent";
 import TboDataComponent from "./tboDataComponent";
 import WarmDataComponent from "./warmDataComponent";
 import Footer from "../FooterComponent/footer";
+import HousesDataComponent from "./housesDataComponent";
 
 const Tarifs = () => {
   const [showDocs, setShowDocs] = useState(false);
@@ -59,6 +61,8 @@ const Tarifs = () => {
       <EnergyDataComponent energyData={energyData} />
       <h3 className="header_table_tarifs">5. РАЗМЕР ПЛАТЫ ЗА ГАЗ ДЛЯ НАСЕЛЕНИЯ МОСКОВСКОЙ ОБЛАСТИ C 01.07.2024Г.</h3>
       <GazDataComponent gazData={gazData} />
+      <h3 className="header_table_tarifs">6. РАЗМЕР ПЛАТЫ ЗА СОДЕРЖАНИЕ ЖИЛОГО ПОМЕЩЕНИЯ ДЛЯ НАНИМАТЕЛЕЙ ЖИЛЫХ ПОМЕЩЕНИЙ, СОГЛАСНО ПОСТАНОВЛЕНИЮ АДМИНИСТРАЦИИ Г.О. ПУШКИНСКИЙ МО ОТ 06.06.2024Г. №2327-ПА</h3>
+      <HousesDataComponent housesData={housesData} />
       <Footer />
     </div>
     </section>
