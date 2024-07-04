@@ -26,7 +26,7 @@ const EnergyDataComponent = ({ energyData }) => {
                     <p>{item.price2}</p>
                     </div>
             ))}
-                       <p className='normativ'>Распоряжение Комитета по ценам и тарифам МО от 20.12.2022г. №277-Р</p>
+                       <p className='normativ'>Распоряжение Комитета по ценам и тарифам МО от 20.12.2023г. №277-Р</p>
         </div>
     );
 };
