@@ -1,5 +1,10 @@
 export const newsData = [
   {
+    date: "12.07.2024",
+    title: 'ИНФОРМИРОВАНИЕ ЖИТЕЛЕЙ О НЕОБХОДИМОСТИ НАДЛЕЖАЩЕГО ВЫВОЗА СТРОЙОТХОДОВ',
+    url: '/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma'
+  },
+  {
     date: "25.04.2024",
     title: 'ОБ ОКОНЧАНИИ ОТОПИТЕЛЬНОГО ПЕРИОДА 2023-2024 ГГ.',
     url: '/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg'

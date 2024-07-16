@@ -24,6 +24,7 @@ import IzmeneniyaTarifov from "./NewComponent/20220701/izmenenie-tarifov-zhks-s-
 import PuteshestviyeVDetstvo from "./NewComponent/20220531/zhitelej-okruga-pushkinskij-ozhidaet-uvlekatelnoe-puteshestvie-v-detstvo";
 import Listovka from "./NewComponent/20220408/listovka-dlya-stenda-s-qr-kodom";
 import OtopitelnyyPeriodEnd from "./NewComponent/20240425/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg";
+import Stroyothody from "./NewComponent/20240716/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma";
 
 const router = createBrowserRouter([
   {
@@ -115,6 +116,10 @@ const router = createBrowserRouter([
 {
   path: "ob-okonchanii-otopitelnogo-perioda-2023-2024-gg",
   element: <OtopitelnyyPeriodEnd />,
+},
+{
+  path: "o-zaprete-vybrosa-stroyothodov-v-baki-u-doma",
+  element: <Stroyothody />,
 }
     ],
   },
