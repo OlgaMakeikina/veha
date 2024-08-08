@@ -12,6 +12,6 @@ export const documentsData = [
     header: "УСТАВ ОРГАНИЗАЦИИ",
     image: ustav,
     description: "Утвержден общим собранием участников от 8 октября 2013г.",
-    file: 'ustav.pdf',
+    file: 'ustav.zip',
   }
 ];

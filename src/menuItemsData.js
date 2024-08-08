@@ -96,10 +96,7 @@ export const menuItemsData = [
     title: "Ресурсоснабжающие организации",
     url: "resursosnabzhaushchiye-organizacii",
   },
-  {
-    title: "График санитарной уборки домов",
-    url: "grafik-sanitarnoy-uborki",
-  },
+
     ], 
   },
 
