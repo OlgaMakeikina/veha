@@ -25,6 +25,7 @@ import PuteshestviyeVDetstvo from "./NewComponent/20220531/zhitelej-okruga-pushk
 import Listovka from "./NewComponent/20220408/listovka-dlya-stenda-s-qr-kodom";
 import OtopitelnyyPeriodEnd from "./NewComponent/20240425/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg";
 import Stroyothody from "./NewComponent/20240716/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma";
+import EdinyyPlatezhnyy from "./NewComponent/20240815/ob-elektronnom-edinom-platezhnom-dokumente";
 
 const router = createBrowserRouter([
   {
@@ -120,7 +121,14 @@ const router = createBrowserRouter([
 {
   path: "o-zaprete-vybrosa-stroyothodov-v-baki-u-doma",
   element: <Stroyothody />,
+},
+{
+  path: "ob-elektronnom-edinom-platezhnom-dokumente",
+  element: <EdinyyPlatezhnyy />,
 }
+
+
+
     ],
   },
 ]);

@@ -1,5 +1,10 @@
 export const newsData = [
   {
+    date: "15.08.2024",
+    title: 'ИНФОРМИРОВАНИЕ НАСЕЛЕНИЯ О ПОЛУЧЕНИИ ЭЛЕКТРОННОГО ЕДИНОГО ПЛАТЕЖНОГО ДОКУМЕНТА (ЭЕПД)',
+    url: '/ob-elektronnom-edinom-platezhnom-dokumente'
+  },
+  {
     date: "12.07.2024",
     title: 'ИНФОРМИРОВАНИЕ ЖИТЕЛЕЙ О НЕОБХОДИМОСТИ НАДЛЕЖАЩЕГО ВЫВОЗА СТРОЙОТХОДОВ',
     url: '/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma'

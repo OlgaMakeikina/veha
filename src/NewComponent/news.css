@@ -98,18 +98,22 @@ text-align: center;
 
 .news_content p {
     padding: 20px;
+    text-align: center;
 }
 
 .news_content a {
 color: #666666;
 font-family: "Roboto", sans-serif;
+text-align: center;
 }
 
 .news_content a:hover {
     font-weight: bold;
     color:#1a9e3b;
     }
-
+.system {
+    margin: 10px 50px;
+}
 /* кнопки навигации по новостям */
 .navigation_news {
     display: flex;
@@ -204,13 +208,18 @@ font-family: "Roboto", sans-serif;
         
     .large_screen {
         display: none;
-    }
+    }      
+      .news_content {
+            margin: 10px;
+        }
     }
 
   @media screen and (max-width: 380px) {
     .news_header {
-        font-size: 18px;
+        font-size: 16px;
         }
+
+        
   }
 
   @media screen and (max-width: 280px) {
