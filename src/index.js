@@ -26,6 +26,7 @@ import Listovka from "./NewComponent/20220408/listovka-dlya-stenda-s-qr-kodom";
 import OtopitelnyyPeriodEnd from "./NewComponent/20240425/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg";
 import Stroyothody from "./NewComponent/20240716/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma";
 import EdinyyPlatezhnyy from "./NewComponent/20240815/ob-elektronnom-edinom-platezhnom-dokumente";
+import OtopitelnyyPeriodNachalo from "./NewComponent/20241002/o-nachale-otopitelnogo-perioda-2024-2025-gg.";
 
 const router = createBrowserRouter([
   {
@@ -125,8 +126,11 @@ const router = createBrowserRouter([
 {
   path: "ob-elektronnom-edinom-platezhnom-dokumente",
   element: <EdinyyPlatezhnyy />,
+},
+{
+  path: "o-nachale-otopitelnogo-perioda-2024-2025-gg",
+  element: <OtopitelnyyPeriodNachalo />,
 }
-
 
 
     ],

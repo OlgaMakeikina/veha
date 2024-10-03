@@ -1,5 +1,10 @@
 export const newsData = [
   {
+    date: "02.10.2024",
+    title: 'О НАЧАЛЕ ОТОПИТЕЛЬНОГО ПЕРИОДА 2024-2025 ГГ.',
+    url: '/o-nachale-otopitelnogo-perioda-2024-2025-gg'
+  },
+  {
     date: "15.08.2024",
     title: 'ИНФОРМИРОВАНИЕ НАСЕЛЕНИЯ О ПОЛУЧЕНИИ ЭЛЕКТРОННОГО ЕДИНОГО ПЛАТЕЖНОГО ДОКУМЕНТА (ЭЕПД)',
     url: '/ob-elektronnom-edinom-platezhnom-dokumente'
