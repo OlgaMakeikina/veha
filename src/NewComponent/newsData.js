@@ -1,5 +1,10 @@
 export const newsData = [
   {
+    date: "27.11.2024",
+    title: 'ИНФОРМИРОВАНИЕ ЖИТЕЛЕЙ О ПРЕИМУЩЕСТВАХ ПЕРЕХОДА НА ЭЛЕКТРОННЫЙ ЕДИНЫЙ ПЛАТЕЖНЫЙ ДОКУМЕНТ',
+    url: '/informirovanie-o-epg'
+  },
+  {
     date: "02.10.2024",
     title: 'О НАЧАЛЕ ОТОПИТЕЛЬНОГО ПЕРИОДА 2024-2025 ГГ.',
     url: '/o-nachale-otopitelnogo-perioda-2024-2025-gg'

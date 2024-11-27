@@ -27,6 +27,7 @@ import OtopitelnyyPeriodEnd from "./NewComponent/20240425/ob-okonchanii-otopitel
 import Stroyothody from "./NewComponent/20240716/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma";
 import EdinyyPlatezhnyy from "./NewComponent/20240815/ob-elektronnom-edinom-platezhnom-dokumente";
 import OtopitelnyyPeriodNachalo from "./NewComponent/20241002/o-nachale-otopitelnogo-perioda-2024-2025-gg.";
+import InformirovanieOEPG from "./NewComponent/20241127/informirovanie-o-epg";
 
 const router = createBrowserRouter([
   {
@@ -130,8 +131,11 @@ const router = createBrowserRouter([
 {
   path: "o-nachale-otopitelnogo-perioda-2024-2025-gg",
   element: <OtopitelnyyPeriodNachalo />,
+},
+{
+  path: "informirovanie-o-epg",
+  element: <InformirovanieOEPG />,
 }
-
 
     ],
   },
