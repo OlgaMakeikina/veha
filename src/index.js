@@ -29,6 +29,7 @@ import EdinyyPlatezhnyy from "./NewComponent/20240815/ob-elektronnom-edinom-plat
 import OtopitelnyyPeriodNachalo from "./NewComponent/20241002/o-nachale-otopitelnogo-perioda-2024-2025-gg.";
 import InformirovanieOEPG from "./NewComponent/20241127/informirovanie-o-epg";
 import InformirovanieOEPGUpdated from "./NewComponent/20241211/o-epg";
+import Novogonie from "./NewComponent/20241212/sroki-vypuska-platezhnyx-dokumentov";
 
 const router = createBrowserRouter([
   {
@@ -140,7 +141,12 @@ const router = createBrowserRouter([
 {
   path: "o-epg",
   element: <InformirovanieOEPGUpdated />,
+},
+{
+  path: "sroki-vypuska-platezhnyx-dokumentov",
+  element: <Novogonie />,
 }
+
     ],
   },
 ]);

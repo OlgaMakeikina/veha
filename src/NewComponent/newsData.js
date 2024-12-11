@@ -1,6 +1,11 @@
 export const newsData = [
   {
     date: "11.12.2024",
+    title: 'СРОКИ ВЫПУСКА ПЛАТЕЖНЫХ ДОКУМЕНТОВ В ПРЕДВЕРИИ НОВОГО ГОДА',
+    url: '/sroki-vypuska-platezhnyx-dokumentov'
+  },
+  {
+    date: "11.12.2024",
     title: 'ВМЕСТО БУМАЖНЫХ ПЛАТЕЖЕК – ЭЛЕКТРОННЫЕ: УДОБНО И ЭКОЛОГИЧНО!',
     url: '/o-epg'
   },
