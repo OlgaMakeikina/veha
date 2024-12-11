@@ -28,6 +28,7 @@ import Stroyothody from "./NewComponent/20240716/o-zaprete-vybrosa-stroyothodov-
 import EdinyyPlatezhnyy from "./NewComponent/20240815/ob-elektronnom-edinom-platezhnom-dokumente";
 import OtopitelnyyPeriodNachalo from "./NewComponent/20241002/o-nachale-otopitelnogo-perioda-2024-2025-gg.";
 import InformirovanieOEPG from "./NewComponent/20241127/informirovanie-o-epg";
+import InformirovanieOEPGUpdated from "./NewComponent/20241211/o-epg";
 
 const router = createBrowserRouter([
   {
@@ -135,8 +136,11 @@ const router = createBrowserRouter([
 {
   path: "informirovanie-o-epg",
   element: <InformirovanieOEPG />,
+},
+{
+  path: "o-epg",
+  element: <InformirovanieOEPGUpdated />,
 }
-
     ],
   },
 ]);

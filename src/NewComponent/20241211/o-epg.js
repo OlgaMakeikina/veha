@@ -1,0 +1,35 @@
+import React from 'react';
+import Content from './epd.jpg';
+import { newsData } from '../newsData';
+import NavigationButtons from '../navigationButtons';
+
+const InformirovanieOEPGUpdated = () => {
+  const pathname = window.location.pathname;
+  const currentNewsIndex = newsData.findIndex(item => pathname.includes(item.url));
+
+  const prevNewsIndex = currentNewsIndex > 0 ? currentNewsIndex - 1 : null;
+  const nextNewsIndex = currentNewsIndex < newsData.length - 1 ? currentNewsIndex + 1 : null;
+
+  const currentNews = newsData[currentNewsIndex];
+
+  return (
+    <article>
+         <div>
+      <h2 className='news_header'>ВМЕСТО БУМАЖНЫХ ПЛАТЕЖЕК – ЭЛЕКТРОННЫЕ: УДОБНО И ЭКОЛОГИЧНО!</h2>
+      <div className='news_content'>
+        <NavigationButtons prevNewsIndex={prevNewsIndex} nextNewsIndex={nextNewsIndex} />
+       <p>Опубликовано {currentNews.date}</p>
+<p><b>Единый платежный документ (ЕПД)</b>– новый формат документа для оплаты коммунальных услуг, а также услуг по ремонту и содержанию жилого помещения.</p>
+<p>Вы сможете управлять своим лицевым счетом за ЖКУ со смартфона, оплачивать услуги более оперативно и при этом помогать экологии. </p>
+<p>Подписаться на получение электронного ЕПД можно на сайте ( <a href='https://clck.ru/FwK7t'>https://clck.ru/FwK7t</a>) и в мобильном приложении «МосОблЕИРЦ Онлайн». Подробная инструкция - в видео.</p>
+<p>Напоминаем, что с 1 июля отменяется банковская комиссия при приеме платежей: в личном кабинете на сайте расчетного центра, в мобильном приложении «МосОблЕИРЦ Онлайн», в терминалах и на приеме у менеджеров в клиентских офисах расчетного центра.
+      </p>
+        <img src={Content} alt="Content" width="80%" />
+      </div>
+    </div> 
+    </article>
+
+  );
+};
+
+export default InformirovanieOEPGUpdated;
