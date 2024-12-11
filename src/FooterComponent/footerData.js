@@ -38,12 +38,12 @@ export const FooterData = [
       type: 'link',
       picture: Telegram,
       text: 'Наш Telegram',
-      link: 'https://t.me/vehajkh'
+      link: 'https://t.me/veha_sofrino'
     },
     {
       type: 'link',
       picture: VK,
       text: 'Мы в ВКонтакте',
-      link: 'https://vk.com'
+      link: 'https://vk.com/ooovexa'
     }
   ]

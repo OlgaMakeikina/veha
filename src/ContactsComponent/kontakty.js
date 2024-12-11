@@ -72,7 +72,7 @@ function Contact() {
         <div>
             <p className="text_contacts">
             <span><b>Telegram: </b></span>
-            <a className="email_link" href="https://t.me/vehajkh">Наш Telegram</a>
+            <a className="email_link" href="https://t.me/veha_sofrino">Наш Telegram</a>
             </p> 
         </div>
       </div>
@@ -82,7 +82,7 @@ function Contact() {
         <div>
             <p className="text_contacts">
             <span><b>VK: </b></span>
-            <a className="email_link" href="https://vk.com">Мы ВКонтакте</a>
+            <a className="email_link" href="https://vk.com/ooovexa">Мы ВКонтакте</a>
             </p> 
         </div>
       </div>

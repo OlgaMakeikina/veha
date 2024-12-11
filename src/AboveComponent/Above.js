@@ -35,7 +35,7 @@ function Above() {
 
       <div className='buttons_above'>
       <div className='emergency_contacts_main_btn'>
-      <a href="https://t.me/vehajkh" target="_blank" title="Написать в Telegram">
+      <a href="https://t.me/veha_sofrino" target="_blank" title="Открыть в Telegram">
          <button className='header_btn'>
             <img src={telegram} width="40px" alt="Telegram"/>
          </button>
@@ -45,7 +45,7 @@ function Above() {
       <button className='header_btn' onClick={sendEmail} title="Отправить e-mail"><img src={mail} width="40px"/></button>
       </div>
       <div className='emergency_contacts_main_btn'>
-      <a href="https://vk.com" target="_blank" title="Открыть ВКонтакте">
+      <a href="https://vk.com/ooovexa" target="_blank" title="Открыть ВКонтакте">
       <button className='header_btn'>
          <img src={vk} width="40px" alt="VK"/>
       </button>
