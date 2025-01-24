@@ -30,6 +30,7 @@ import OtopitelnyyPeriodNachalo from "./NewComponent/20241002/o-nachale-otopitel
 import InformirovanieOEPG from "./NewComponent/20241127/informirovanie-o-epg";
 import InformirovanieOEPGUpdated from "./NewComponent/20241211/o-epg";
 import Novogonie from "./NewComponent/20241212/sroki-vypuska-platezhnyx-dokumentov";
+import Peny from "./NewComponent/20250124/o-penyax";
 
 const router = createBrowserRouter([
   {
@@ -145,6 +146,10 @@ const router = createBrowserRouter([
 {
   path: "sroki-vypuska-platezhnyx-dokumentov",
   element: <Novogonie />,
+},
+{
+  path: "o-penyax",
+  element: <Peny />,
 }
 
     ],

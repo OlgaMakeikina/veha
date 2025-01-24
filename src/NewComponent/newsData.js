@@ -1,5 +1,10 @@
 export const newsData = [
   {
+  date: "24.01.2025",
+  title: 'КАК ПЕНИ ЗА НЕСВОЕВРЕМЕННУЮ ОПЛАТУ МОГУТ УВЕЛИЧИТЬ КОММУНАЛЬНЫЙ СЧЕТ',
+  url: '/o-penyax'
+  },
+  {
     date: "11.12.2024",
     title: 'СРОКИ ВЫПУСКА ПЛАТЕЖНЫХ ДОКУМЕНТОВ В ПРЕДВЕРИИ НОВОГО ГОДА',
     url: '/sroki-vypuska-platezhnyx-dokumentov'
