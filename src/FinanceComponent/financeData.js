@@ -4,6 +4,14 @@ export const financeData = [
         description1: 'Бухгалтерская отчетность',
         file1: 'finances/financial_report_2023.pdf',
         description2: 'Отчетность по домам',
+        file2: 'finances/year_report_2023.7z',
+    },
+
+    {
+        year: 2023,
+        description1: 'Бухгалтерская отчетность',
+        file1: 'finances/financial_report_2023.pdf',
+        description2: 'Отчетность по домам',
         file2: 'finances/year_report_2023.zip',
     },
 
