@@ -31,6 +31,7 @@ import InformirovanieOEPG from "./NewComponent/20241127/informirovanie-o-epg";
 import InformirovanieOEPGUpdated from "./NewComponent/20241211/o-epg";
 import Novogonie from "./NewComponent/20241212/sroki-vypuska-platezhnyx-dokumentov";
 import Peny from "./NewComponent/20250124/o-penyax";
+import EcoIgry from "./NewComponent/20250331/eco-igry";
 
 const router = createBrowserRouter([
   {
@@ -150,6 +151,10 @@ const router = createBrowserRouter([
 {
   path: "o-penyax",
   element: <Peny />,
+},
+{
+  path: "ecoigry",
+  element: <EcoIgry />,
 }
 
     ],
