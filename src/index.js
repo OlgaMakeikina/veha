@@ -32,6 +32,7 @@ import InformirovanieOEPGUpdated from "./NewComponent/20241211/o-epg";
 import Novogonie from "./NewComponent/20241212/sroki-vypuska-platezhnyx-dokumentov";
 import Peny from "./NewComponent/20250124/o-penyax";
 import EcoIgry from "./NewComponent/20250331/eco-igry";
+import OtopitelnyyPeriodKonec from "./NewComponent/20250421/ob-okonchanii-otopitelnogo-perioda-2024-2025-gg.";
 
 const router = createBrowserRouter([
   {
@@ -155,8 +156,11 @@ const router = createBrowserRouter([
 {
   path: "ecoigry",
   element: <EcoIgry />,
+},
+{
+  path: "ob-okonchanii-otopitelnogo-perioda-2024-2025-gg",
+  element: <OtopitelnyyPeriodKonec />,
 }
-
     ],
   },
 ]);

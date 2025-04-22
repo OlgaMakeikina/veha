@@ -1,5 +1,10 @@
 export const newsData = [
   {
+    date: "21.04.2025",
+    title: 'ОБ ОКОНЧАНИИ ОТОПИТЕЛЬНОГО ПЕРИОДА 2024-2025 ГГ.',
+    url: '/ob-okonchanii-otopitelnogo-perioda-2024-2025-gg'
+    },
+  {
     date: "31.03.2025",
     title: 'СТАРТ ПЕРВЫХ ЭКОЛОГИЧЕСКИХ ИГР В ПОДМОСКОВЬЕ',
     url: '/ecoigry'
