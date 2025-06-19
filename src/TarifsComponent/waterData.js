@@ -1,18 +1,18 @@
 export const waterData = [
     {
         id: 1,
-        organisationName: "МУП «Межрайонный Щелковский Водоканал»*",
+        organisationName: "МУП «ЖКХ Лесной»*",
         service: 
         [
             {
                 water: "питьевая вода",
-                prices22: "30,80",
-                prices23: "35,23",
+                prices22: "35,23",
+                prices23: "37,58",
             },
             {
                 water: "водоотведение",
-                prices22: "42,84",
-                prices23: "46,09"
+                prices22: "46,09",
+                prices23: "48,85"
             },
         ]
     },
@@ -24,13 +24,13 @@ export const waterData = [
         [
             {
                 water: "питьевая вода",
-                prices22: "20,65",
-                prices23: "21,07",
+                prices22: "21,07",
+                prices23: "22,63",
             },
             {
                 water: "водоотведение",
-                prices22: "24,20",
-                prices23: "27,72"
+                prices22: "27,72",
+                prices23: "29,78"
             },
         ]
     }

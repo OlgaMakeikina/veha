@@ -6,8 +6,8 @@ export const warmData = [
         [
             {
                 serviceType: "теплоснабжение",
-                prices22: "3544,51",
-                prices23: "4076,34"
+                prices22: "4076,34",
+                prices23: "4871,05"
             }
         ]
     },
@@ -19,13 +19,13 @@ export const warmData = [
         [
             {
                 serviceType: "компонент на ХВС",
-                prices22: "30,80",
-                prices23: "35,23",
+                prices22: "35,23",
+                prices23: "37,58",
             },
             {
                 serviceType: "компонент на тепловую энергию",
-                prices22: "3544,51",
-                prices23: "4076,34"
+                prices22: "4076,34",
+                prices23: "4871,05"
             },
         ]
     }
