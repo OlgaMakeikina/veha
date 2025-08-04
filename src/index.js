@@ -35,6 +35,7 @@ import EcoIgry from "./NewComponent/20250331/eco-igry";
 import OtopitelnyyPeriodKonec from "./NewComponent/20250421/ob-okonchanii-otopitelnogo-perioda-2024-2025-gg.";
 import PostanovlenieOtopitelnyyPeriodKonec from "./NewComponent/20250515/ob-okonchanii-otopitelnogo-perioda-2024-2025-gg.";
 import ZhkuOnline from "./NewComponent/20251006/zhku-online";
+import EconomSBTI from "./NewComponent/20250804/econom'-s-bti";
 
 const router = createBrowserRouter([
   {
@@ -170,6 +171,10 @@ const router = createBrowserRouter([
 {
   path: "zhku-online",
   element: <ZhkuOnline />,
+},
+{
+  path: "nedvizhimost-s-bti",
+  element: <EconomSBTI />,
 },
     ],
   },

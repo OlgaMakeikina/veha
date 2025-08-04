@@ -1,4 +1,9 @@
 export const newsData = [
+      {
+    date: "04.08.2025",
+    title: 'РЕШАЙТЕ ВОПРОСЫ С НЕДВИЖИМОСТЬЮ В БТИ',
+    url: '/nedvizhimost-s-bti'
+    },
     {
     date: "10.06.2025",
     title: 'ПЛАТИТЕ ЗА ЖКУ ОНЛАЙН',
