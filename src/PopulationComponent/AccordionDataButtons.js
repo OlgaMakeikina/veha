@@ -2,9 +2,10 @@ import './accordion.css';
 
 const AccordionDataButtons = [
     { 
-      title: 'План-график готовности жилищного фонда к эксплуатации в отопительный период',
+      title: 'План-график готовности жилищного фонда и ТСО к эксплуатации в отопительный период',
       description: "План-график готовности жилищного фонда к эксплуатации в отопительный период",
       buttons: [
+        { title: '2025-2026г.', document: 'plan_otopl_2025-2026.docx' },
         { title: '2024г.', document: 'plan_otopl_2024.pdf' },
         { title: '2023/2024г.', document: 'plan_otopl_2023-2024.pdf' },
         { title: '2022/2023г.', document: 'plan_otopl_2022-2023.pdf' },
