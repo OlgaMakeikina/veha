@@ -36,6 +36,7 @@ import OtopitelnyyPeriodKonec from "./NewComponent/20250421/ob-okonchanii-otopit
 import PostanovlenieOtopitelnyyPeriodKonec from "./NewComponent/20250515/ob-okonchanii-otopitelnogo-perioda-2024-2025-gg.";
 import ZhkuOnline from "./NewComponent/20251006/zhku-online";
 import EconomSBTI from "./NewComponent/20250804/econom'-s-bti";
+import NachaloTepla2526 from "./NewComponent/20250903/o-nachale-otopitelnogo-perioda-2025-2026-gg";
 
 const router = createBrowserRouter([
   {
@@ -175,6 +176,10 @@ const router = createBrowserRouter([
 {
   path: "nedvizhimost-s-bti",
   element: <EconomSBTI />,
+},
+{
+  path: "o-nachale-otopitelnogo-perioda-2025-2026-gg",
+  element: <NachaloTepla2526 />,
 },
     ],
   },
