@@ -37,6 +37,7 @@ import PostanovlenieOtopitelnyyPeriodKonec from "./NewComponent/20250515/ob-okon
 import ZhkuOnline from "./NewComponent/20251006/zhku-online";
 import EconomSBTI from "./NewComponent/20250804/econom'-s-bti";
 import NachaloTepla2526 from "./NewComponent/20250903/o-nachale-otopitelnogo-perioda-2025-2026-gg";
+import OTarifax2026 from "./NewComponent/20251225/o-tarifax-2026";
 
 const router = createBrowserRouter([
   {
@@ -180,6 +181,10 @@ const router = createBrowserRouter([
 {
   path: "o-nachale-otopitelnogo-perioda-2025-2026-gg",
   element: <NachaloTepla2526 />,
+},
+{
+  path: "o-tarifax-2026",
+  element: <OTarifax2026 />,
 },
     ],
   },
