@@ -35,6 +35,13 @@ const AccordionDataButtons = [
         { title: '2024г.', document: 'gidravlicheskiye_ispytaniya.xlsx' },
       ]
     },
+        { 
+      title: 'График технического обслуживания газового оборудования',
+      description: "График технического обслуживания газового оборудования",
+      buttons: [
+      { title: '2026г.', document: 'vdgo-2026.xlsx' },
+      ]
+    },
   ];
   
   export default AccordionDataButtons;
