@@ -1,4 +1,11 @@
 export const financeData = [
+        {
+        year: 2025,
+        description1: 'Бухгалтерская отчетность',
+        file1: 'finances/financial_report_2025.pdf',
+        description2: 'Отчетность по домам',
+        file2: 'finances/year_report_2025.zip',
+    },
     {
         year: 2024,
         description1: 'Бухгалтерская отчетность',
