@@ -97,8 +97,8 @@ export default function ErrorPage() {
         fontSize: "13px",
         fontWeight: "300",
       }}>
-        <p>Copyright © 2024. ООО Управляющая компания «ВЕХА» (<a href="https://ooovexa.ru/" style={{ color: "#fff" }}>https://ooovexa.ru/</a>)</p>
-        <p>© 2011-2024 Разработка сайта, поддержка и хостинг — <a href="https://hhivp.com/" target="_blank" rel="noreferrer" style={{ color: "#fff" }}>ООО «АйТи Решения»</a></p>
+        <p>Copyright © {new Date().getFullYear()}. ООО Управляющая компания «ВЕХА» (<a href="https://ooovexa.ru/" style={{ color: "#fff" }}>https://ooovexa.ru/</a>)</p>
+        <p>© 2011-{new Date().getFullYear()} Разработка сайта, поддержка и хостинг — <a href="https://hhivp.com/" target="_blank" rel="noreferrer" style={{ color: "#fff" }}>ООО «АйТи Решения»</a></p>
       </div>
     </div>
   );
