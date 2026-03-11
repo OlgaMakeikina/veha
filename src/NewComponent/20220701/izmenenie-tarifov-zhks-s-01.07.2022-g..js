@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../news.css';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const IzmeneniyaTarifov = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Изменение тарифов ЖКС с 01.07.2022 г. | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация об изменении тарифов на жилищно-коммунальные услуги с 1 июля 2022 года." />
+      </Helmet>
         <div>
      <h2 className='news_header'>{currentNews.title}</h2>
     <div className='news_content'>

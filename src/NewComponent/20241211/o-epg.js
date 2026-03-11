@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Content from './epd.jpg';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const InformirovanieOEPGUpdated = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Электронные платёжки вместо бумажных | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Удобно и экологично: электронный единый платёжный документ вместо бумажных квитанций." />
+      </Helmet>
          <div>
       <h2 className='news_header'>ВМЕСТО БУМАЖНЫХ ПЛАТЕЖЕК – ЭЛЕКТРОННЫЕ: УДОБНО И ЭКОЛОГИЧНО!</h2>
       <div className='news_content'>

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import Content from './zastavka.jpg';
 import NavigationButtons from '../navigationButtons';
@@ -15,6 +16,10 @@ const EcoIgry = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Старт первых экологических игр в Подмосковье | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Анонс первых экологических игр в Московской области для жителей Пушкинского района." />
+      </Helmet>
          <div>
       <h2 className='news_header'>ПЕРВЫЕ ЭКОЛОГИЧЕСКИЕ ИГРЫ В ПОДМОСКОВЬЕ</h2>
       <div className='news_content'>

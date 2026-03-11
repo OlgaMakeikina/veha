@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from 'react-helmet';
 import './meeting.css';
 import { meetingData } from "./meetingData";
 import Footer from "../FooterComponent/footer";
@@ -16,6 +17,10 @@ const Meeting = () => {
 
   return (
     <section>
+      <Helmet>
+        <title>Собрания собственников | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Протоколы общих собраний собственников помещений многоквартирных домов под управлением УК ВЕХА." />
+      </Helmet>
     <div>
       <div className="cont_header_meeting">
         <h2 className="main_header_meeting"><span className="span_header_meeting">Жителям/ </span>Собрания собственников</h2>

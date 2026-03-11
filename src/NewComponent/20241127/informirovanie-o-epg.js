@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Content from './content.jpg';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const InformirovanieOEPG = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Информирование об электронном платёжном документе | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация о преимуществах перехода на электронный единый платёжный документ." />
+      </Helmet>
          <div>
       <h2 className='news_header'>  ИНФОРМИРОВАНИЕ ЖИТЕЛЕЙ О ПРЕИМУЩЕСТВАХ ПЕРЕХОДА НА ЭЛЕКТРОННЫЙ ЕДИНЫЙ ПЛАТЕЖНЫЙ ДОКУМЕНТ</h2>
       <div className='news_content'>

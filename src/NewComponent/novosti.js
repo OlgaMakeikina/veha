@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './news.css';
 import { newsData } from './newsData';
@@ -7,6 +8,10 @@ import Footer from '../FooterComponent/footer';
 const News = () => {
   return (
     <section>
+      <Helmet>
+        <title>Новости | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Новости управляющей компании ВЕХА: объявления, изменения тарифов, плановые работы, важные уведомления для жителей." />
+      </Helmet>
     <div>
       <div className="cont_header_news">
         <h2 className="main_header_news"><span className="span_header_news">Главная/ </span>Новости</h2>

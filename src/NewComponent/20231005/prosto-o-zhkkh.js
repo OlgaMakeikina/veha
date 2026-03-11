@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import YouTube from 'react-youtube';
 import '../news.css';
 import { newsData } from '../newsData';
@@ -39,6 +40,10 @@ const opts = {
 
   return (
     <article>
+      <Helmet>
+        <title>Просто о ЖКХ | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Простые ответы на вопросы о жилищно-коммунальном хозяйстве от управляющей компании ВЕХА." />
+      </Helmet>
     <div>
      <h2 className='news_header'>ПРОСТО О ЖКХ</h2>
     <div className='news_content'>

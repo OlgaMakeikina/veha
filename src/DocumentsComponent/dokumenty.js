@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import { documentsData } from './documentsData';
 import { taxesData } from "./taxesData";
 import './documents.css'
@@ -10,6 +11,10 @@ const Documents = () => {
 
   return (
     <section>
+      <Helmet>
+        <title>Документы | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Учредительные документы, лицензии и сертификаты управляющей компании ВЕХА. Реквизиты организации, свидетельства налоговой службы." />
+      </Helmet>
     <div>
     <div className="cont_header_documents">
       <h2 className="main_header_documents"><span className="span_header">О компании/ </span>Учредительные документы, лицензии и свидетельства</h2>

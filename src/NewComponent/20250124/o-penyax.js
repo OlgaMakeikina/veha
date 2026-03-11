@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import Content from './attachment (2).jpeg';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const Peny = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>О пенях за несвоевременную оплату ЖКУ | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Как пени за несвоевременную оплату могут увеличить коммунальный счёт. Информация от УК ВЕХА." />
+      </Helmet>
          <div>
       <h2 className='news_header'>КАК ПЕНИ ЗА НЕСВОЕВРЕМЕННУЮ ОПЛАТУ МОГУТ УВЕЛИЧИТЬ КОММУНАЛЬНЫЙ СЧЕТ</h2>
       <div className='news_content'>

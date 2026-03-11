@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import { aboutItems } from "./aboutItems";
 import './aboutCompany.css'
 import Footer from "../FooterComponent/footer";
@@ -6,6 +7,10 @@ import Footer from "../FooterComponent/footer";
 const AboutCompany = () => {
   return (
     <section>
+      <Helmet>
+        <title>О компании | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация об управляющей компании ВЕХА. История, команда, принципы работы. Управление многоквартирными домами в Сергиево-Посадском районе." />
+      </Helmet>
     <div>
 
         <div className='header_about'>

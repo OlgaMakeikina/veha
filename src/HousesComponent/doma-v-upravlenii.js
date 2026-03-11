@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import './houses.css'
 import HousesDataTabs from './housesDataTabs'; // Путь к вашему компоненту с вкладками
 import { KomsomolskayaData } from './komsomolskaya';
@@ -23,6 +24,10 @@ import Footer from "../FooterComponent/footer";
 const Houses = () => {
   return (
     <section>
+      <Helmet>
+        <title>Дома в управлении | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Список многоквартирных домов под управлением УК ВЕХА. Адреса домов в п. Софрино, Могильцы, Талицы Пушкинского района Московской области." />
+      </Helmet>
   <div>
  <div className="cont_header_houses">
        <h2 className="main_header_houses"><span className="span_header_houses">Жителям/ </span>МКД и договора управления</h2>

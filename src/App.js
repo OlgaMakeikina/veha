@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import Footer from './FooterComponent/footer';
 import PosBannerWidget from "./Uslugi";
 import Carousel from "./Carousel";
@@ -36,6 +37,10 @@ const App = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>ООО УК «ВЕХА» — управляющая компания ЖКХ Сергиево-Посадского района</title>
+        <meta name="description" content="Официальный сайт управляющей компании ВЕХА. ЖКХ-услуги в Сергиево-Посадском районе, п. Софрино. Тарифы, документы, новости, информация по домам." />
+      </Helmet>
           <section>
      <Carousel />
 <PosBannerWidget />

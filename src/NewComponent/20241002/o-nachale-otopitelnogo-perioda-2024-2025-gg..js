@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Content from './photo_2024-10-02_10-41-44.jpg';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const OtopitelnyyPeriodNachalo = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>О начале отопительного периода 2024–2025 гг. | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Постановление о начале отопительного периода 2024–2025 годов в домах под управлением УК ВЕХА." />
+      </Helmet>
          <div>
       <h2 className='news_header'>О НАЧАЛЕ ОТОПИТЕЛЬНОГО ПЕРИОДА 2024-2025 ГГ.</h2>
       <div className='news_content'>

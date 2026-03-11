@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Content from './95dcc9326ee0.jpg';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const PuteshestviyeVDetstvo = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Увлекательное путешествие в детство | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Анонс мероприятия для жителей Пушкинского округа." />
+      </Helmet>
           <div>
       <h2 className='news_header'>ЖИТЕЛЕЙ ОКРУГА ПУШКИНСКИЙ ОЖИДАЕТ УВЛЕКАТЕЛЬНОЕ ПУТЕШЕСТВИЕ В ДЕТСТВО</h2>
       <div className='news_content'>

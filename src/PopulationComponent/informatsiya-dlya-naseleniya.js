@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import Accordion from "./AccordionButtons";
 import AccordionDataButtons from "./AccordionDataButtons";
 import AccordionDataImage from "./AccordionDataImage";
@@ -9,6 +10,10 @@ import Footer from "../FooterComponent/footer";
 const People = () => {
   return (
     <section>
+      <Helmet>
+        <title>Информация для жителей | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Полезная информация для жителей домов под управлением УК ВЕХА: правила проживания, порядок подачи заявок, нормативные документы." />
+      </Helmet>
        <div> 
     <div className="cont_header_services">
        <h2 className="main_header_services"><span className="span_header_services">Жителям/ </span>Информация для населения</h2>

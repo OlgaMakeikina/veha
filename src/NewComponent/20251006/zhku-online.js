@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
 import Content from './q59HhFXu6ac.jpg';
@@ -13,6 +14,10 @@ const ZhkuOnline = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Платите за ЖКУ онлайн | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Удобная онлайн-оплата жилищно-коммунальных услуг. Инструкция от УК ВЕХА." />
+      </Helmet>
          <div>
       <h2 className='news_header'> ПЛАТИТЕ ЗА ЖКУ ОНЛАЙН</h2>
       <div className='news_content'>

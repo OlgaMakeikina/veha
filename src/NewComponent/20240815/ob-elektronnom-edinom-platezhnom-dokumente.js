@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ContentTwo from './contentTwo.jpg';
 import ContentOne from './contentOne.jpg';
 import { newsData } from '../newsData';
@@ -15,6 +16,10 @@ const EdinyyPlatezhnyy = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Об электронном едином платёжном документе | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация о переходе на электронный единый платёжный документ ЖКУ." />
+      </Helmet>
     <div>
       <h2 className='news_header'>ИНФОРМИРОВАНИЕ НАСЕЛЕНИЯ О ПОЛУЧЕНИИ ЭЛЕКТРОННОГО ЕДИНОГО ПЛАТЕЖНОГО ДОКУМЕНТА (ЭЕПД)</h2>
       <div className='news_content'>

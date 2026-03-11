@@ -1,10 +1,15 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import './responsibility.css'
 import {RespData} from './respData';
 import Footer from "../FooterComponent/footer";
 const Responsibility = () => {
   return (
     <section>
+      <Helmet>
+        <title>Привлечение к ответственности | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Сведения о нарушениях и штрафах, наложенных на управляющую компанию ВЕХА по результатам проверок." />
+      </Helmet>
           <div>
           <div className="cont_header_resp">
        <h2 className="main_header_resp"><span className="span_header_resp">Жителям/ </span>Сведения о привлечении к ответственности</h2>

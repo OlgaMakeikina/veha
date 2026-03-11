@@ -1,10 +1,15 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import { sanitarData } from "./sanitarData";
 import './sanitar.css'
 import Footer from "../FooterComponent/footer";
 const Sanitar = () => {
   return (
     <section>
+      <Helmet>
+        <title>График санитарной уборки | ООО УК «ВЕХА»</title>
+        <meta name="description" content="График санитарной уборки и дезинфекции подъездов многоквартирных домов под управлением УК ВЕХА." />
+      </Helmet>
       <div>
  <div className="cont_header_sanitar">
        <h2 className="main_header_sanitar"><span className="span_header_sanitar">Жителям/ </span>График санитарной уборки домов</h2>

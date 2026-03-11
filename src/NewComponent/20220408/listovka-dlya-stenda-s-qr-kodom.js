@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../news.css';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const Listovka = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Листовка для стенда с QR-кодом | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информационная листовка с QR-кодом для жителей домов под управлением УК ВЕХА." />
+      </Helmet>
         <div>
      <h2 className='news_header'>{currentNews.title}</h2>
     <div className='news_content'>

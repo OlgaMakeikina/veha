@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Content from './12_07_2024.jpg';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
@@ -14,6 +15,10 @@ const Stroyothody = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>О запрете выброса стройотходов в баки у дома | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Уведомление о запрете выброса строительных отходов в контейнеры у жилых домов." />
+      </Helmet>
     <div>
       <h2 className='news_header'>ИНФОРМИРОВАНИЕ ЖИТЕЛЕЙ О НЕОБХОДИМОСТИ НАДЛЕЖАЩЕГО ВЫВОЗА СТРОЙОТХОДОВ</h2>
       <div className='news_content'>

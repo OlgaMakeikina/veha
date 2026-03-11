@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from 'react-helmet';
 import { tarifDocData } from './tarifDocData';
 import { waterData } from "./waterData";
 import { warmData } from "./warmData";
@@ -28,6 +29,10 @@ const Tarifs = () => {
 
   return (
     <section>
+      <Helmet>
+        <title>Тарифы на ЖКХ | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Действующие тарифы на жилищно-коммунальные услуги: водоснабжение, теплоснабжение, вывоз мусора, электроэнергия, газ. Официальные тарифы УК ВЕХА." />
+      </Helmet>
        <div>
       <div className="cont_header_tarifs">
         <h2 className="main_header_tarifs"><span className="span_header_tarifs">Жителям/ </span>Тарифы на ЖКХ</h2>

@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
 import Content from './bti.jpg';
@@ -13,6 +14,10 @@ const EconomSBTI = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Решайте вопросы с недвижимостью в БТИ | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация о сотрудничестве с БТИ для решения вопросов с недвижимостью." />
+      </Helmet>
          <div>
       <h2 className='news_header'>Экономьте свое время – решайте вопросы с недвижимостью в БТИ Московской области!</h2>
       <div className='news_content'>

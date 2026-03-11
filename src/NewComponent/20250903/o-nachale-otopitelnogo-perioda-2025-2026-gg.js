@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
 import Content from './537.jpg';
@@ -13,6 +14,10 @@ const NachaloTepla2526 = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>О начале отопительного периода 2025–2026 гг. | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Постановление о начале отопительного периода 2025–2026 годов в домах под управлением УК ВЕХА." />
+      </Helmet>
          <div>
       <h2 className='news_header'>ПОСТАНОВЛЕНИЕ О НАЧАЛЕ ОТОПИТЕЛЬНОГО ПЕРИОДА 2025-2026 ГГ.</h2>
       <div className='news_content'>

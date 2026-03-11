@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
 
@@ -13,6 +14,10 @@ const Novogonie = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Сроки выпуска платёжных документов | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация о сроках выпуска платёжных документов в преддверии нового года." />
+      </Helmet>
          <div>
       <h2 className='news_header'>СРОКИ ВЫПУСКА ПЛАТЕЖНЫХ ДОКУМЕНТОВ В ПРЕДВЕРИИ НОВОГО ГОДА</h2>
       <div className='news_content'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import call from './24.png';
 import phone from './phone.png';
 import address from './address.png';
@@ -14,6 +15,10 @@ function Contact() {
 
   return (
     <section>
+      <Helmet>
+        <title>Контакты | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Контакты УК ВЕХА: телефон аварийной службы 8-800-550-14-12, адрес офиса ул. Ленина д. 4 п. Софрино, часы работы, электронная почта." />
+      </Helmet>
      <div>
       <Map />  
       <div className='emergency_phones'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
 
@@ -13,6 +14,10 @@ const OTarifax2026 = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Постановление об изменении тарифов на 2026 г. | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Информация об изменении тарифов на жилищно-коммунальные услуги с 2026 года." />
+      </Helmet>
          <div>
       <h2 className='news_header'> ПОСТАНОВЛЕНИЕ ОБ ИЗМЕНЕНИИ ТАРИФОВ НА 2026Г.</h2>
       <div className='news_content'>

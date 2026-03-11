@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../news.css';
 import Content from './955c81631539.jpg';
 import { newsData } from '../newsData';
@@ -15,6 +16,10 @@ const Nachisleniya = () => {
 
   return (
     <article>
+      <Helmet>
+        <title>Вопросы о начислениях за ЖКУ | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Ответы на часто задаваемые вопросы о начислениях за жилищно-коммунальные услуги." />
+      </Helmet>
     <div>
      <h2 className='news_header'>ВОПРОСЫ О НАЧИЛЕНИЯХ ЗА ЖКУ?</h2>
     <div className='news_content'>

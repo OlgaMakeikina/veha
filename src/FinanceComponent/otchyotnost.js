@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import { financeData } from './financeData';
 import './finance.css';
 import invoice from './invoice.png';
@@ -7,6 +8,10 @@ import Footer from "../FooterComponent/footer";
 const Accounting = () => {
   return (
     <section>
+      <Helmet>
+        <title>Отчётность | ООО УК «ВЕХА»</title>
+        <meta name="description" content="Годовые финансовые отчёты и бухгалтерская отчётность управляющей компании ВЕХА. Аудиторские заключения и финансовые раскрытия." />
+      </Helmet>
     <div>
       <div className="cont_header_finance">
         <h2 className="main_header_finance"><span className="span_header">О компании/ </span>Годовая финансовая отчетность</h2>
