@@ -26,8 +26,52 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "source": "build",
+    "destination": "build",
+    "fallback": "200.html",
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "puppeteerExecutablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "include": [
+      "/",
+      "/o-kompanii",
+      "/doma-v-upravlenii",
+      "/tarify-na-zhkh",
+      "/informatsiya-dlya-naseleniya",
+      "/dokumenty",
+      "/otchyotnost",
+      "/privlecheniye-k-otvetstvennosti",
+      "/kontakty",
+      "/novosti",
+      "/resursosnabzhaushchiye-organizacii",
+      "/sobraniya-sobstvennikov",
+      "/grafik-sanitarnoy-uborki",
+      "/prosto-o-zhkh",
+      "/ob-okonchanii-otopitelnogo-perioda-2022-2023-gg",
+      "/voprosy-o-nachileniyakh-za-zhku",
+      "/izmenenie-tarifov-zhks-s-01.07.2022-g",
+      "/zhitelej-okruga-pushkinskij-ozhidaet-uvlekatelnoe-puteshestvie-v-detstvo",
+      "/listovka-dlya-stenda-s-qr-kodom",
+      "/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg",
+      "/o-zaprete-vybrosa-stroyothodov-v-baki-u-doma",
+      "/ob-elektronnom-edinom-platezhnom-dokumente",
+      "/o-nachale-otopitelnogo-perioda-2024-2025-gg",
+      "/informirovanie-o-epg",
+      "/o-epg",
+      "/sroki-vypuska-platezhnyx-dokumentov",
+      "/o-penyax",
+      "/ecoigry",
+      "/ob-okonchanii-otopitelnogo-perioda-2024-2025-gg",
+      "/postanovlenie-ob-okonchanii-otopitelnogo-perioda-2024-2025-gg",
+      "/zhku-online",
+      "/nedvizhimost-s-bti",
+      "/o-nachale-otopitelnogo-perioda-2025-2026-gg",
+      "/o-tarifax-2026"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -46,5 +90,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.23.0"
   }
 }
