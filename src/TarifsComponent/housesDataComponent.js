@@ -9,8 +9,8 @@ const HousesDataComponent = ({ housesData }) => {
          <div>
                <h3>Содержание ж/ф руб./кв.м.</h3> 
                <div className='period_tarifs'>
-               <p>Тариф с 01.01.2024г.</p>
-               <p>Тариф с 01.07.2024г.</p>      
+               <p>Тариф с 01.07.2025г.</p>
+               <p>Тариф с 01.01.2026г.</p>
                </div>
               
          </div>

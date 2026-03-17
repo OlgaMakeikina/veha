@@ -37,7 +37,7 @@ const Tarifs = () => {
       <div className="cont_header_tarifs">
         <h2 className="main_header_tarifs"><span className="span_header_tarifs">Жителям/ </span>Тарифы на ЖКХ</h2>
       </div>
-      <h2 className="tarif_information_header">ИНФОРМАЦИЯ О ТАРИФАХ НА КОММУНАЛЬНЫЕ УСЛУГИ, ДЕЙСТВУЮЩИЕ НА ТЕРРИТОРИИ ПУШКИНСКОГО ГОРОДСКОГО ОКРУГА С 01.07.2024Г.</h2>
+      <h2 className="tarif_information_header">ИНФОРМАЦИЯ О ТАРИФАХ НА КОММУНАЛЬНЫЕ УСЛУГИ, ДЕЙСТВУЮЩИЕ НА ТЕРРИТОРИИ ПУШКИНСКОГО ГОРОДСКОГО ОКРУГА С 01.01.2026Г.</h2>
       <div className="documents_tarifs_cont">
         <div>
         <h3>Распоряжения и Постановления</h3>
@@ -62,9 +62,9 @@ const Tarifs = () => {
       <WarmDataComponent warmData={warmData} />
       <h3 className="header_table_tarifs">3. ТАРИФЫ НА УТИЛИЗАЦИЮ ТБО</h3>
       <TboDataComponent tboData={tboData} />
-      <h3 className="header_table_tarifs">4. ЦЕНЫ (ТАРИФЫ ОДНОСТАВОЧНЫЕ) НА ЭЛЕКТРОЭНЕРГИЮ ДЛЯ НАСЕЛЕНИЯ МОСКОВСКОЙ ОБЛАСТИ C 01.07.2024Г.</h3>
+      <h3 className="header_table_tarifs">4. ЦЕНЫ (ТАРИФЫ ОДНОСТАВОЧНЫЕ) НА ЭЛЕКТРОЭНЕРГИЮ ДЛЯ НАСЕЛЕНИЯ МОСКОВСКОЙ ОБЛАСТИ C 01.01.2026Г.</h3>
       <EnergyDataComponent energyData={energyData} />
-      <h3 className="header_table_tarifs">5. РАЗМЕР ПЛАТЫ ЗА ГАЗ ДЛЯ НАСЕЛЕНИЯ МОСКОВСКОЙ ОБЛАСТИ C 01.07.2024Г.</h3>
+      <h3 className="header_table_tarifs">5. РАЗМЕР ПЛАТЫ ЗА ГАЗ ДЛЯ НАСЕЛЕНИЯ МОСКОВСКОЙ ОБЛАСТИ C 01.01.2026Г.</h3>
       <GazDataComponent gazData={gazData} />
       <h3 className="header_table_tarifs">6. РАЗМЕР ПЛАТЫ ЗА СОДЕРЖАНИЕ ЖИЛОГО ПОМЕЩЕНИЯ ДЛЯ НАНИМАТЕЛЕЙ ЖИЛЫХ ПОМЕЩЕНИЙ, СОГЛАСНО ПОСТАНОВЛЕНИЮ АДМИНИСТРАЦИИ Г.О. ПУШКИНСКИЙ МО ОТ 06.06.2024Г. №2327-ПА</h3>
       <HousesDataComponent housesData={housesData} />

@@ -6,13 +6,13 @@ export const waterData = [
         [
             {
                 water: "питьевая вода",
-                prices22: "35,23",
-                prices23: "37,58",
+                prices22: "37,58",
+                prices23: "38,21",
             },
             {
                 water: "водоотведение",
-                prices22: "46,09",
-                prices23: "48,85"
+                prices22: "48,85",
+                prices23: "49,67"
             },
         ]
     },
@@ -24,13 +24,13 @@ export const waterData = [
         [
             {
                 water: "питьевая вода",
-                prices22: "21,07",
-                prices23: "22,63",
+                prices22: "22,63",
+                prices23: "23,01",
             },
             {
                 water: "водоотведение",
-                prices22: "27,72",
-                prices23: "29,78"
+                prices22: "29,78",
+                prices23: "30,20"
             },
         ]
     }
