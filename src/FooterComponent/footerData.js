@@ -19,8 +19,8 @@ export const FooterData = [
     {
       type: 'phone',
       picture: Call,
-      text: '8-800-550-14-12',
-      link: 'tel:88005501412'
+      text: '8 800 550 55 30',
+      link: 'tel:88005505530'
     },
     {
       type: 'phone',

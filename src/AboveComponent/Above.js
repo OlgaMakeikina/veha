@@ -24,7 +24,7 @@ function Above() {
       </div>
 
       <div className='emergency_contacts_main'>
-      <p><a href="tel:8-800-550-14-12" className="phone">8-800-550-14-12</a></p>
+      <p><a href="tel:88005505530" className="phone">8 800 550 55 30</a></p>
       <p className='text_header'>Аварийная диспетчерская служба </p> 
       </div>
 

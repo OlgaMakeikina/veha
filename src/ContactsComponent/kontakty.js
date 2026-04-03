@@ -17,7 +17,7 @@ function Contact() {
     <section>
       <Helmet>
         <title>Контакты | ООО УК «ВЕХА»</title>
-        <meta name="description" content="Контакты УК ВЕХА: телефон аварийной службы 8-800-550-14-12, адрес офиса ул. Ленина д. 4 п. Софрино, часы работы, электронная почта." />
+        <meta name="description" content="Контакты УК ВЕХА: телефон аварийной службы 8 800 550 55 30, адрес офиса ул. Ленина д. 4 п. Софрино, часы работы, электронная почта." />
       </Helmet>
      <div>
       <Map />  
@@ -26,7 +26,7 @@ function Contact() {
     <h3 className="heading_contacts">КРУГЛОСУТОЧНАЯ АВАРИЙНАЯ СЛУЖБА</h3>   
  
     <div className='phone_numbers'>
-    <p className='phone_text'><a href="tel:8-800-550-14-12" className="phone_contacts">8-800-550-14-12 (бесплатно)</a> </p> 
+    <p className='phone_text'><a href="tel:88005505530" className="phone_contacts">8 800 550 55 30 (бесплатно)</a> </p> 
       <img src={call} width="75px" alt="call"/>
     <p className='phone_text'><a href="tel:+7-915-068-15-45" className="phone_contacts">+7-915-068-15-45</a></p> 
     </div>
@@ -42,7 +42,7 @@ function Contact() {
      <div className='info_contacts'>
         <img src={phone} width="75px" height="75px"  alt="phone number"/>
      <div>
-       <p className="text_contacts"><a href="tel:8-800-550-14-12" className="phone_contacts"><span><b>Телефон: </b></span>8-800-550-14-12</a> </p> 
+       <p className="text_contacts"><a href="tel:88005505530" className="phone_contacts"><span><b>Телефон: </b></span>8 800 550 55 30</a> </p> 
       <p className="text_contacts"><a href="tel:+7-915-068-15-45" className="phone_contacts"><span><b>Телефон: </b></span>+7-915-068-15-45</a></p> 
      </div>
       </div>
