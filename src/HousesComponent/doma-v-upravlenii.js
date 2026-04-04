@@ -19,6 +19,7 @@ import { YuzhnayaData } from "./yuzhnaya";
 import { DalnyayaData } from "./dalnyaya";
 import { EksperimantalnayaData } from "./eksperimentalnaya";
 import { OrdzhonikidzeData } from "./ordzhonikidze";
+import { RakovoData } from "./rakovo";
 import Footer from "../FooterComponent/footer";
 
 const Houses = () => {
@@ -66,6 +67,8 @@ const Houses = () => {
 <HousesDataTabs data={MogiltsiData} />
 <h3 className="street_houses">д. Талицы</h3>
 <HousesDataTabs data={TalitsiData} />
+<h3 className="street_houses">д. Раково</h3>
+<HousesDataTabs data={RakovoData} />
 <Footer />
   </div>
  </section>

@@ -88,7 +88,9 @@ const HousesDataTabs = ({ data }) => {
                 <p>{item.technicalSupport}</p>
             </div>
             <button className='tabs_houses_btn' onClick={() => window.open(item.contractURL)}>Договор управления</button>
-            <button className='tabs_houses_btn' onClick={() => window.open(item.protocolURL)}>Протокол</button>
+            {item.prilozhenyaURL && <button className='tabs_houses_btn' onClick={() => window.open(item.prilozhenyaURL)}>Приложения к договору</button>}
+            {item.passportURL && <button className='tabs_houses_btn' onClick={() => window.open(item.passportURL)}>Технический паспорт</button>}
+            {item.protocolURL && <button className='tabs_houses_btn' onClick={() => window.open(item.protocolURL)}>Протокол</button>}
           </div>
         ))}
       </div>
