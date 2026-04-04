@@ -1,7 +1,7 @@
 export const RakovoData = [
     {
         title: "дом №5",
-        year: '',
+        year: '1984',
         floor: "",
         apartment: "",
         quantityLC: "",
