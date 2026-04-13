@@ -7,6 +7,7 @@ import hours from './hours.png';
 import mail from './mail.png';
 import telegram from './telegram.png';
 import vk from './vk.png';
+import max from './send_message.png';
 import './contact.css'
 import Map from './map';
 import UsefulPhones from './UsefulPhones';
@@ -88,7 +89,17 @@ function Contact() {
             <p className="text_contacts">
             <span><b>VK: </b></span>
             <a className="email_link" href="https://vk.com/ooovexa">Мы ВКонтакте</a>
-            </p> 
+            </p>
+        </div>
+      </div>
+
+      <div className='info_contacts'>
+           <img src={max} width="75px" height="75px"  alt="MAX чат"/>
+        <div>
+            <p className="text_contacts">
+            <span><b>MAX: </b></span>
+            <a className="email_link" href="https://max.ru/id5038066419_biz">Чат в МАКС</a>
+            </p>
         </div>
       </div>
 
