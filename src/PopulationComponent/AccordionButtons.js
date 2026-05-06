@@ -11,6 +11,7 @@ const Accordion = ({ panels }) => {
   };
 
   const handleButtonClick = (documentName) => {
+    if (!documentName) return;
     window.open(process.env.PUBLIC_URL + '/' + documentName, '_blank', 'noopener noreferrer');
   };
   
@@ -28,7 +29,7 @@ const Accordion = ({ panels }) => {
             <div className="accordion_content">
              <p className='accordion_text'>{panel.description}</p> 
               {panel.buttons.map((button, buttonIndex) => (
-                <button key={buttonIndex} className="accordion_btn" onClick={() => handleButtonClick(button.document)}>
+                <button key={buttonIndex} className="accordion_btn" onClick={() => handleButtonClick(button.document)} disabled={!button.document}>
                   {button.title}
                 </button>
               ))}

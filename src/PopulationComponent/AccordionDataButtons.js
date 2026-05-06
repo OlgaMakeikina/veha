@@ -5,7 +5,8 @@ const AccordionDataButtons = [
       title: 'План-график готовности жилищного фонда и ТСО к эксплуатации в отопительный период',
       description: "План-график готовности жилищного фонда к эксплуатации в отопительный период",
       buttons: [
-        { title: '2025-2026г.', document: 'plan_otopl_2025-2026.docx' },
+        { title: '2026/2027г.', document: 'grafik_ppr_kotelnykh_2026-2027.pdf' },
+        { title: '2025/2026г.', document: '' },
         { title: '2024г.', document: 'plan_otopl_2024.pdf' },
         { title: '2023/2024г.', document: 'plan_otopl_2023-2024.pdf' },
         { title: '2022/2023г.', document: 'plan_otopl_2022-2023.pdf' },
@@ -16,7 +17,8 @@ const AccordionDataButtons = [
       title: 'График планового профилактического ремонта и обслуживания котельных городского округа Пушкинский Московской области при подготовке к осенне-зимнему периоду',
       description: "График планового профилактического ремонта и обслуживания котельных",
       buttons: [
-        { title: '2025/2026г.', document: 'grafik_ppr_kotelnykh_2025-2026.pdf' },
+        { title: '2026/2027г.', document: 'grafik_ppr_kotelnykh_2026-2027.pdf' },
+        { title: '2025/2026г.', document: '' },
         { title: '2023/2024г.', document: 'grafik_ppr_2023.pdf' },
         { title: '2019/2020г.', document: 'grafik_ppr_2019.pdf' }
       ]
@@ -36,11 +38,19 @@ const AccordionDataButtons = [
         { title: '2024г.', document: 'gidravlicheskiye_ispytaniya.xlsx' },
       ]
     },
-        { 
+        {
       title: 'График технического обслуживания газового оборудования',
       description: "График технического обслуживания газового оборудования",
       buttons: [
       { title: '2026г.', document: 'vdgo-2026.xlsx' },
+      ]
+    },
+    {
+      title: 'План мероприятий по подготовке объектов топливно-энергетического хозяйства к отопительному периоду',
+      description: "План мероприятий по подготовке объектов топливно-энергетического хозяйства к отопительному периоду",
+      buttons: [
+        { title: '2026/2027г.', document: 'plan_otopl_2026-2027.pdf' },
+        { title: '2025/2026г.', document: 'plan_otopl_2025-2026.pdf' }
       ]
     },
   ];
