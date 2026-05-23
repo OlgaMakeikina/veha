@@ -106,15 +106,11 @@
       ]
     }
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KHT3SYM7LG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-KHT3SYM7LG');
-    </script>
+    <!--
+      Google Analytics (G-KHT3SYM7LG) и Яндекс.Метрика (87981216) активируются
+      только после явного согласия пользователя в баннере cookies (152-ФЗ).
+      Реализация: src/analyticsConsent.js + src/CookieBanner.js.
+    -->
   </head>
   <body>
 
@@ -139,11 +135,12 @@
 
       
 
-    <noscript>
-      <div>
-        <img src="https://mc.yandex.ru/watch/87981216" style="position:absolute; left:-9999px;" alt="" />
-      </div>
-    </noscript>
+    <!--
+      Yandex.Metrika noscript pixel удалён — он шлёт hit без consent, что
+      нарушает 152-ФЗ. Для JS-disabled пользователей tracking всё равно
+      невозможен (на этом сайте контент рендерится React'ом и без JS
+      ничего не покажется), поэтому потеря нулевая.
+    -->
   
     <div id="root"></div>
     <!--
