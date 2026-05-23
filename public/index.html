@@ -32,10 +32,15 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "Organization"],
+      "@id": "https://ooovexa.ru/#org",
       "name": "ООО УК «ВЕХА»",
-      "description": "Управляющая компания ЖКХ в Сергиево-Посадском районе Московской области",
+      "alternateName": "Управляющая компания ВЕХА",
+      "legalName": "Общество с ограниченной ответственностью Управляющая компания «ВЕХА»",
+      "description": "Управляющая компания ЖКХ в Сергиево-Посадском районе Московской области. Обслуживание многоквартирных домов: содержание, текущий ремонт, аварийные службы.",
       "url": "https://ooovexa.ru/",
+      "logo": "https://ooovexa.ru/og-image.jpg",
+      "image": "https://ooovexa.ru/og-image.jpg",
       "telephone": "+78005501412",
       "address": {
         "@type": "PostalAddress",
@@ -44,7 +49,61 @@
         "addressRegion": "Московская область",
         "postalCode": "141270",
         "addressCountry": "RU"
-      }
+      },
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+78005501412",
+        "contactType": "customer service",
+        "availableLanguage": "Russian",
+        "areaServed": "RU"
+      }],
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }],
+      "areaServed": [
+        { "@type": "Place", "name": "п. Софрино, Сергиево-Посадский район" },
+        { "@type": "Place", "name": "д. Раково, Сергиево-Посадский район" }
+      ],
+      "knowsAbout": [
+        "Управление многоквартирными домами",
+        "Содержание и текущий ремонт общего имущества",
+        "Коммунальные услуги",
+        "Аварийно-диспетчерская служба",
+        "Тарифы ЖКХ",
+        "Подготовка к отопительному периоду",
+        "Гидравлические испытания"
+      ],
+      "priceRange": "по тарифу",
+      "currenciesAccepted": "RUB"
+    }
+    </script>
+    <!--
+      Speculation Rules API (Chromium 122+) — prerender same-origin links
+      on hover/pointerdown. Pre-rendered HTML by react-snap already exists
+      per-route, so navigation становится почти мгновенной.
+    -->
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "where": {
+            "and": [
+              { "href_matches": "/*" },
+              { "not": { "href_matches": "/static/*" } },
+              { "not": { "href_matches": "/finances/*" } },
+              { "not": { "href_matches": "/sitemap*" } },
+              { "not": { "href_matches": "/llms*" } },
+              { "not": { "href_matches": "/*.pdf" } },
+              { "not": { "href_matches": "/*.xlsx" } },
+              { "not": { "href_matches": "/*.zip" } }
+            ]
+          },
+          "eagerness": "moderate"
+        }
+      ]
     }
     </script>
     <!-- Google tag (gtag.js) -->
