@@ -98,7 +98,7 @@ export default function ErrorPage() {
         fontWeight: "300",
       }}>
         <p>Copyright © {new Date().getFullYear()}. ООО Управляющая компания «ВЕХА» (<a href="https://ooovexa.ru/" style={{ color: "#fff" }}>https://ooovexa.ru/</a>)</p>
-        <p>Сайт разработан и сопровождается техническим партнёром&nbsp;— <a href="https://hhivp.com/" target="_blank" rel="noreferrer" style={{ color: "#fff" }}>ООО «АйТи Решения»</a></p>
+        <p style={{ marginTop: '1.2em' }}>Сайт разработан и сопровождается техническим партнёром&nbsp;— <a href="https://hhivp.com/" target="_blank" rel="noreferrer" style={{ color: "#fff" }}>ООО «АйТи Решения»</a></p>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const Footer = () => {
 
     <hr></hr>
     <p className='last_string'>Copyright © {new Date().getFullYear()}. ООО Управляющая компания "ВЕХА" (<a href="https://ooovexa.ru/">https://ooovexa.ru/</a>)</p>
-            <p className='last_string'>Сайт разработан и сопровождается техническим партнёром&nbsp;— <a href="https://hhivp.com/" target="_blank" rel="noopener">ООО «АйТи Решения»</a></p>
+            <p className='last_string' style={{ marginTop: '1.2em' }}>Сайт разработан и сопровождается техническим партнёром&nbsp;— <a href="https://hhivp.com/" target="_blank" rel="noopener">ООО «АйТи Решения»</a></p>
     </div>
     </footer>
 )
