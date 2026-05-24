@@ -1,9 +1,15 @@
 import React, { useEffect } from 'react';
+import { injectPosBannerCSS, initPosBannerResponsive } from './posBannerAssets';
 
 const PosBannerWidget = () => {
 
 
   useEffect(() => {
+    // Lazy-load assets (раньше inline в public/index.html, теперь
+    // загружаются только при mount компонента — не блокируют initial render).
+    const cleanupCSS = injectPosBannerCSS();
+    const cleanupResponsive = initPosBannerResponsive();
+
     const ACTION_ID = 'js-show-iframe-wrapper';
     const BLOCK_ACTION_CLASS = 'pos-block-action';
 
@@ -119,6 +125,11 @@ const PosBannerWidget = () => {
     }
 
     Widget("https://pos.gosuslugi.ru/form", 360210);
+
+    return () => {
+      cleanupResponsive && cleanupResponsive();
+      cleanupCSS && cleanupCSS();
+    };
   }, []);
 
 

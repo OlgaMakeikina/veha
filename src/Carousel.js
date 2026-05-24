@@ -1,13 +1,34 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import './carousel.css';
-import One from './1.jpg';
-import Two from './2.jpg';
-import Three from './3.jpg';
+import OneJpg from './1.jpg';
+import OneWebp from './1.webp';
+import OneAvif from './1.avif';
+import TwoJpg from './2.jpg';
+import TwoWebp from './2.webp';
+import TwoAvif from './2.avif';
+import ThreeJpg from './3.jpg';
+import ThreeWebp from './3.webp';
+import ThreeAvif from './3.avif';
+
+function Slide({ jpg, webp, avif, alt, eager }) {
+  return (
+    <picture>
+      <source srcSet={avif} type="image/avif" />
+      <source srcSet={webp} type="image/webp" />
+      <img
+        src={jpg}
+        alt={alt}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        fetchpriority={eager ? 'high' : undefined}
+      />
+    </picture>
+  );
+}
 
 function Fade() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
+  const [, setCurrentSlide] = useState(0);
 
   const settings = {
     dots: true,
@@ -22,7 +43,7 @@ function Fade() {
     lazyLoad: true,
     centerMode: true,
     centerPadding: 0,
-    arrows: true, 
+    arrows: true,
     beforeChange: (current, next) => setCurrentSlide(next),
     responsive: [
       {
@@ -34,22 +55,19 @@ function Fade() {
     ],
   };
 
- 
-
   return (
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <img src={One} alt="Slide 1" />
+          <Slide jpg={OneJpg} webp={OneWebp} avif={OneAvif} alt="Slide 1" eager />
         </div>
         <div>
-          <img src={Two} alt="Slide 2" />
+          <Slide jpg={TwoJpg} webp={TwoWebp} avif={TwoAvif} alt="Slide 2" />
         </div>
         <div>
-          <img src={Three} alt="Slide 3" />
+          <Slide jpg={ThreeJpg} webp={ThreeWebp} avif={ThreeAvif} alt="Slide 3" />
         </div>
       </Slider>
-
     </div>
   );
 }
