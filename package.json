@@ -25,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "audit:high": "npm audit --audit-level=high --omit=dev || true",
+    "prebuild": "npm run audit:high",
     "build": "react-scripts build",
     "postbuild": "react-snap && node scripts/indexnow.js",
     "indexnow": "node scripts/indexnow.js",
