@@ -26,7 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snap",
+    "postbuild": "react-snap && node scripts/indexnow.js",
+    "indexnow": "node scripts/indexnow.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
