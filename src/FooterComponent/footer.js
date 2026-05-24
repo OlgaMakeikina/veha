@@ -22,9 +22,11 @@ const Footer = () => {
     <hr></hr>
     <p className='last_string' style={{ marginTop: '1.2em' }}>Copyright © {new Date().getFullYear()}. ООО Управляющая компания "ВЕХА" (<a href="https://ooovexa.ru/">https://ooovexa.ru/</a>)</p>
             <p className='last_string' style={{ marginTop: '1.2em' }}>
-              <a href="https://hhivp.com/" target="_blank" rel="noopener" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.45em', textDecoration: 'none', color: 'inherit' }}>
-                <img src="/hhivp-mark.svg" alt="" width="22" height="22" style={{ display: 'block', flexShrink: 0 }} />
-                <span style={{ borderBottom: '1px dashed currentColor' }}>Разработка&nbsp;— hhivp.com</span>
+              <a href="https://hhivp.com/" target="_blank" rel="noopener" className="hhivp-credit" aria-label="Сделано в hhivp.com">
+                <span className="hhivp-credit-mark" aria-hidden="true">
+                  <img src="/hhivp-mark.svg" alt="" width="20" height="20" />
+                </span>
+                <span className="hhivp-credit-text">Сделано&nbsp;в&nbsp;hhivp.com</span>
               </a>
             </p>
     </div>
