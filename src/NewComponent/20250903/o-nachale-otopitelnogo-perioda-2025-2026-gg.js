@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { newsData } from '../newsData';
 import NavigationButtons from '../navigationButtons';
 import Content from './537.jpg';

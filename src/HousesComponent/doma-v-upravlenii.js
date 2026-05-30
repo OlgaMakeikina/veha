@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import './houses.css'
 import HousesDataTabs from './housesDataTabs'; // Путь к вашему компоненту с вкладками
 import { KomsomolskayaData } from './komsomolskaya';

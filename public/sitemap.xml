@@ -41,7 +41,7 @@
   <url>
     <loc>https://ooovexa.ru/otchyotnost</loc>
     <lastmod>2026-03-10</lastmod>
-    <changefreq>quarterly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -169,12 +169,6 @@
   <url>
     <loc>https://ooovexa.ru/ob-okonchanii-otopitelnogo-perioda-2023-2024-gg</loc>
     <lastmod>2024-04-25</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ooovexa.ru/prosto-o-zhkh</loc>
-    <lastmod>2023-10-05</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>

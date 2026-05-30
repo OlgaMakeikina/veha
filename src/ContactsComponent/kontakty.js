@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import call from './24.png';
 import phone from './phone.png';
 import address from './address.png';

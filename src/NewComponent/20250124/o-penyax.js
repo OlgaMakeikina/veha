@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { newsData } from '../newsData';
 import Content from './attachment (2).jpeg';
 import NavigationButtons from '../navigationButtons';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import YouTube from 'react-youtube';
 import '../news.css';
 import { newsData } from '../newsData';
@@ -7,32 +7,36 @@ import NavigationButtons from '../navigationButtons';
 
 
 const Ozhkh = () => {
-  const pathname = window.location.pathname;
+  // SSR / react-snap: window отсутствует — fallback на pathname по URL слугу страницы.
+  const pathname = typeof window !== 'undefined' ? window.location.pathname : '/prosto-o-zhkh';
   const currentNewsIndex = newsData.findIndex(item => pathname.includes(item.url));
 
   const prevNewsIndex = currentNewsIndex > 0 ? currentNewsIndex - 1 : null;
-  const nextNewsIndex = currentNewsIndex < newsData.length - 1 ? currentNewsIndex + 1 : null;
- 
+  const nextNewsIndex = currentNewsIndex !== -1 && currentNewsIndex < newsData.length - 1
+    ? currentNewsIndex + 1
+    : null;
+
   const currentNews = newsData[currentNewsIndex];
 
 
  const getVideoWidth = () => {
+  if (typeof window === 'undefined') return 800;
   const screenWidth = window.innerWidth;
   switch (true) {
     case screenWidth > 1200:
-      return 800; 
+      return 800;
     case screenWidth > 900:
-      return 600; 
+      return 600;
     case screenWidth > 600:
-      return 400; 
+      return 400;
     default:
-      return screenWidth - 40; 
+      return screenWidth - 40;
   }
 };
 
 
 const opts = {
-  width: getVideoWidth(), 
+  width: getVideoWidth(),
   playerVars: {
     // Дополнительные параметры для видеоплеера YouTube, если необходимо
   },
@@ -48,7 +52,7 @@ const opts = {
      <h2 className='news_header'>ПРОСТО О ЖКХ</h2>
     <div className='news_content'>
     <NavigationButtons prevNewsIndex={prevNewsIndex} nextNewsIndex={nextNewsIndex} />
-    <p>Опубликовано {currentNews.date}</p>
+    {currentNews && <p>Опубликовано {currentNews.date}</p>}
     <YouTube videoId="FjfmDNtKch8" opts={opts} />
     </div>
 </div>
