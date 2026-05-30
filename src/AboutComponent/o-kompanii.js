@@ -7,7 +7,7 @@ import Footer from "../FooterComponent/footer";
 const AboutCompany = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>О компании | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация об управляющей компании ВЕХА. История, команда, принципы работы. Управление многоквартирными домами в Сергиево-Посадском районе." />
       </Helmet>
