@@ -4,15 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#4281ab" />
-    <meta name="description" content="Официальный сайт управляющей компании ВЕХА — ЖКХ-услуги в Сергиево-Посадском районе. Тарифы, документы, новости, информация по домам в управлении." />
-    <meta name="keywords" content="управляющая компания Веха, ЖКХ Софрино, коммунальные услуги, тарифы ЖКХ, дома в управлении, Сергиево-Посадский район" />
-    <link rel="canonical" href="https://ooovexa.ru/" />
+    <!--
+      Per-route meta (description, keywords, canonical, og:title, og:url,
+      og:description) задаются Helmet'ом в каждом компоненте маршрута.
+      Раньше они стояли статично в шаблоне и react-snap клонировал их
+      на все 30+ страниц → массовые дубли в Я.Вебмастере. Ниже только
+      общесайтовые og:* (тип/локаль/картинка), одинаковые для всех страниц
+      и не являющиеся дублями description.
+    -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ooovexa.ru/" />
-    <meta property="og:title" content='ООО УК "ВЕХА" — управляющая компания ЖКХ' />
-    <meta property="og:description" content="Официальный сайт управляющей компании ВЕХА. Тарифы, документы, новости, информация по домам." />
     <meta property="og:image" content="https://ooovexa.ru/og-image.jpg" />
     <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content='ООО УК "ВЕХА"' />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -34,7 +37,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>ООО "Веха"</title>
+    <!-- title задаётся Helmet'ом per-route -->
+    <title>ООО УК «ВЕХА»</title>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
