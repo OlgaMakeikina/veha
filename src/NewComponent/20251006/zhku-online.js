@@ -14,7 +14,7 @@ const ZhkuOnline = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Платите за ЖКУ онлайн | ООО УК «ВЕХА»</title>
         <meta name="description" content="Удобная онлайн-оплата жилищно-коммунальных услуг. Инструкция от УК ВЕХА." />
       </Helmet>

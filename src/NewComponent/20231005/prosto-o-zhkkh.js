@@ -44,7 +44,7 @@ const opts = {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Просто о ЖКХ | ООО УК «ВЕХА»</title>
         <meta name="description" content="Простые ответы на вопросы о жилищно-коммунальном хозяйстве от управляющей компании ВЕХА." />
       </Helmet>

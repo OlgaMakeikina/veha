@@ -8,7 +8,7 @@ import Footer from "../FooterComponent/footer";
 const Accounting = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Отчётность | ООО УК «ВЕХА»</title>
         <meta name="description" content="Годовые финансовые отчёты и бухгалтерская отчётность управляющей компании ВЕХА. Аудиторские заключения и финансовые раскрытия." />
       </Helmet>

@@ -15,7 +15,7 @@ const InformirovanieOEPGUpdated = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Электронные платёжки вместо бумажных | ООО УК «ВЕХА»</title>
         <meta name="description" content="Удобно и экологично: электронный единый платёжный документ вместо бумажных квитанций." />
       </Helmet>

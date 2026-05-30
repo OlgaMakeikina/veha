@@ -25,7 +25,7 @@ import Footer from "../FooterComponent/footer";
 const Houses = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Дома в управлении | ООО УК «ВЕХА»</title>
         <meta name="description" content="Список многоквартирных домов под управлением УК ВЕХА. Адреса домов в п. Софрино, Могильцы, Талицы Пушкинского района Московской области." />
       </Helmet>

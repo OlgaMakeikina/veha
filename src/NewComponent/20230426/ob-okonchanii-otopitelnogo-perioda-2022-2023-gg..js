@@ -15,7 +15,7 @@ const OtopitelnyyPeriod = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Об окончании отопительного периода 2022–2023 гг. | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация об окончании отопительного периода 2022–2023 годов в домах под управлением УК ВЕХА." />
       </Helmet>

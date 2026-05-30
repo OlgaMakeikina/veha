@@ -15,7 +15,7 @@ const Peny = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>О пенях за несвоевременную оплату ЖКУ | ООО УК «ВЕХА»</title>
         <meta name="description" content="Как пени за несвоевременную оплату могут увеличить коммунальный счёт. Информация от УК ВЕХА." />
       </Helmet>

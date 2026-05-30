@@ -16,7 +16,7 @@ const Nachisleniya = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Вопросы о начислениях за ЖКУ | ООО УК «ВЕХА»</title>
         <meta name="description" content="Ответы на часто задаваемые вопросы о начислениях за жилищно-коммунальные услуги." />
       </Helmet>

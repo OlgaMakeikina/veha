@@ -14,7 +14,7 @@ const Novogonie = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Сроки выпуска платёжных документов | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация о сроках выпуска платёжных документов в преддверии нового года." />
       </Helmet>

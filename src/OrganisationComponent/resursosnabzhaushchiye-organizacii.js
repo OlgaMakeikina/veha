@@ -8,7 +8,7 @@ import Footer from "../FooterComponent/footer";
 const Organisations = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Ресурсоснабжающие организации | ООО УК «ВЕХА»</title>
         <meta name="description" content="Поставщики коммунальных ресурсов и подрядчики, оказывающие услуги в домах под управлением УК ВЕХА." />
       </Helmet>

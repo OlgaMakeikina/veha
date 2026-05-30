@@ -14,7 +14,7 @@ const OTarifax2026 = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Постановление об изменении тарифов на 2026 г. | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация об изменении тарифов на жилищно-коммунальные услуги с 2026 года." />
       </Helmet>

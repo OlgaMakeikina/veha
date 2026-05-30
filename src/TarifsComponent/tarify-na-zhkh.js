@@ -29,7 +29,7 @@ const Tarifs = () => {
 
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Тарифы на ЖКХ | ООО УК «ВЕХА»</title>
         <meta name="description" content="Действующие тарифы на жилищно-коммунальные услуги: водоснабжение, теплоснабжение, вывоз мусора, электроэнергия, газ. Официальные тарифы УК ВЕХА." />
       </Helmet>

@@ -15,7 +15,7 @@ const Stroyothody = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>О запрете выброса стройотходов в баки у дома | ООО УК «ВЕХА»</title>
         <meta name="description" content="Уведомление о запрете выброса строительных отходов в контейнеры у жилых домов." />
       </Helmet>

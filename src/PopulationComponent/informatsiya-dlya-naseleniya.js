@@ -10,7 +10,7 @@ import Footer from "../FooterComponent/footer";
 const People = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Информация для жителей | ООО УК «ВЕХА»</title>
         <meta name="description" content="Полезная информация для жителей домов под управлением УК ВЕХА: правила проживания, порядок подачи заявок, нормативные документы." />
       </Helmet>

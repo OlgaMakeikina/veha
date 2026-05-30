@@ -16,7 +16,7 @@ function Contact() {
 
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Контакты | ООО УК «ВЕХА»</title>
         <meta name="description" content="Контакты УК ВЕХА: телефон аварийной службы 8 800 550 55 30, адрес офиса ул. Ленина д. 4 п. Софрино, часы работы, электронная почта." />
       </Helmet>

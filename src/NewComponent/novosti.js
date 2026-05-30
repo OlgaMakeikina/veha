@@ -8,7 +8,7 @@ import Footer from '../FooterComponent/footer';
 const News = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Новости | ООО УК «ВЕХА»</title>
         <meta name="description" content="Новости управляющей компании ВЕХА: объявления, изменения тарифов, плановые работы, важные уведомления для жителей." />
       </Helmet>

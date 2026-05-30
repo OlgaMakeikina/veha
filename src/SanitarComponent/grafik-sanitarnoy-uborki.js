@@ -6,7 +6,7 @@ import Footer from "../FooterComponent/footer";
 const Sanitar = () => {
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>График санитарной уборки | ООО УК «ВЕХА»</title>
         <meta name="description" content="График санитарной уборки и дезинфекции подъездов многоквартирных домов под управлением УК ВЕХА." />
       </Helmet>

@@ -16,7 +16,7 @@ const EdinyyPlatezhnyy = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Об электронном едином платёжном документе | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация о переходе на электронный единый платёжный документ ЖКУ." />
       </Helmet>

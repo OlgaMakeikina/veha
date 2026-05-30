@@ -11,7 +11,7 @@ const Documents = () => {
 
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Документы | ООО УК «ВЕХА»</title>
         <meta name="description" content="Учредительные документы, лицензии и сертификаты управляющей компании ВЕХА. Реквизиты организации, свидетельства налоговой службы." />
       </Helmet>

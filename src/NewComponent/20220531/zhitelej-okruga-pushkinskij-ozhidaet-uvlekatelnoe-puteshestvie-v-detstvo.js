@@ -15,7 +15,7 @@ const PuteshestviyeVDetstvo = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Увлекательное путешествие в детство | ООО УК «ВЕХА»</title>
         <meta name="description" content="Анонс мероприятия для жителей Пушкинского округа." />
       </Helmet>

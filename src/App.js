@@ -12,7 +12,7 @@ import CookieBanner from "./CookieBanner";
 const App = () => {
   return (
     <div>
-      <Helmet>
+      <Helmet defer={false}>
         <title>ООО УК «ВЕХА» — управляющая компания ЖКХ Сергиево-Посадского района</title>
         <meta name="description" content="Официальный сайт управляющей компании ВЕХА. ЖКХ-услуги в Сергиево-Посадском районе, п. Софрино. Тарифы, документы, новости, информация по домам." />
       </Helmet>

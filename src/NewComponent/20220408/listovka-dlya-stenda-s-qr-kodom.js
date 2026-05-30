@@ -15,7 +15,7 @@ const Listovka = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Листовка для стенда с QR-кодом | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информационная листовка с QR-кодом для жителей домов под управлением УК ВЕХА." />
       </Helmet>

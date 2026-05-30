@@ -16,7 +16,7 @@ export default function Root() {
         Default Helmet — устанавливает canonical/og:url для каждой страницы.
         Per-route компоненты переопределяют title/description/og:title/og:description.
       */}
-      <Helmet>
+      <Helmet defer={false}>
         <link rel="canonical" href={canonical} />
         <meta property="og:url" content={canonical} />
       </Helmet>

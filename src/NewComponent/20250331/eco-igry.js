@@ -16,7 +16,7 @@ const EcoIgry = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Старт первых экологических игр в Подмосковье | ООО УК «ВЕХА»</title>
         <meta name="description" content="Анонс первых экологических игр в Московской области для жителей Пушкинского района." />
       </Helmet>

@@ -15,7 +15,7 @@ const InformirovanieOEPG = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Информирование об электронном платёжном документе | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация о преимуществах перехода на электронный единый платёжный документ." />
       </Helmet>

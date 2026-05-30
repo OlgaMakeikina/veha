@@ -17,7 +17,7 @@ const Meeting = () => {
 
   return (
     <section>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Собрания собственников | ООО УК «ВЕХА»</title>
         <meta name="description" content="Протоколы общих собраний собственников помещений многоквартирных домов под управлением УК ВЕХА." />
       </Helmet>

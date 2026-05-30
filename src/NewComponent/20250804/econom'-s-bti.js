@@ -14,7 +14,7 @@ const EconomSBTI = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Решайте вопросы с недвижимостью в БТИ | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация о сотрудничестве с БТИ для решения вопросов с недвижимостью." />
       </Helmet>

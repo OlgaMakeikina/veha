@@ -15,7 +15,7 @@ const IzmeneniyaTarifov = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Изменение тарифов ЖКС с 01.07.2022 г. | ООО УК «ВЕХА»</title>
         <meta name="description" content="Информация об изменении тарифов на жилищно-коммунальные услуги с 1 июля 2022 года." />
       </Helmet>

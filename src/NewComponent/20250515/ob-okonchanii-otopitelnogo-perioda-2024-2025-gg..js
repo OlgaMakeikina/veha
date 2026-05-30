@@ -14,7 +14,7 @@ const PostanovlenieOtopitelnyyPeriodKonec = () => {
 
   return (
     <article>
-      <Helmet>
+      <Helmet defer={false}>
         <title>Постановление об окончании отопительного периода 2024–2025 гг. | ООО УК «ВЕХА»</title>
         <meta name="description" content="Постановление администрации об окончании отопительного сезона 2024–2025 годов." />
       </Helmet>
